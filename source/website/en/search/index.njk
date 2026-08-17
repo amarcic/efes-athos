@@ -1,0 +1,59 @@
+---
+layout: layouts/base.njk
+title: Search
+---
+
+<link rel="stylesheet" href="/assets/efes-search/efes-search.css">
+<script type="module" src="/assets/efes-search/efes-search.js"></script>
+
+{% set searchDataUrl = "/search-data/documents_" + page.lang + ".json" %}
+<efes-search data-url="{{ searchDataUrl | url }}" text-fields="fullText,title" match-mode="prefix">
+    <aside class="efes-facet-sidebar">
+        <h2>Filter Results</h2>
+        <efes-search-input placeholder="Search..."></efes-search-input>
+
+        <!-- FACET FILTERS -->
+        <!-- Add/uncomment efes-facet elements to add filter facets (field must exist in extract-search) -->
+
+        <!-- <efes-facet field="material" label="Material" expanded></efes-facet> -->
+
+        <div class="efes-filter-actions">
+            <button data-action="clear-all">Clear All Filters</button>
+        </div>
+    </aside>
+
+    <div class="efes-search-main">
+        <efes-active-filters></efes-active-filters>
+
+        <div class="efes-results-bar">
+            <span class="efes-results-status">
+                <efes-result-count template="Found {total} documents." filtered-template="Found {count} of {total} documents."></efes-result-count>
+            </span>
+            <span class="efes-sort-label">Sort by</span>
+            <efes-sort>
+                <field key="sortKey">ID</field>
+                <field key="title">Title</field>
+            </efes-sort>
+        </div>
+
+        <!-- The template below is displayed for each search result -->
+        {% set resultUrl = "/" + page.lang + "/inscriptions/{documentId}/" %}
+        <efes-results result-url="{{ resultUrl | url }}">
+            <template>
+                <a>
+                    <div class="efes-result-title">
+                        <span class="doc-id" data-field="documentId"></span>
+                        <span data-field="title"></span>
+                    </div>
+                    <!-- Uncomment to show additional fields below each result
+                         (fields must be enabled in extract-search):
+                    <div class="efes-result-details">
+                        <span data-field="origDate"></span>
+                        <span data-field="material"></span>
+                    </div>
+                    -->
+                </a>
+            </template>
+        </efes-results>
+    </div>
+</efes-search>

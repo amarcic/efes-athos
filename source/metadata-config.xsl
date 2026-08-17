@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Index configuration for Mt Athos Epigraphy.
+
+    This stylesheet defines page metadata and indices to extract from your
+    EpiDoc/TEI XML documents. It imports the generic extract-metadata.xsl
+    library and provides project-specific extraction logic.
+
+    The framework calls each hook template once per configured language,
+    passing $language as a tunnel param. Output plain elements — the
+    framework auto-stamps xml:lang.
+-->
+<xsl:stylesheet version="3.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:idx="urn:efes-ng:indices"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    exclude-result-prefixes="#all">
+
+    <xsl:import href="stylesheets/lib/extract-metadata.xsl"/>
+
+    <!--
+        Sort key: variant of the document ID that sorts naturally with mixed
+        alphanumeric IDs (e.g. "Doc_2" before "Doc_10"). Zero-pads the trailing
+        numeric part. Available to all templates below via $sortKey.
+    -->
+    <xsl:variable name="sortKey" select="
+        replace($filename, '\d+$', '') || format-number(xs:integer(replace($filename, '^\D+', '')), '00000')
+    "/>
+
+    <!-- ═══════════════════════════════════════════════
+         PAGE METADATA
+         Fields used for page display, sorting, and the
+         document list. Customize these to match your
+         TEI encoding.
+         ═══════════════════════════════════════════════ -->
+
+    <xsl:template match="tei:TEI" mode="extract-metadata">
+        <!-- For multi-language: uncomment <xsl:param name="language" tunnel="yes"/>
+                    and use $language to select language-specific content, e.g.,
+                       //tei:title[@xml:lang='$language'],
+                    or with a fallback to English:
+                       (//tei:title[@xml:lang='$language'], //tei:title[@xml:lang='en'])[1]
+                    or with a fallback to the first non-empty title in any language:
+                       (//tei:title[@xml:lang='$language'], //tei:title[.])[1]
+
+                    The [.] predicate in the above expression filters out any element
+                    where its content is empty or the empty string, such as:
+                    <tei:title/> or <tei:title></tei:title>
+               -->
+        <!-- This template is evaluated once per configured language ("languages"
+            xslt param, e.g. "en de"), with the $language tunnel param set to the
+            currently processed language on each pass. -->
+        <!-- <xsl:param name="language" tunnel="yes"/>-->
+
+        <!-- Title: first <title> in titleStmt, falls back to filename -->
+        <title><xsl:value-of select="(//tei:titleStmt/tei:title[1]/normalize-space(.)[.], $filename)[1]"/></title>
+
+        <!-- re-usable $sortKey variable defined at the top of this file -->
+        <sortKey><xsl:value-of select="$sortKey"/></sortKey>
+
+        <!-- Uncomment to add more page metadata fields:
+        <origDate><xsl:value-of select="string-join(//tei:origDate, ', ')"/></origDate>
+        <category><xsl:value-of select="string-join(//tei:msContents/tei:summary/normalize-space(.), ', ')"/></category>
+        -->
+    </xsl:template>
+
+    <!-- ═══════════════════════════════════════════════
+         INDEX DEFINITIONS
+         Add your project's indices below.
+         ═══════════════════════════════════════════════ -->
+
+    <!--
+    Example: Persons index
+    Uncomment the index definition, extraction template, and the
+    apply-templates call in extract-all-entities below.
+    Adapt the XPath in extract-persons to match your TEI encoding.
+    -->
+    <!--
+    <idx:index id="persons" nav="indices" order="10">
+        <idx:title>Persons</idx:title>
+        <idx:description>Persons attested in the collection.</idx:description>
+        <idx:columns>
+            <idx:column key="name"><idx:label>Name</idx:label></idx:column>
+            <idx:column key="references" type="references"><idx:label>References</idx:label></idx:column>
+        </idx:columns>
+    </idx:index>
+    -->
+
+    <!-- ═══════════════════════════════════════════════
+         EXTRACTION TEMPLATES
+         Implement extract-{id} templates for each index.
+
+         Each template needs to return a sequence of <entity> elements with
+         the indexType attribute set to the index id it does the extraction
+         for, and child elements named after the column keys defined for the
+         index (except for the references column), e.g.,
+            <entity indexType="persons">
+                <name>Bardas</name>
+                <sortKey>bardas</sortKey>
+            </entity>
+
+         Use xml:id on <entity> for cross-document merging.
+         For multi-language: add <xsl:param name="language" tunnel="yes"/> and
+         select by [@xml:lang=$language].
+         ═══════════════════════════════════════════════ -->
+
+    <!--
+    <xsl:template match="tei:TEI" mode="extract-persons">
+        <xsl:for-each select=".//tei:persName[normalize-space()]">
+            <xsl:variable name="displayName" select="normalize-space(.)"/>
+            <entity indexType="persons" xml:id="{lower-case($displayName)}">
+                <name><xsl:value-of select="$displayName"/></name>
+                <sortKey><xsl:value-of select="lower-case($displayName)"/></sortKey>
+            </entity>
+        </xsl:for-each>
+    </xsl:template>
+    -->
+
+    <!--
+    Example: Bibliography index
+    Uncomment and add bibliography-file parameter to pipeline and stylesheet.
+   -->
+
+    <!--
+    <idx:index id="bibliography" nav="bibliography" order="10">
+        <idx:title>Bibliography</idx:title>
+        <idx:description>Bibliographic references cited in the collection.</idx:description>
+        <idx:columns>
+            <idx:column key="shortCitation">
+                <idx:label>Citation</idx:label>
+            </idx:column>
+            <idx:column key="fullCitation">
+                <idx:label>Full Citation</idx:label>
+            </idx:column>
+            <idx:column key="references" type="references">
+                <idx:label>Documents</idx:label>
+            </idx:column>
+        </idx:columns>
+    </idx:index>
+
+    <xsl:template match="tei:TEI" mode="extract-bibliography">
+        <xsl:for-each select=".//tei:body//tei:div//tei:bibl[tei:ptr[@target != '']]">
+            <xsl:variable name="target" select="string(tei:ptr/@target)"/>
+            <xsl:variable name="auth" select="$bibliography//tei:bibl[@xml:id = $target]"/>
+            <xsl:variable name="shortCitation" select="normalize-space($auth/tei:bibl[@type='abbrev'])"/>
+            <xsl:variable name="bibl" select="."/>
+            <xsl:for-each select="if ($bibl/tei:citedRange) then $bibl/tei:citedRange else $bibl">
+                <entity indexType="bibliography" xml:id="{$target}">
+                    <bibRef><xsl:value-of select="$target"/></bibRef>
+                    <shortCitation><xsl:value-of select="$shortCitation"/></shortCitation>
+                    <fullCitation>
+                        <authors><xsl:value-of select="string-join(
+                            for $a in $auth/tei:author
+                            return normalize-space(string-join(($a/tei:forename, $a/tei:surname), ' ')),
+                            ', ')"/></authors>
+                        <title><xsl:value-of select="normalize-space($auth/tei:title[1])"/></title>
+                        <pubPlace><xsl:value-of select="normalize-space(($auth/tei:pubPlace[@xml:lang='en'], $auth/tei:pubPlace)[1])"/></pubPlace>
+                        <publisher><xsl:value-of select="normalize-space(($auth/tei:publisher)[1])"/></publisher>
+                        <date><xsl:value-of select="normalize-space(($auth/tei:date)[1])"/></date>
+                    </fullCitation>
+                    <xsl:if test="self::tei:citedRange">
+                        <citedRange><xsl:value-of select="normalize-space(.)"/></citedRange>
+                    </xsl:if>
+                    <sortKey><xsl:value-of select="($shortCitation[not(. = '')], $target)[1]"/></sortKey>
+                </entity>
+            </xsl:for-each>
+        </xsl:for-each>
+    </xsl:template>
+    -->
+
+    <xsl:template match="tei:TEI" mode="extract-all-entities">
+        <!-- Uncomment to enable index extraction -->
+        <!-- <xsl:apply-templates select="." mode="extract-persons"/> -->
+        <!-- <xsl:apply-templates select="." mode="extract-bibliography"/> -->
+    </xsl:template>
+
+    <!-- ═══════════════════════════════════════════════
+         SEARCH FIELDS
+         Define which fields are searchable and displayed
+         in search results. Fields become properties in
+         documents.json, consumed by the search component.
+
+         For multi-language: add <xsl:param name="language" tunnel="yes"/>
+         ═══════════════════════════════════════════════ -->
+
+    <xsl:template match="tei:TEI" mode="extract-search">
+        <xsl:variable name="tei-title" select="normalize-space(//tei:titleStmt/tei:title[1])"/>
+        <title><xsl:value-of select="(//tei:titleStmt/tei:title[1]/normalize-space(.)[.], $filename)[1]"/></title>
+        <sortKey><xsl:value-of select="$sortKey"/></sortKey>
+        <material><xsl:value-of select="normalize-space(//tei:material)"/></material>
+
+        <!-- Uncomment to add more search/filter fields:
+        <origDate><xsl:value-of select="string-join(//tei:origDate, ', ')"/></origDate>
+        -->
+
+        <fullText><xsl:value-of select="normalize-space(string-join(
+            //tei:div[@type='edition']//text(), ' '))"/></fullText>
+    </xsl:template>
+
+</xsl:stylesheet>
