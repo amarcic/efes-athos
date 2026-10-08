@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr01</documentId>
+   <sourceFile>Pkr01.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of Pantokrator monastery</title>
+      <sortKey xml:lang="en">Pkr00001</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers34">
+            <name xml:lang="en">Alexios</name>
+            <sortKey xml:lang="en">alexios</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers32">
+            <name xml:lang="en">John</name>
+            <sortKey xml:lang="en">john</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of Pantokrator monastery</title>
+      <sortKey xml:lang="en">Pkr00001</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">1362/63</origDate>
+      <execution xml:lang="en">Incised</execution>
+      <fullText xml:lang="en">† Μνήσθητι Κ ύρι ε τῶν σ ῶν δ ού λων Ἀλεξίου κ αὶ Ἰωά νν ου τ ῶν κτ ητορων κ αὶ αὐταδέλφ ων ἐ γένετο ἐν έτει ˏςωοα</fullText>
+   </search>
+</metadata>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr03</documentId>
+   <sourceFile>Pkr03.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of the priest Matthew for the iconostasis in the main church of Pantokrator monastery</title>
+      <sortKey xml:lang="en">Pkr00003</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers35">
+            <name xml:lang="en">Matthew</name>
+            <sortKey xml:lang="en">matthew</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers36">
+            <name xml:lang="en">Chrysanthos Kleyentis</name>
+            <sortKey xml:lang="en">chrysanthos kleyentis</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of the priest Matthew for the iconostasis in the main church of Pantokrator monastery</title>
+      <sortKey xml:lang="en">Pkr00003</sortKey>
+      <material xml:lang="en">wooden</material>
+      <origDate xml:lang="en">10 August 1640</origDate>
+      <execution xml:lang="en">Carved</execution>
+      <fullText xml:lang="en">† Τὸ παρὸν θεῖον κ αὶ κ αι νὸν τέμπλον τοῦτο ἀνεκαινήσθει ἐν τῷ πανσέπτῳ ναῷ Θ εο ῦ ὑψύστου τοῦ Παντοκράτωρ ος μονῇ ἱερωτάτῃ δαπάνῃ, σπουδῇ κ αὶ πόθῳ διαπύρῳ ἀνδρὸς εὐλαβοῦς κυροῦ Ματθαίου θύτου τ ᾧ κ αὶ παράσχοις ἀγγέλων ξυναυλίαν Λόγε παλαιέ, Παντάναξ , Παντοκράτωρ . Ἔλλαβε τέρμα χιλιοστο ἑπτάδι σὶν ἑκατοστῇ τεσαρακοστογδόη. αὐγούστῳ μηνὶ ἡμέρᾳ δεκάτῃ Χρύσανθος Κλήεντης μονα χὸς ὁ προφήτης δικαίου τυγχάνοντος κυροῦ Τέλος δὲ τούτου καὶ τῷ Θεῷ δόξα</fullText>
+   </search>
+</metadata>

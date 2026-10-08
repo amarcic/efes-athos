@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat28</documentId>
+   <sourceFile>Vat28.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of the Refectory and of the oil press</title>
+      <sortKey xml:lang="en">Vat00028</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers29">
+            <name xml:lang="en">Niphon</name>
+            <sortKey xml:lang="en">niphon</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of the Refectory and of the oil press</title>
+      <sortKey xml:lang="en">Vat00028</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">1319/20, indiction 3</origDate>
+      <execution xml:lang="en">Incised</execution>
+      <fullText xml:lang="en">Ἀνεκε νήσ θη ἡ τρ ά πε ζα ἐν ἔτει ˏς ωκη΄ ἰνδικτιώνος γ ἐπησ τατοῦντο ς τοῦ ἱερο μονά χ ου κυρ οῦ Ν ή φ ω ν ο ς κ αὶ τὸ ἐλε τρ ιβίον</fullText>
+   </search>
+</metadata>

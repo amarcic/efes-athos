@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat03</documentId>
+   <sourceFile>Vat03.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of Theodosios the Peloponnesian</title>
+      <sortKey xml:lang="en">Vat00003</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers5">
+            <name xml:lang="en">Theodosios the Peloponnesian</name>
+            <sortKey xml:lang="en">theodosios the peloponnesian</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of Theodosios the Peloponnesian</title>
+      <sortKey xml:lang="en">Vat00003</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1652</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">† Ανασα πάντων ὕψι βρωτῶν ὑπάρχης προστάτης ἄμαχως τον καταπονουμένων καταφηγί τε τῶν ης σ ὲ προστρεχόντων ἐλπῖς βεβέα ἔμι γε τοῦ παντλίμου Θεὁδοσίου του Πελοπονησίου ἡκέτου ἡκτροῦ τῆς σῆς ἀγαθοσύνης δι’ον σι τῶνδε καλο ν π εμοῦ προσάξας τα σά ἐκ των σῶν θησαυροῦ ἀκενότου καθῶς ζωην τε κ αὶ ψυχὴν παρεθέμην ἡς χήρας ἀχ ρ άντου ς β τε τὴς σῆς μεγαλοσύνης. αχνβ</fullText>
+   </search>
+</metadata>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat27</documentId>
+   <sourceFile>Vat27.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of icon frame for the icon of the Virgin Esphagmene</title>
+      <sortKey xml:lang="en">Vat00027</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers26">
+            <name xml:lang="en">Seraphim</name>
+            <sortKey xml:lang="en">seraphim</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers27">
+            <name xml:lang="en">Anthimos</name>
+            <sortKey xml:lang="en">anthimos</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers28">
+            <name xml:lang="en">Makarios</name>
+            <sortKey xml:lang="en">makarios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of icon frame for the icon of the Virgin Esphagmene</title>
+      <sortKey xml:lang="en">Vat00027</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en"/>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">7189 = ἀπό δὲ Χ ριστ οῦ ἔτος 1681 . Ἡγουμενεύοντος τοῦ πανοσιωτάτου κυρίου Σεραφείμ ἔγινε τὸ παρὸν διὰ συνδρομῆς καὶ ἐξόδου, τοῦ ὁσιωτάτου ἐν Μοναχοῖς, γέρο κυρ Ἀνθίμου τὸ ἐπίκλην Ὀζαδίνου , και γέροντος τῆς Μονῆς τοῦ βατοπαιδίου, χεὶρ δὲ Μακαρίου ἱερομονάχου, ζωγράφου Καλλέργη .</fullText>
+   </search>
+</metadata>

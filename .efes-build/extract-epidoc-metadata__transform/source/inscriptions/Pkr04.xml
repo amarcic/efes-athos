@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr04</documentId>
+   <sourceFile>Pkr04.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of the hieromonk Anthony for the icon of St John the Forerunner</title>
+      <sortKey xml:lang="en">Pkr00004</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers37">
+            <name xml:lang="en">Antony</name>
+            <sortKey xml:lang="en">antony</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of the hieromonk Anthony for the icon of St John the Forerunner</title>
+      <sortKey xml:lang="en">Pkr00004</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1654/55</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">† Δέησις τ οῦ δ ού λ ου τ οῦ Θ εο ῦ Ἀντ ωνί ου ἱερομ ονά χ ου ἐκ μονῆς τ οῦ Χηλ αν δαρί ου ἔτ ου ς ζρξγ</fullText>
+   </search>
+</metadata>

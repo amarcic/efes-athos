@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat11</documentId>
+   <sourceFile>Vat11.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of Stephen the Great of Moldavia</title>
+      <sortKey xml:lang="en">Vat00011</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers23">
+            <name xml:lang="en">Stephen</name>
+            <sortKey xml:lang="en">stephen</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers13">
+            <name xml:lang="en">Cyril</name>
+            <sortKey xml:lang="en">cyril</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of Stephen the Great of Moldavia</title>
+      <sortKey xml:lang="en">Vat00011</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">1495/96</origDate>
+      <execution xml:lang="en">Incised</execution>
+      <fullText xml:lang="en">† Ὁ εὐσεβέστατος αὐθέντης Ἰω άννης Στ έ φανος βοε βόδας ἔτους ζδ΄ οἱγουμέν ου Κυρίλ ου οἱερομ ο ν ά χ ου</fullText>
+   </search>
+</metadata>

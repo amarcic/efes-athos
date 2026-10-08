@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Sta07</documentId>
+   <sourceFile>Sta07.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Name accompanying the donor portrait of patriarch Jeremias</title>
+      <sortKey xml:lang="en">Sta00007</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers48">
+            <name xml:lang="en">Jeremiah I</name>
+            <sortKey xml:lang="en">jeremiah i</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Name accompanying the donor portrait of patriarch Jeremias</title>
+      <sortKey xml:lang="en">Sta00007</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">ca. 1546</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">Ἱερεμία ς ἀρ χιἐπίσ κοπος Κωνστ αν τίν ου πόλεως</fullText>
+   </search>
+</metadata>

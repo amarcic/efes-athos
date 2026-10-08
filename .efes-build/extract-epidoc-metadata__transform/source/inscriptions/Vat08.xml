@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat08</documentId>
+   <sourceFile>Vat08.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of the Hospital</title>
+      <sortKey xml:lang="en">Vat00008</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers22">
+            <name xml:lang="en">Alexei Mikhailovich</name>
+            <sortKey xml:lang="en">alexei mikhailovich</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers9">
+            <name xml:lang="en">Maximos</name>
+            <sortKey xml:lang="en">maximos</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers10">
+            <name xml:lang="en">Romanos</name>
+            <sortKey xml:lang="en">romanos</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of the Hospital</title>
+      <sortKey xml:lang="en">Vat00008</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1653/54, indiction 7</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Ἀνηγέρθη τὸ παρὸν νοσοκομίον διὰ ἐξόδου τοῦ εὐσεβοῦς βασιλέως ἡμῶν κυροῦ Ἀλεξίου Μοσκοβίας ἡγουμενεύοντος Μαξίμου ἱερομονάχου διὰ συνδρομῆς Ῥωμανοῦ ἱερομονάχου ἐν ἔτει ˏζρξβ΄ ἰνδικτιῶνος ζ΄</fullText>
+   </search>
+</metadata>

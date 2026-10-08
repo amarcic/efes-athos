@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat15</documentId>
+   <sourceFile>Vat15.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of the despotic throne</title>
+      <sortKey xml:lang="en">Vat00015</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers19">
+            <name xml:lang="en">Gregory</name>
+            <sortKey xml:lang="en">gregory</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of the despotic throne</title>
+      <sortKey xml:lang="en">Vat00015</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1618/19</origDate>
+      <execution xml:lang="en">incised</execution>
+      <fullText xml:lang="en">† Ετ ου ς ˏ ζρ κζ ηγ ου με νεύοντος Γρ ηγ οριου ιερ ο μον άχ ου</fullText>
+   </search>
+</metadata>

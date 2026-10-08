@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat29</documentId>
+   <sourceFile>Vat29.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Funerary inscription of founder Athanasios</title>
+      <sortKey xml:lang="en">Vat00029</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers30">
+            <name xml:lang="en">Athanasios</name>
+            <sortKey xml:lang="en">athanasios</sortKey>
+            <name xml:lang="en">Athanasios</name>
+            <sortKey xml:lang="en">athanasios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Funerary inscription of founder Athanasios</title>
+      <sortKey xml:lang="en">Vat00029</sortKey>
+      <material xml:lang="en">led</material>
+      <origDate xml:lang="en">Second half of 11th century</origDate>
+      <execution xml:lang="en">Incised</execution>
+      <fullText xml:lang="en">† Ἀθανάσιος μο να χ ὸς κὲ ἡγ ού μενος τ οῦ Β ατοπεδίου ἐν τολὴν ἔχετε ἀπὸ π ατ ρ ὸ ς ἐμ οῦ κ ἀ μ οῦ τοῦ ταπιν οῦ Ἀθανασί ου ἣν τὸν τάφον τὸν καλοτηρά μενον καὶ εἴ της πονη ρῶς ασ τον ου ε τε τὴν ἀρὰν τῶν π ατέ ρον κὲ τὸν καλο ασ κὲ</fullText>
+   </search>
+</metadata>

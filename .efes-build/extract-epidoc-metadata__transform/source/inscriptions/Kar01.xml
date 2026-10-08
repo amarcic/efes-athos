@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Kar01</documentId>
+   <sourceFile>Kar01.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Names accompanying the donor portraits of voivode Petru IV Rareș and Pachomios</title>
+      <sortKey xml:lang="en">Kar00001</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers58">
+            <name xml:lang="en">Petru IV Rareș</name>
+            <sortKey xml:lang="en">petru iv rareș</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers59">
+            <name xml:lang="en">Pachomios</name>
+            <sortKey xml:lang="en">pachomios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Names accompanying the donor portraits of voivode Petru IV Rareș and Pachomios</title>
+      <sortKey xml:lang="en">Kar00001</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1541-1546</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">Οἱ νέοι κτίτορες τῆς ἁγίας μονῆς ταύτης Πέτρος καὶ Παχώμιος .</fullText>
+   </search>
+</metadata>

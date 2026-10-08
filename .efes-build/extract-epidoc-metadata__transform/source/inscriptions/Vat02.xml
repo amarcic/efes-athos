@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat02</documentId>
+   <sourceFile>Vat02.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription for the mosaic decoration</title>
+      <sortKey xml:lang="en">Vat00002</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers3">
+            <name xml:lang="en">Ioannikios</name>
+            <sortKey xml:lang="en">ioannikios</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers4">
+            <name xml:lang="en">Sophronios</name>
+            <sortKey xml:lang="en">sophronios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription for the mosaic decoration</title>
+      <sortKey xml:lang="en">Vat00002</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">Date of origin</origDate>
+      <execution xml:lang="en">Mosaic</execution>
+      <fullText xml:lang="en">Τὰ πρὶν ἀκαλλῆ καὶ ῥυέντα τῷ χρώνῳ, ψηφῖσι χρυσαῖς καὶ λαμπρῶς βεβαμμέναις, φαιδρῶς ἀγλαῶς κατεκοσμήθη λίαν, σπουδῇ πόνῳ τε καὶ πόθῳ διαπύρῳ, τοῦ ποιμενάρχου τῆσδε τῆς μονῆς λόγε, Ἰωαννικίου τε τοῦ τρισολβίου, ᾧ καὶ παρέξοις σὴν βασιλείαν χάριν, ταῖς ἱκεσίαις Πανάγνου καὶ Προδρόμου , ταῦτα μοναχὸς Σωφρόνιος νῦν λέγει.</fullText>
+   </search>
+</metadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat25</documentId>
+   <sourceFile>Vat25.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Funerary inscription on the founders' tomb</title>
+      <sortKey xml:lang="en">Vat00025</sortKey>
+   </page>
+   <entities/>
+   <search>
+      <title xml:lang="en">Funerary inscription on the founders' tomb</title>
+      <sortKey xml:lang="en">Vat00025</sortKey>
+      <material xml:lang="en">marble or other stone</material>
+      <origDate xml:lang="en">11th century?</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Τύμβος μὲν ἔνθα σώματα δομητόρων μονῆς καλύπτει τῆσδε, ὦ φίλε ξένε. πόλος φέρει δὲ ψυχὰς ἡγιασμένας ὡς ἀγαπούσας εὐπρέπειαν Κυρίου .</fullText>
+   </search>
+</metadata>

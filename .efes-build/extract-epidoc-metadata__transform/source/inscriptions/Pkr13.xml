@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr13</documentId>
+   <sourceFile>Pkr13.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Signature of John the builder or marble carver</title>
+      <sortKey xml:lang="en">Pkr00013</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers44">
+            <name xml:lang="en">John</name>
+            <sortKey xml:lang="en">john</sortKey>
+         </entity>
+      </persons>
+      <professions>
+         <entity indexType="professions" xml:id="prf0001">
+            <profession-name xml:lang="en">mason</profession-name>
+            <sortKey xml:lang="en">mason</sortKey>
+         </entity>
+      </professions>
+   </entities>
+   <search>
+      <title xml:lang="en">Signature of John the builder or marble carver</title>
+      <sortKey xml:lang="en">Pkr00013</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">end of 13th - beginning of 14th century</origDate>
+      <execution xml:lang="en">Incised</execution>
+      <fullText xml:lang="en">† Δ οῦλος Χ ριστοῦ Ἰω άννης μα ΐστω ρ</fullText>
+   </search>
+</metadata>

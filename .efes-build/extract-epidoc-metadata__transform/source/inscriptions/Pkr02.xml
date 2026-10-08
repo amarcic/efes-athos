@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr02</documentId>
+   <sourceFile>Pkr02.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of the iconostasis in the main church of Pantokrator monastery</title>
+      <sortKey xml:lang="en">Pkr00002</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers33">
+            <name xml:lang="en">Isaiah</name>
+            <sortKey xml:lang="en">isaiah</sortKey>
+            <name xml:lang="en">Isaiah</name>
+            <sortKey xml:lang="en">isaiah</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of the iconostasis in the main church of Pantokrator monastery</title>
+      <sortKey xml:lang="en">Pkr00002</sortKey>
+      <material xml:lang="en">wooden</material>
+      <origDate xml:lang="en">January 1622</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">Ἔτους ζρλ ἐν μην ὶ ἰανουαρίου ἐτεληόθη ἡ παροῦ σα ὀρέα πύλη προτεύωντος διὰ χερὸς Ἠσαϊάδα ἱερομονάχου . δέησις τοῦ δούλου τοῦ θεοῦ Ἠ σαΐου ἱερομ ο ν ά χου νφοτ</fullText>
+   </search>
+</metadata>

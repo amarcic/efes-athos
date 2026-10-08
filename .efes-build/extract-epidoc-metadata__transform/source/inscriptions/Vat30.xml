@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat30</documentId>
+   <sourceFile>Vat30.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of Athanasios</title>
+      <sortKey xml:lang="en">Vat00030</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers30">
+            <name xml:lang="en">Athanasios</name>
+            <sortKey xml:lang="en">athanasios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of Athanasios</title>
+      <sortKey xml:lang="en">Vat00030</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">Second half of 11th century</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">ἐγὼ ἐστερέωσα τοὺς στύλους αὐ τῆς καὶ εἰς τὸν αἰῶνα οὐ σαλευθήσεται ῳ ἐθεμελίωτο δὲ ὁ τοιοῦτος νεός ὑπὸ Ἀθανασίου τοῦ ὁσιοτάτου.</fullText>
+   </search>
+</metadata>

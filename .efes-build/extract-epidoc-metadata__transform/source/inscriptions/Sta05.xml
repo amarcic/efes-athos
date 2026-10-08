@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Sta05</documentId>
+   <sourceFile>Sta05.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Signatures of painters Theophanes the Cretan and Symeon</title>
+      <sortKey xml:lang="en">Sta00005</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers52">
+            <name xml:lang="en">Theophanes Strelitzas</name>
+            <sortKey xml:lang="en">theophanes strelitzas</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers53">
+            <name xml:lang="en">Symeon</name>
+            <sortKey xml:lang="en">symeon</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers54">
+            <name xml:lang="en">Makarios</name>
+            <sortKey xml:lang="en">makarios</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers55">
+            <name xml:lang="en">Gregory (Geromeriates?)</name>
+            <sortKey xml:lang="en">gregory (geromeriates?)</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Signatures of painters Theophanes the Cretan and Symeon</title>
+      <sortKey xml:lang="en">Sta00005</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">ca. 1546</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">η Κριτὸς τ ου Θεοφ άν ου ς κ αὶ Σιμεον μ ονα χ ῶν .</fullText>
+   </search>
+</metadata>

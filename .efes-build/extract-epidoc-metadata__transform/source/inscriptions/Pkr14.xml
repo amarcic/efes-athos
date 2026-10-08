@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr14</documentId>
+   <sourceFile>Pkr14.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of prohegoumenos Anthimos for the renovation of the chapel of Saint Athanasios</title>
+      <sortKey xml:lang="en">Pkr00014</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers45">
+            <name xml:lang="en">Anthimos</name>
+            <sortKey xml:lang="en">anthimos</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of prohegoumenos Anthimos for the renovation of the chapel of Saint Athanasios</title>
+      <sortKey xml:lang="en">Pkr00014</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1637/38</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Ανεκαινισθη ο θειος ναος ουτος του εν αγιοις πατρος ημων Αθανασιου πατριαρχου Αλεξανδρειας δια συνδρομης του πανοσιωτατου κ αὶ αγιου προηγουμενου κ υρο υ Ανθιμου ιερομοναχου κατα ζρμς</fullText>
+   </search>
+</metadata>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat26</documentId>
+   <sourceFile>Vat26.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of the iconostasis Crucifix</title>
+      <sortKey xml:lang="en">Vat00026</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers25">
+            <name xml:lang="en">Gregory</name>
+            <sortKey xml:lang="en">gregory</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of the iconostasis Crucifix</title>
+      <sortKey xml:lang="en">Vat00026</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">17th century</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">† Ανιστο ρίθη ὁ τιμιος και ζο ωπιός σταυρος υπο ε ξοδ ου τ ου οσιωτα τ ου ε ν μ ο ναχοις κυρι ου Γρ ι γορι ου τ ο επικλ ι ν μπ α α ηπαατουρχς εξ Ιωαννίνων</fullText>
+   </search>
+</metadata>

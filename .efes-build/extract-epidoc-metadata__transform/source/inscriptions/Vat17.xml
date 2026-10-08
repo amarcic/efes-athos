@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat17</documentId>
+   <sourceFile>Vat17.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Monogram inscription of Matthew Kantakouzenos</title>
+      <sortKey xml:lang="en">Vat00017</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers31">
+            <name xml:lang="en">Matthew John Kantakouzenos</name>
+            <sortKey xml:lang="en">matthew john kantakouzenos</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers46">
+            <name xml:lang="en">John (VI) Kantakouzenos</name>
+            <sortKey xml:lang="en">john (vi) kantakouzenos</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Monogram inscription of Matthew Kantakouzenos</title>
+      <sortKey xml:lang="en">Vat00017</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">second half of 14th century</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Ματθαίου Ἰωάννου Καντακουζηνοῦ Μεγάλου Δομεστίκου</fullText>
+   </search>
+</metadata>

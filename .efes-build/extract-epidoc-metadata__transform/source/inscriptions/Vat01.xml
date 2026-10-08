@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat01</documentId>
+   <sourceFile>Vat01.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of abbot Theophanes</title>
+      <sortKey xml:lang="en">Vat00001</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers1">
+            <name xml:lang="en">Theophanes</name>
+            <sortKey xml:lang="en">theophanes</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers2">
+            <name xml:lang="en">Methodios</name>
+            <sortKey xml:lang="en">methodios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of abbot Theophanes</title>
+      <sortKey xml:lang="en">Vat00001</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">1425/26</origDate>
+      <execution xml:lang="en">Incised</execution>
+      <fullText xml:lang="en">† Ἔτους ςϡλδ † Θεοφάνους ἡερομονάχου ἡγουμένου † τοῦ πτοχοῦ κ αὶ ἁμαρτολοῦ Μεθοδίου μοναχοῦ κ αὶ μαστόρο υ</fullText>
+   </search>
+</metadata>

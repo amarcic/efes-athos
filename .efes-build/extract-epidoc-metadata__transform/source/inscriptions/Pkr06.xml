@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr06</documentId>
+   <sourceFile>Pkr06.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Date formula</title>
+      <sortKey xml:lang="en">Pkr00006</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers38">
+            <name xml:lang="en">Gabriel Trousianos</name>
+            <sortKey xml:lang="en">gabriel trousianos</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Date formula</title>
+      <sortKey xml:lang="en">Pkr00006</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">1536/37</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">† Ἔξοδος καὶ συνδρομὴ τοῦ ὕδατος τούτου καὶ ἀνἀκ τησιν τοῦ ἐντιμοτάτου ἄρ χοντος κυροῦ Γαβριὴλ τῶν Τρουσιά νω καὶ μεγάλου λογοθέτου τῆς Μολ δοβλαχί ας ἔτους ζ με ου</fullText>
+   </search>
+</metadata>

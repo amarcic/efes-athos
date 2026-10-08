@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Sta02</documentId>
+   <sourceFile>Sta02.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of Makarios of Moldavia-Wallachia for the construction of a seat in the inner narthex</title>
+      <sortKey xml:lang="en">Sta00002</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers47">
+            <name xml:lang="en">Mardarios</name>
+            <sortKey xml:lang="en">mardarios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of Makarios of Moldavia-Wallachia for the construction of a seat in the inner narthex</title>
+      <sortKey xml:lang="en">Sta00002</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">5 April 1614</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Ὁ μητροπολίτης Μα κάριος Μολδο βλαχίας ἔτους ζ ρκ β ἐν μη ν ὶ ἀ πρι λίου ε</fullText>
+   </search>
+</metadata>

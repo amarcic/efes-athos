@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Phi02</documentId>
+   <sourceFile>Phi02.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building insciption of king Levan I of Kakheti</title>
+      <sortKey xml:lang="en">Phi00002</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers54">
+            <name xml:lang="en">Makarios</name>
+            <sortKey xml:lang="en">makarios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building insciption of king Levan I of Kakheti</title>
+      <sortKey xml:lang="en">Phi00002</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">June 1542</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Ἀνεκενήσθη τὸ παρὼν κτήριον δι’ἐξόδου τοῦ εὐσεβεστάτου αὐθεντᾶ Λέων Ἰβερίας ἔτους ΖΝ μηνὶ ἰουνί ου</fullText>
+   </search>
+</metadata>

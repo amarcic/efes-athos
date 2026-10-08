@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr09</documentId>
+   <sourceFile>Pkr09.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription for the pulpits of Pantokrator monastery</title>
+      <sortKey xml:lang="en">Pkr00009</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers40">
+            <name xml:lang="en">Theodosios</name>
+            <sortKey xml:lang="en">theodosios</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers41">
+            <name xml:lang="en">Constantine</name>
+            <sortKey xml:lang="en">constantine</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers42">
+            <name xml:lang="en">Basil</name>
+            <sortKey xml:lang="en">basil</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription for the pulpits of Pantokrator monastery</title>
+      <sortKey xml:lang="en">Pkr00009</sortKey>
+      <material xml:lang="en">wooden</material>
+      <origDate xml:lang="en">1636/37</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">† Ἐκατεσκ ευάσθη σαν τὰ πα ρόντα ἀ ναλόγια τοῦ Παντο κράτορος Χ ριστο ῦ διὰ χει ρὸς τῶν μα στόρων Θεοδοσίου , Κωνσταντί νου , Βασιλείο ου εἰς Κάφαν ἔ τους ζρμε</fullText>
+   </search>
+</metadata>

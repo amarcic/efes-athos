@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr08</documentId>
+   <sourceFile>Pkr08.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of abbot Jeremias</title>
+      <sortKey xml:lang="en">Pkr00008</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers39">
+            <name xml:lang="en">Jeremiah</name>
+            <sortKey xml:lang="en">jeremiah</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of abbot Jeremias</title>
+      <sortKey xml:lang="en">Pkr00008</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1655/56</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">† 'Ανεγίγερτε κ αὶ ἀνικο μιτε τῶ παρον θυσιαστίρι ον εις δοξαν Θεου δια συν δρομῖς καθηγουμένου Ιερεμιου ˏΖΡΞΔ΄</fullText>
+   </search>
+</metadata>

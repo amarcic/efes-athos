@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat09</documentId>
+   <sourceFile>Vat09.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of the north wing</title>
+      <sortKey xml:lang="en">Vat00009</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers10">
+            <name xml:lang="en">Romanos</name>
+            <sortKey xml:lang="en">romanos</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers11">
+            <name xml:lang="en">Gregory</name>
+            <sortKey xml:lang="en">gregory</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers12">
+            <name xml:lang="en">Nikephoros</name>
+            <sortKey xml:lang="en">nikephoros</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of the north wing</title>
+      <sortKey xml:lang="en">Vat00009</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">March 1644</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Ἀνηγέρθη τὸ παρὸν εὐκτήριον παρὰ τοῦ ἐν ἱερομονάχοις Ῥωμανοῦ κ αὶ κα θηγουμένου τοῦ Γαλατζιάνου κ αὶ Γρηγο ρίου μοναχοῦ τοῦ ἐξ Ἰωαννίνων κ αὶ μαϊστωροῦ Νικηφόρου μοναχοῦ ἐν ἔτη ˏζρνβ ~ μηνὶ μαρτίῳ :.</fullText>
+   </search>
+</metadata>

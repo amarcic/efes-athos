@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Pkr11</documentId>
+   <sourceFile>Pkr11.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Invocation of the monk Cyril</title>
+      <sortKey xml:lang="en">Pkr00011</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers43">
+            <name xml:lang="en">Cyril</name>
+            <sortKey xml:lang="en">cyril</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Invocation of the monk Cyril</title>
+      <sortKey xml:lang="en">Pkr00011</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">Middle of 17th century</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">† Δέυσις τοῦ δούλου τοῦ Θ εο ῦ Κιρίλου μοναχοῦ</fullText>
+   </search>
+</metadata>

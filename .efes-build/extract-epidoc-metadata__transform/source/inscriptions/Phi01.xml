@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Phi01</documentId>
+   <sourceFile>Phi01.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory insciption of Levan I of Kakheti for the construction of the refectory of Philotheou monastery</title>
+      <sortKey xml:lang="en">Phi00001</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers56">
+            <name xml:lang="en">Levon I Bagratoni of Kakheti</name>
+            <sortKey xml:lang="en">levon i bagratoni of kakheti</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers57">
+            <name xml:lang="en">Alexander II of Kakheti</name>
+            <sortKey xml:lang="en">alexander ii of kakheti</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory insciption of Levan I of Kakheti for the construction of the refectory of Philotheou monastery</title>
+      <sortKey xml:lang="en">Phi00001</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1539/40 or 1561-1574</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">† Κατὰ τὸ ˏζμη ἔτος ἀνεκ αι νίσθη τὸ παρ ὸν ἱ ε ρὸ ν κ τή ριον τῆ ς σε βασμ ί ας κ αὶ βασ ιλ ικῆς μο νῆ ς τ οῦ Φιλ ο θέ ου τῆ ς ὑ περ αγίας Θ εοτό κ ου τῆ ς ἐπικεκ λη μένης Εὐ αγ γελιστρίας παρ ὰ τ οῦ εὐσεβεστάτ ου Λέον το ς τ οῦ βασιλέως τ οῦ Κα χετί ου τῆ ς Ἰβ ηρ ί ας κ αὶ τ οῦ υἱ οῦ αὐτ οῦ Ἀλεξ άν δρ ου εἰ ς ψυχικὴν αὐτῶν σ ωτη ρί αν</fullText>
+   </search>
+</metadata>

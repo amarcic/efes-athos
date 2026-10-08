@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat14</documentId>
+   <sourceFile>Vat14.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of the door of the main church</title>
+      <sortKey xml:lang="en">Vat00014</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers16">
+            <name xml:lang="en">Maximos</name>
+            <sortKey xml:lang="en">maximos</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers17">
+            <name xml:lang="en">Laurentios</name>
+            <sortKey xml:lang="en">laurentios</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers18">
+            <name xml:lang="en">Joseph</name>
+            <sortKey xml:lang="en">joseph</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of the door of the main church</title>
+      <sortKey xml:lang="en">Vat00014</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1566/67</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Ε τελειώθη ἡ πα ροῦσα πυ λη ἐ ν ετει ˏζοε ἡγ ουμενευον τος οἰκ τρ οῦ Μα ξίμου ·:· Ο Θ Χ ϡ Ε Ν Ψ Ϟ Λ Χ Ψ Λ Εϡ ϡ Ε Ζ ΟΝ Π Θ Ϟ Ϟ C Θ ΩΘ</fullText>
+   </search>
+</metadata>

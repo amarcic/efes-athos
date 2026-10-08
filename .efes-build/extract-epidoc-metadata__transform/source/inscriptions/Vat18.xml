@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat18</documentId>
+   <sourceFile>Vat18.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Funerary inscription of Makarios, former metropolitan of Thessalonike</title>
+      <sortKey xml:lang="en">Vat00018</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers20">
+            <name xml:lang="en">Makarios</name>
+            <sortKey xml:lang="en">makarios</sortKey>
+            <name xml:lang="en">Makarios</name>
+            <sortKey xml:lang="en">makarios</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Funerary inscription of Makarios, former metropolitan of Thessalonike</title>
+      <sortKey xml:lang="en">Vat00018</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">Monday, 12 April 1546 (Holy Monday), indiction 4</origDate>
+      <execution xml:lang="en"/>
+      <fullText xml:lang="en">Ἐκοιμήθη ὁ παναγιώτατος μητροπολίτης πρώην Θεσσαλονίκης κὺρ Μακάριος , ὁ διὰ τοῦ μεγάλου καὶ ἀγγελικοῦ σχήματος μετονομασθὴς Μιχαὴλ μοναχὸς, ἐν μηνὶ ἀπριλλίου ιβ ἡμέρᾳ δευτέρᾳ τῇ ἑβδομάδι τῶν βαΐων. ἐν ἔτει ˏζνδ΄ ἰνδικτιῶνος δ΄</fullText>
+   </search>
+</metadata>

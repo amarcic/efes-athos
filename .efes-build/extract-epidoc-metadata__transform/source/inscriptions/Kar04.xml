@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Kar04</documentId>
+   <sourceFile>Kar04.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of Petru IV Rareș of Moldavia</title>
+      <sortKey xml:lang="en">Kar00004</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers61">
+            <name xml:lang="en">Germanos</name>
+            <sortKey xml:lang="en">germanos</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers58">
+            <name xml:lang="en">Petru IV Rareș</name>
+            <sortKey xml:lang="en">petru iv rareș</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers62">
+            <name xml:lang="en">Joseph</name>
+            <sortKey xml:lang="en">joseph</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers63">
+            <name xml:lang="en">Dionysios Syropoulos</name>
+            <sortKey xml:lang="en">dionysios syropoulos</sortKey>
+         </entity>
+      </persons>
+      <professions>
+         <entity indexType="professions" xml:id="prf0003">
+            <profession-name xml:lang="en">first mason</profession-name>
+            <sortKey xml:lang="en">first mason</sortKey>
+         </entity>
+      </professions>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of Petru IV Rareș of Moldavia</title>
+      <sortKey xml:lang="en">Kar00004</sortKey>
+      <material xml:lang="en">marble</material>
+      <origDate xml:lang="en">1533/34, indiction 7</origDate>
+      <execution xml:lang="en">Incised</execution>
+      <fullText xml:lang="en">Γερμα νὸς κα θιγού μενος Ἰωάννης Πέτρος Βοεβόδας Ἰωάσαφ μοναχὸς κτήτορος Συρόπουλος Διονύσιος χ ατζῆ κ αὶ πρωτομαστόρης ἔτ ου ς ζμβ ἐτε λιόθη ὁ πύργος καὶ ὁ μπαρμπακᾶς ινδικτιῶνος Ζ</fullText>
+   </search>
+</metadata>

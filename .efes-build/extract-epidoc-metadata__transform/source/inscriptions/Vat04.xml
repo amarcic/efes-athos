@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat04</documentId>
+   <sourceFile>Vat04.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Building inscription of the Chapel of the Virgin Paramythia</title>
+      <sortKey xml:lang="en">Vat00004</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers6">
+            <name xml:lang="en">Gregory</name>
+            <sortKey xml:lang="en">gregory</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Building inscription of the Chapel of the Virgin Paramythia</title>
+      <sortKey xml:lang="en">Vat00004</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">1677/78</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">† Ἀν εγέρθ η κ αὶ ἐζωγραφήσθη ὁ ἱερὸς κ αὶ θ εῖ ος ναὸς οὗ τος τῆς Π αν αγή ας διὰ σ ην δρο μῆ ς τ οῦ π αν ιερο τά τ ου μι τρ οπολήτ ου Λαοδικ εί ας κ υρο ῦ Γ ρη γορίου ἔτ ου ς ˏ ζρπς ου .</fullText>
+   </search>
+</metadata>

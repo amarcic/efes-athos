@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Vat16</documentId>
+   <sourceFile>Vat16.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription of despot John Uglješa</title>
+      <sortKey xml:lang="en">Vat00016</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers24">
+            <name xml:lang="en">John Uglješa</name>
+            <sortKey xml:lang="en">john uglješa</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription of despot John Uglješa</title>
+      <sortKey xml:lang="en">Vat00016</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">ca. 1346-1371</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">Δέησις τοῦ δούλου τοῦ Θ εο ῦ εὐσεβεστάτου δεσπότου Ἰωάννου τοῦ Οὔγγλεση .</fullText>
+   </search>
+</metadata>

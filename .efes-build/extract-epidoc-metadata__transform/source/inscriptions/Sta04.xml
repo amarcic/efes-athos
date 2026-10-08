@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <documentId>Sta04</documentId>
+   <sourceFile>Sta04.xml</sourceFile>
+   <page>
+      <title xml:lang="en">Dedicatory inscription for the decoration of the narthex of the main church of Stavroniketa monastery</title>
+      <sortKey xml:lang="en">Sta00004</sortKey>
+   </page>
+   <entities>
+      <persons>
+         <entity indexType="persons" xml:id="pers48">
+            <name xml:lang="en">Jeremiah I</name>
+            <sortKey xml:lang="en">jeremiah i</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers49">
+            <name xml:lang="en">Maximos</name>
+            <sortKey xml:lang="en">maximos</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers50">
+            <name xml:lang="en">Andronikos Sourchtzis</name>
+            <sortKey xml:lang="en">andronikos sourchtzis</sortKey>
+         </entity>
+         <entity indexType="persons" xml:id="pers51">
+            <name xml:lang="en">Theodoulos</name>
+            <sortKey xml:lang="en">theodoulos</sortKey>
+         </entity>
+      </persons>
+   </entities>
+   <search>
+      <title xml:lang="en">Dedicatory inscription for the decoration of the narthex of the main church of Stavroniketa monastery</title>
+      <sortKey xml:lang="en">Sta00004</sortKey>
+      <material xml:lang="en"/>
+      <origDate xml:lang="en">ca. 1628</origDate>
+      <execution xml:lang="en">Painted</execution>
+      <fullText xml:lang="en">Ἔτος ζ ρ † ὁ παρὼν νάρ θηξ Ἰερε μίου ο ἰ κουμενικοῦ πατριάρχου τοῦ πα τρὸς ἡμῶν Μύ ρων τῆ ς Λυκ ίας συνδρο μῆ ς κ αὶ ἐπιμελει ας προηγουμέν ου κυρ οῦ Μαξίμ ου · διά δε ἐξόδου κ αὶ δαπάνης τ οῦ τιμιωτάτ ου ἄρ χοντος κυροῦ Ἀνδρόνικου Σουρχτζῆ Ἐν Χρ ιστῷ Θ ε όδ ου λ ος ἱ ε ρ ο μ όν αχ ος</fullText>
+   </search>
+</metadata>
