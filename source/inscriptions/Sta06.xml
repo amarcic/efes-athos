@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Invocation for patriarch Jeremias I</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Sta06</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> on the scroll held by St Nicholas in the central apse, on the north side next to the Prothesis (bottom register) <material></material><objectType></objectType>.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Black majuscules with accents and breathings, ligatures, and borrowings from minuscule; perhaps inscribed by the painter Theophanes the Cretan<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Stavroniketa, Main church, central apse</origPlace>
+                            <origDate>ca. 1546</origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="/">
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb n="1"/>Ἐ<hi rend="ligature">ν πρ</hi>ώτοις
+                   <lb n="2"/><hi rend="ligature">μνή</hi>σθητι
+                   <lb n="3"/><persName type="divine" key="Christ"><expan><abbr>κ</abbr><ex>ύρι</ex>ε</expan></persName> τ<hi rend="ligature">οῦ</hi> <term type="office" ref="of0218"><hi rend="ligature">ἀρ</hi>χι
+                   <lb n="4" break="no"/>ἐπισκόπ<hi rend="ligature">ου</hi></term> <hi rend="ligature">ἡμ</hi>ῶν
+                   <lb n="5"/><persName type="attested" ref="#pers48">Ἱερεμίου</persName>
+                   <lb n="6"/>ὸν χάρισαι
+                   <lb n="7"/>ταῖς <hi rend="ligature">ἁγ</hi>ίαις
+                   <lb n="8"/>ἐκκλησίαις.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>The text is part of the standard intercessory prayer recited to commemorate the patriarchs of Constantinople during the liturgy. The full text is as follows: "Ἐν πρώτοις μνήσθητι, Κύριε, τοῦ Ἀρχιεπισκόπου ἡμῶν Ἱερεμίου, ὃν χάρισαι ταῖς ἁγίαις σου Ἐκκλησίαις ἐν εἰρήνῃ, σῷον, ἔντιμον, ὑγιᾶ, μακροημερεύοντα καὶ ὀρθοτομοῦντα τὸν λόγον τῆς σῆς ἀληθείας".</p>
+            </div>
+            <div type="translation">
+                <p>Remember Lord among the first our Archbishop Jeremias, whom grant to thy holy churches [in peace ...] (Chatzidakis, Cretan Painter, 49).</p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>Chatzidakis, Cretan Painter.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

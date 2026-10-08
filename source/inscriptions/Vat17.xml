@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Monogram inscription of Matthew Kantakouzenos</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>JGU</authority>
+                <idno type="filename">Vat17</idno>
+                <idno type="InscrAthos">111</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><material></material>On the<objectType>capitals</objectType> of the columns supporting the dome of the fountain</p><dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Vatopedi, fountain</origPlace>
+                            <origDate>second half of 14th century</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                        <provenance type="not-observed">Lost, attested</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <div type="textpart" subtype="capital" n="1">
+                <ab><lb n="1"/><persName type="attested" ref="#pers31"><expan><abbr><am><g ref="#monogram"/></am></abbr><ex>Ματθαίου</ex></expan></persName></ab></div>
+                <div type="textpart" subtype="capital" n="2">
+                <ab><lb n="1"/><persName type="attested" ref="#pers46"><expan><abbr><am><g ref="#monogram"/></am></abbr><ex>Ἰωάννου</ex></expan></persName></ab></div>
+                <div type="textpart" subtype="capital" n="3">
+                <ab><lb n="1"/> <expan><abbr><am><g ref="#monogram"/></am></abbr><ex>Καντακουζηνοῦ</ex></expan></ab></div>
+                <div type="textpart" subtype="capital" n="4">
+                <ab><lb n="1"/><term type="office" ref="'of0244"><expan><abbr><am><g ref="#monogram"/></am></abbr><ex>Μεγάλου Δομεστίκου</ex></expan></term></ab></div>
+            </div>
+            <div type="apparatus">
+                <p>The monograms were recorded by Vasil Grigorovich-Barsky during his trip to Athos in 1744-45. The transcription is based on the drawings that illustrate his travel account.</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Mamaloukos</p>
+            </div>
+        </body>
+    </text>
+</TEI>

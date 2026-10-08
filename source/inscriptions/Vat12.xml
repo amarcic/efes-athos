@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building inscription of Dionysios Xeniotes</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>JGU</authority>
+                <idno type="filename">Vat12</idno>
+                <idno type="InscrAthos">140</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><material></material><objectType></objectType>At the center of the north facade of the western section</p><dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>1671/72</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, Βoat dock (arsanas)
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb n="1"/><g ref="#crux">†</g> <date from="1671-09-01" to="1672-08-31">Ἔτους <num value="7180"><hi rend="supraline">ζρπ</hi></num></date> ἐγένετο
+                   <lb n="2"/>ὁ παρὼν ἀρσανᾶς
+                   <lb n="3"/>διὰ συνδρομῆς <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ἐξόδου
+                   <lb n="4"/>τοῦ πανοσιωτάτου προηγουμένου
+                   <lb n="5"/>κὺρ <persName type="attested" ref="#pers14">Διονυσίου τοῦ Ξενιότη</persName>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p> ΙΜΜΒ</p>
+            </div>
+        </body>
+    </text>
+</TEI>

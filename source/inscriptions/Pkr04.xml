@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of the hieromonk Anthony for the icon of St John the Forerunner</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Pkr04</idno>
+                 <idno type="InscrAthos">170</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> at the bottom of the <material></material> <objectType>icon</objectType>  of St John the Forerunner at the <objectType>iconostasis</objectType>.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Red majuscules against the brown background of the icon, with accents and breathings. Three thick grey lines below the feet of St John serve as rulings for the two-line inscription <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Pantokrator, Main church</origPlace>
+                            <origDate>1654/55</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed"><p></p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                <lb n="1"/><g ref="#crux">†</g> Δέησις τ<hi rend="ligature">οῦ</hi> δ<hi rend="ligature">ού</hi>λ<hi rend="ligature">ου</hi> τ<hi rend="ligature">οῦ</hi> <expan><abbr>Θ</abbr><ex>εο</ex>ῦ</expan> <persName type="attested" ref="#pers37"><hi rend="ligature">Ἀντ</hi>ωνί<hi rend="ligature">ου</hi></persName> <term type="office" ref="of0303"><expan><abbr>ἱερομ</abbr><ex>ονά</ex><abbr>χ</abbr><ex>ου</ex></expan></term> ἐκ μονῆς τ<hi rend="ligature">οῦ</hi> <expan><abbr>Χηλ</abbr><ex>αν</ex>δαρί<hi rend="ligature">ου</hi></expan>
+                <lb n="2"/><date from="1654-09-01" to="1655-08-31">ἔτ<hi rend="ligature">ου</hi>ς <num value="7163">ζρξγ</num></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> </p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Tavlakis</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Signature of Theophanes</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Kar02</idno>
+                <idno type="InscrAthos">316</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution"></rs> on one of the lateral <material>wooden</material> <objectType>doors</objectType> leading from the inner narthex to the nave of the main church.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace></origPlace>
+                            <origDate>1592</origDate>
+                        </origin>
+                        <provenance type="found">Karakallou, Main church 
+                        </provenance>
+                        <provenance type="observed">
+						</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="/">
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+					<lb n="1"/>χειρὶ <persName type="attested" ref="#pers60">Θεοφάν<hi rend="ligature">ου</hi>ς</persName>
+					<lb n="2"/><date from="1592-01-01" to="1592-08-31">ἐν ἔτει <num value="7100">ζρ</num> <num value="1592">αφϞβ</num></date>                
+				</ab>
+            </div>
+            <div type="apparatus">
+                <p> </p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>If the conversion of the calendar is accurate, this means that the date falls between January and August 1592: the year 7100 anno mundi corresponds to September 1591 - August 1592; within this time frame the only months that overlap with the anno domini date given (1592) are January-August. It is known however that inscriptions containing dates in both calendars often make mistakes.</p>
+            </div>
+            <div type="bibliography">
+                <p></p>
+            </div>
+        </body>
+    </text>
+</TEI>

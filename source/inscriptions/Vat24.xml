@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of the bakery (mangipeion)</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Vat24</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vatopedi sacristy</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Incised</rs> on the bottom side of a <material>marble</material> ionic <objectType>capital</objectType></p>
+                                  <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>majuscules with occasional accents and breathings, several ligatures<height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Vatopedi, bakery (mangipeion)</origPlace>
+                            <origDate>1563-1568</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, Sacristy
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><hi rend="ligature">Ηγ</hi><hi rend="ligature">ου</hi>μενευον<hi rend="ligature">το</hi>ς
+                    <lb n="2"/>οἰκ<hi rend="ligature">τρ</hi><hi rend="ligature">οῦ</hi> <persName type="attested" ref="#pers16">Μαξίμ<hi rend="ligature">ου</hi></persName>
+                    <lb n="3"/>ο <expan><abbr>φ<hi rend="ligature">ού</hi>ρνο</abbr><ex>ς</ex></expan> <expan><abbr><hi rend="ligature">ου</hi><hi rend="ligature">το</hi></abbr><ex>ς</ex></expan> ος
+                    <lb n="4"/><supplied reason="lost">μό</supplied>νον ἔγινε ἐκ
+                    <lb n="5"/><supplied reason="lost">β</supplied>άθρ<hi rend="ligature">ου</hi> <expan><abbr>κ</abbr><ex>α</ex><abbr>τ</abbr><ex>ὰ</ex></expan> <hi rend="ligature">το</hi> <date from="1563-08-01" to="1568-08-31"><num value="7000">ˏζ</num><supplied reason="lost">ο</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/><supplied reason="lost">μη</supplied><hi rend="ligature">νὴ</hi> Αυγ<hi rend="ligature">ου</hi>στ<supplied reason="lost">ῳ</supplied></date><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> line 5: Dimitris Liakos restores the second digit of the year as ρ=100, which would give a date after 1592 (=anno mundi 7100). This is incompatible with the known dates of the superiorship of the abbot Maximos referred to in the text (1563-1568). Therefore, the restoration proposed here is ο=70 (i.e., 707X), which generates a date ranging from 1562 to 1571. The third digit must have been α, β, γ, δ, ε, or ς (i.e., 7071-7076 = 1563-1568). In any case, it is clear that this was a three-digit number (with a place value of 0 hundreds).</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Liakos</p>
+            </div>
+        </body>
+    </text>
+</TEI>

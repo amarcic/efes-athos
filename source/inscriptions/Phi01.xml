@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory insciption of Levan I of Kakheti for the construction of the refectory of Philotheou monastery</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Phi01</idno>
+                <idno type="InscrAthos">304</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> below the model of Philotheou monastery in the donor portraits on the east wall of the refectory (lower register).<material></material><objectType></objectType>.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>White majuscules on a blue background with accents and breathings, ligatures, nested letters, and several borrowings from minuscule. Final sigmas are systematically placed below the endings of words.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Philotheou, Refectory</origPlace>
+                            <origDate>1539/40 or 1561-1574</origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="/">
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><g ref="#crux">†</g> Κατὰ τὸ <date from="1539-09-01" to="1540-08-31"><num value="7048"><hi rend="supraline">ˏζμη</hi></num> ἔτος</date> <expan><abbr>ἀνεκ</abbr><ex>αι</ex>νίσθη</expan> τὸ <hi rend="ligature">παρ</hi>ὸν ἱ<supplied reason="omitted">ε</supplied><expan><abbr>ρὸ</abbr><ex>ν</ex></expan> κ<hi rend="ligature">τή</hi>ριον <hi rend="ligature">τῆ</hi>ς
+                    <lb n="2"/><expan><abbr>σε<hi rend="ligature">βασμ</hi>ί</abbr><ex>ας</ex></expan> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> βασ<supplied reason="omitted">ιλ</supplied>ικῆς μο<hi rend="ligature">νῆ</hi>ς τ<hi rend="ligature">οῦ</hi> Φιλ<supplied reason="omitted">ο</supplied>θέ<hi rend="ligature">ου</hi> <hi rend="ligature">τῆ</hi>ς ὑ<hi rend="ligature">περ</hi>αγίας <expan><abbr>Θ</abbr><ex>εοτό</ex>κ<hi rend="ligature">ου</hi></expan> <hi rend="ligature">τῆ</hi>ς ἐπικεκ<hi rend="ligature">λη</hi>
+                    <lb n="3" break="no"/>μένης Εὐ<hi rend="ligature">αγ</hi>γελιστρίας <hi rend="ligature">παρ</hi>ὰ τ<hi rend="ligature">οῦ</hi> εὐσεβεστάτ<hi rend="ligature">ου</hi> <persName type="attested" ref="#pers56">Λέον<hi rend="ligature">το</hi>ς</persName> τ<hi rend="ligature">οῦ</hi> <term type="office" ref="of0310">βασιλέως τ<hi rend="ligature">οῦ</hi> <placeName type="historical">Κα
+                    <lb n="4" break="no"/>χετί<hi rend="ligature">ου</hi></placeName></term> <hi rend="ligature">τῆ</hi>ς <placeName type="historical"><expan><abbr>Ἰβ<hi rend="ligature">ηρ</hi>ί</abbr><ex>ας</ex></expan></placeName> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> τ<hi rend="ligature">οῦ</hi> <hi rend="ligature">υἱ</hi><hi rend="ligature">οῦ</hi> αὐτ<hi rend="ligature">οῦ</hi> <persName type="attested" ref="#pers57">Ἀλεξ<hi rend="ligature">άν</hi>δρ<hi rend="ligature">ου</hi></persName> <hi rend="ligature">εἰ</hi>ς ψυχικὴν αὐτῶν <expan><abbr>σ</abbr><ex>ωτη</ex>ρί<hi rend="ligature">αν</hi></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> l. 1: According to Dionysopoulos, the second and third numerals of the date are later additions, probably painted after the fire of 1871 (John Komnenos in his proskynetarion transmits only the first numeral - ζ=7000 - which means that the other two were already illegible at the end of the 17th century). Dionysopoulos has argued that the date 7048=1539/40 is incompatible with the biographical data of Alexander II of Kakheti and has suggested a date between 1561 and 1574. If this is correct, the date would have been any number between 7069 and 7083. Thus, the second digit may have been either ξ, ο, or π; the final digit could have been any number between α (=1) and θ (=9), including ς = 6. It is conceivable that it was indeed an η as it is in the preserved text edited above.</p>
+            </div>
+            <div type="translation">
+                <p>In 7048 (1540) the present holy building of the venerable and royal Monastery of Philotheou (dedicated to) the all-holy Mother of God called Evangelistria (the Virgin of the Annunciation) was renewed by the most revered King Leon of Kakheti of Iberia and his son Alexander for the salvation of their souls (Allison).</p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>Dionysopoulos.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription for the decoration of the narthex of the main church of Stavroniketa monastery</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Sta04</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> on the north <material></material><objectType>wall</objectType> of the narthex (lite) of the main church of Stavroniketa monastery.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Black majuscules with accents and breathings, several ligatures, superimposed and encased letters<height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>ca. 1628</origDate>
+                        </origin>
+                        <provenance type="found"> Stavroniketa, Main Church
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb n="1"/><date from="1591-09-01" to="1691-08-31">Ἔτος <num value="7100">ζ<supplied reason="lost" cert="low">ρ</supplied><gap reason="lost" quantity="2" unit="character" precision="low"/></num></date><gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="2"/><g ref="#crux">†</g> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ὁ παρὼν</supplied>
+                   <lb n="3"/>νάρ<supplied reason="lost">θηξ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <persName type="attested" ref="#pers48"><supplied reason="lost">Ἰερε</supplied>
+                   <lb n="4" break="no"/>μίου</persName> <term type="office" ref="of0218"><supplied reason="lost">ο</supplied>ἰ<supplied reason="lost">κουμενικοῦ πατριάρχου</supplied></term> <gap reason="lost" extent="unknown" unit="character"/> <persName type="divine" key="Saint Nicholas"><supplied reason="lost">τοῦ πα</supplied>
+                   <lb n="5" break="no"/>τρὸς ἡμῶν <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="https://pleiades.stoa.org/places/639005"><supplied reason="lost">Μύ</supplied>
+                   <lb n="6" break="no"/>ρων</placeName> <hi rend="ligature">τῆ</hi>ς <placeName type="historical" key="Lycia">Λυκ<supplied reason="lost">ίας</supplied></placeName></persName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">συνδρο</supplied>
+                   <lb n="7" break="no"/><hi rend="ligature">μῆ</hi>ς <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ἐπιμελει<supplied reason="lost">ας</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="8"/><term type="office" ref="of0299">προηγουμέν<hi rend="ligature">ου</hi></term> κυρ<hi rend="ligature">οῦ</hi> <persName type="attested" ref="#pers49">Μαξίμ<hi rend="ligature">ου</hi></persName>· διά δε ἐξόδου <expan><abbr>κ</abbr><ex>αὶ</ex></expan> δαπάνης τ<hi rend="ligature">οῦ</hi>
+                   <lb n="9"/>τιμιωτάτ<hi rend="ligature">ου</hi> <hi rend="ligature">ἄρ</hi>χοντος κυροῦ <persName type="attested" ref="#pers50">Ἀνδρόνικου Σουρχτζῆ</persName>
+                   <lb n="10"/>Ἐν <persName type="divine" key="Christ"><expan><abbr>Χρ</abbr><ex>ιστῷ</ex></expan></persName><persName type="attested" ref="#pers51"><expan><abbr>Θ</abbr><ex>ε</ex><abbr>όδ</abbr><ex>ου</ex><abbr>λ</abbr><ex>ος</ex></expan></persName> <term type="office" ref="of0303">ἱ<supplied reason="lost">ε</supplied>ρ<supplied reason="lost">ο</supplied>μ<supplied reason="lost">όν</supplied>αχ<supplied reason="lost">ος</supplied></term>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>l. 5-6: Liakos restores μαρτύρων, but this is most likely a reference to the patron saint of Stavroniketa as St Nicholas of Myra in Lycia.</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription refers to the older fresco layer, under the mid 18th-century layer visible nowadays.</p>
+            </div>
+            <div type="bibliography">
+                <p>Liakos, Unpublished, 297-299; Theophanes, Υπογραφή, 361.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

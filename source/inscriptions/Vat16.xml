@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of despot John Uglješa</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>JGU</authority>
+                <idno type="filename">Vat16</idno>
+                <idno type="InscrAthos">105</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><material></material><rs type="execution">Painted</rs> on the east <objectType>wall</objectType> of the narthex, to the left of the door</p><dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>ca. 1346-1371</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, Chapel of Hagioi Anargyroi
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                        <provenance type="not-observed">Repainted, attested</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb n="1"/>Δέησις τοῦ δούλου τοῦ <expan><abbr>Θ</abbr><ex>εο</ex>ῦ</expan>
+                   <lb n="2"/>εὐσεβεστάτου δεσπότου
+                   <lb n="3"/><persName type="attested" ref="#pers24">Ἰωάννου τοῦ Οὔγγλεση</persName>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>The text has been repainted as part of the 19th-century renovation of the interior of the chapel, which also included the repainting of the patron's portrait. It is generally accepted that the 19th-century painter reproduced the original text faithfully</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Dionysopoulos; Index, 149 </p>
+            </div>
+        </body>
+    </text>
+</TEI>

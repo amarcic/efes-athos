@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building inscription of the Refectory and of the oil press</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Vat28</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> disk embedded into the west facade (above the portico, between the second and third arches) of the main church<objectType></objectType> </p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text occupies the spaces between the arms of the cross</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> Majuscules contaminated with minsucule letters; occasional accents; ligatures <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Vatopedi, Perhaps in the refectory </origPlace>
+                            <origDate>1319/20, indiction 3</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, Main church
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                  <lb n="1"/>
+                        <milestone unit="column" n="i" />Ἀνεκε<milestone unit="column" n="ii" /><hi rend="ligature">νήσ</hi>θη
+                   <lb n="2"/>
+                        <milestone unit="column" n="i" />ἡ <hi rend="ligature">τρ</hi>ά<hi rend="ligature">πε</hi><milestone unit="column" n="ii" />ζα <date from="1319-09-01" to="1320-08-31">ἐν
+                   <lb n="3"/>
+                        <milestone unit="column" n="iii" />ἔτει <num value="6828">ˏς<milestone unit="column" n="iv" />ωκη΄</num>
+                   <lb n="4"/>
+                        <milestone unit="column" n="iii" /><expan><ex>ἰνδικτιώνος</ex></expan> <num value="3">γ</num> </date><expan><abbr>ἐπησ<milestone unit="column" n="iv" />τατοῦντο</abbr><ex>ς</ex></expan>
+                   <lb n="5"/>
+                        <milestone unit="column" n="iii" />τοῦ <expan><abbr>ἱερο</abbr><ex>μονά</ex><abbr>χ</abbr><ex>ου</ex></expan> <milestone unit="column" n="iv" />κυρ<hi rend="ligature">οῦ</hi> <persName type="attested" ref="#pers29"><expan><abbr>Ν</abbr><ex>ή</ex><abbr>φ</abbr><ex>ω</ex><abbr>ν</abbr><ex>ο</ex>ς</expan></persName>
+                   <lb n="6"/>
+                        <milestone unit="column" n="iii" /><expan><abbr>κ</abbr><ex>αὶ</ex></expan> τὸ ἐλε<milestone unit="column" n="iv" /><hi rend="ligature">τρ</hi>ιβίον
+                   <lb n="7"/>
+                        <milestone unit="column" n="iii" /><gap reason="illegible"/> <milestone unit="column" n="iv" /><gap reason="illegible"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> </p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Mamaloukos, Katholiko; Mamaloukos, Buildings</p>
+            </div>
+        </body>
+    </text>
+</TEI>

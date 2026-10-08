@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Name accompanying the donor portrait of king Levan I of Kakheti</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Phi03</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> to the left of the donor portrait of king Levan I of Kakheti on the east <objectType>wall</objectType> of the refectory (lower register).<material></material></p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>White majuscules on a blue background with accents and breathings, ligatures, nested letters, and several borrowings from minuscule. Final sigmas are systematically placed below the endings of words.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Philotheou, Refectory</origPlace>
+                            <origDate>1561-1574?</origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="/">
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="#pers54">Λέων</persName> <term type="office" ref="of0310">βασιλεὺς <placeName type="historical">Καχετίου</placeName> 
+                    <lb n="2"/><expan><abbr>κ</abbr><ex>αὶ</ex></expan> πάσης <placeName type="historical"><expan><abbr>Ἰβηρί</abbr><ex>ας</ex></expan></placeName></term> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> κτήτωρ τῆς <expan><abbr>σεβασμί</abbr><ex>ας</ex></expan> 
+                    <lb n="3"/><expan><abbr>κ</abbr><ex>αὶ</ex></expan> βασιλικῆς μονῆς 
+                    <lb n="4"/>τοῦ Φιλοθέου.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> </p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>Dionysopoulos.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

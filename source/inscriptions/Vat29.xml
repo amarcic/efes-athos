@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary inscription of founder Athanasios</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Vat29</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Incised</rs> on a <material>led</material> plaque attached to the <objectType>sarcophagus</objectType> of the founders' tomb in the inner narthex (against the south wall).</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> Majuscules <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Vatopedi, Main church </origPlace>
+                            <origDate>Second half of 11th century</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, Main church
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                  <lb n="1"/><g ref="#crux">†</g> <persName type="attested" ref="#pers30">Ἀθανάσιος</persName>  <expan><abbr>μο</abbr><ex>να</ex><abbr>χ</abbr><ex>ὸς</ex></expan> κὲ ἡγ<hi rend="ligature">ού</hi>μενος τ<hi rend="ligature">οῦ</hi> Β<supplied reason="lost">ατοπεδίου</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ἐν</supplied>
+                  <lb n="2" break="no"/>τολὴν ἔχετε ἀπὸ <expan><abbr>π</abbr><ex>ατ</ex><abbr>ρ</abbr><ex>ὸ</ex></expan>ς ἐμ<hi rend="ligature">οῦ</hi> κ<supplied reason="lost">ἀ</supplied>
+                  <lb n="3" break="no"/>μ<hi rend="ligature">οῦ</hi> τοῦ ταπιν<hi rend="ligature">οῦ</hi> <persName type="attested" ref="#pers30">Ἀθανασί<hi rend="ligature">ου</hi></persName> <hi rend="ligature">ἣν</hi> <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="4"/>τὸν τάφον τὸν καλοτηρά<supplied reason="lost">μενον</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="5"/><supplied reason="lost">καὶ</supplied> εἴ της πονη<supplied reason="lost">ρῶς</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="6"/><gap reason="lost" quantity="2" unit="character"/><orig>ασ τον</orig><gap reason="lost" quantity="2" unit="character"/><orig><hi rend="ligature">ου</hi></orig><orig>ε</orig><orig><hi rend="ligature">τε</hi></orig><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">τὴν</supplied>
+                   <lb n="7"/>ἀρὰν τῶν <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>π</abbr><ex>ατέ</ex>ρον</expan> κὲ <gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="8"/>τὸν καλο<gap reason="lost" extent="unknown" unit="character"/> <orig>ασ</orig> κὲ <gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> </p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Mamaloukos, Katholiko; Pazaras, Tafos; Pazaras, Glypta</p>
+            </div>
+        </body>
+    </text>
+</TEI>

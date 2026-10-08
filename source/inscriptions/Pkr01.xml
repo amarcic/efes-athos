@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of Pantokrator monastery</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Pkr01</idno>
+                 <idno type="InscrAthos">158</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> <objectType>slab</objectType>, apparently a reused threshold stone.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> Majuscules with accents and breathings. Minuscule sigma at the end of line 1. Occasional ligatures and nested letters <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Pantokrator, Main church, west façade, upper level (katechoumena) </origPlace>
+                            <origDate>1362/63</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed"><p>Now embedded into the staircase leading from the outer narthex to the bell-tower.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Pkr01.jpg">
+            <desc>View of the slab with the dedicatory inscription</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                 <lb n="1"/><g ref="#crux">†</g> Μνήσθητι <expan><abbr>Κ</abbr><ex>ύρι</ex>ε</expan> τῶν <expan><abbr>σ</abbr><ex>ῶν</ex></expan>
+                 <lb n="2"/>δ<hi rend="ligature">ού</hi>λων <persName type="attested" ref="#pers34">Ἀλεξίου</persName> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <persName type="attested" ref="#pers32">Ἰωά<hi rend="ligature">νν</hi><hi rend="ligature">ου</hi></persName>
+                 <lb n="3"/><supplied reason="lost">τ</supplied>ῶν <hi rend="ligature">κτ</hi>ητορων <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <expan><abbr>αὐταδέλφ</abbr><ex>ων</ex></expan>
+                 <lb n="4"/><supplied reason="lost">ἐ</supplied>γένετο ἐν <date from="1362-09-01" to="1363-08-31">έτει <num value="6871"><hi rend="supraline">ˏςωοα</hi></num></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> l. 1: σ[ῶν] Liakos; l. 3: αὐταδέλφ[ων] Liakos (D. Liakos seems to believe that the right part of the slab is missing and that some letters in that part are lost. His edition therefore indicates that that the word endings of lines 1 and 3 were originally inscribed by the stone cutter)</p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Liakos, Athonite Dedicatory Inscriptions, 177, no. 3.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

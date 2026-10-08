@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of Theodosios the Peloponnesian</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Vat03</idno>
+                <idno type="InscrAthos">55</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> on the south <objectType>wall</objectType>of the sanctuary<material/><dimensions/></p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>1652</origDate>
+                        </origin>
+                        <provenance type="found"> Vatopedi, Main church
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                        <provenance type="not-observed">Repainted, attested</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lg>
+                      <l n="1"><lb n="1"/><g ref="#crux">†</g><persName type="divine" key="Virgin Mary">Ανασα</persName>πάντων ὕψι βρωτῶν ὑπάρχης</l>
+                      <l n="2">προστάτης ἄμαχως τον καταπονουμένων</l>
+                      <l n="3">καταφηγί τε τῶν ης <supplied reason="omitted">σ</supplied>ὲ προστρεχόντων</l>
+                      <l n="4">ἐλπῖς βεβέα ἔμι γε τοῦ παντλίμου</l>
+                      <l n="5"><persName type="attested" ref="#pers5">Θεὁδοσίου</persName><lb n="2"/>του<placeName type="ethnic">Πελοπονησίου</placeName></l>
+                      <l n="6">ἡκέτου ἡκτροῦ τῆς σῆς<lb n="3"/>ἀγαθοσύνης</l>
+                      <l n="7">δι’ον σι τῶνδε καλο<choice><corr>ν</corr><sic>π</sic></choice> εμοῦ<lb n="4"/>προσάξας</l>
+                      <l n="8">τα σά ἐκ των σῶν θησαυροῦ ἀκενότου</l>
+                      <l n="8"><lb n="5"/>καθῶς ζωην τε <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ψυχὴν παρεθέμην</l>
+                      <l n="10">ἡς χήρας<lb n="6"/>ἀχ<unclear>ρ</unclear>άντου<choice><corr>ς</corr><sic>β</sic></choice> τε τὴς σῆς μεγαλοσύνης.</l>
+                    </lg>
+                        <lb n="7"/><date from="1652-01-01" to="1652-12-31"><num value="1652">αχνβ</num></date> 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>The text has been repainted as part of the 18th-century renovation of the decoration of the sanctuary, which also included the repainting of the patron's portrait. It is generally accepted that the 18th-century painter reproduced the original text faithfully</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Index, 122; Kyriakou, Thesis</p>
+            </div>
+        </body>
+    </text>
+</TEI>

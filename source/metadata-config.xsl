@@ -18,6 +18,12 @@
     exclude-result-prefixes="#all">
 
     <xsl:import href="stylesheets/lib/extract-metadata.xsl"/>
+    
+    <xsl:param name="persons-file" as="xs:string" />
+    <xsl:variable name="persons" select="document('file://' || $persons-file)" />
+    
+    <xsl:param name="professions-file" as="xs:string" />
+    <xsl:variable name="professions" select="document('file://' || $professions-file)" />
 
     <!--
         Sort key: variant of the document ID that sorts naturally with mixed
@@ -76,16 +82,32 @@
     apply-templates call in extract-all-entities below.
     Adapt the XPath in extract-persons to match your TEI encoding.
     -->
-    <!--
+   
     <idx:index id="persons" nav="indices" order="10">
         <idx:title>Persons</idx:title>
         <idx:description>Persons attested in the collection.</idx:description>
         <idx:columns>
             <idx:column key="name"><idx:label>Name</idx:label></idx:column>
+            <idx:column key="name-greek"><idx:label>Greek Name</idx:label></idx:column>
+            <idx:column key="office"><idx:label>Office</idx:label></idx:column>
+            <idx:column key="profession"><idx:label>Profession</idx:label></idx:column>
+            <idx:column key="chron-window"><idx:label>Chron. Window</idx:label></idx:column>
             <idx:column key="references" type="references"><idx:label>References</idx:label></idx:column>
         </idx:columns>
     </idx:index>
-    -->
+    
+    <!-- Professions index -->
+    
+    <idx:index id="professions" nav="indices" oder="10">
+        <idx:title>Professions</idx:title>
+        <idx:description>Professions attested in the collection</idx:description>
+        <idx:columns>
+            <idx:column key="profession-name"><idx:label>Profession</idx:label></idx:column>
+            <idx:column key="references" type="references">
+                <idx:label>References</idx:label>
+            </idx:column>
+        </idx:columns>
+    </idx:index>
 
     <!-- ═══════════════════════════════════════════════
          EXTRACTION TEMPLATES
@@ -116,7 +138,53 @@
         </xsl:for-each>
     </xsl:template>
     -->
-
+    <!-- <xsl:template match="tei:TEI" mode="extract-persons">
+        <xsl:param name="language" tunnel="yes" />
+        <xsl:for-each select=".//tei:listPerson/tei:person">
+            <xsl:variable name="name" select="(tei:persName[@xml:lang='en'], tei:persName)[1]" />
+            <entity intexType="persons" xml:id="lower-case($name)">
+                <name><xsl:value-of select="$name"/></name>
+                <sortKey><xsl:value-of select="lower-case($name)"/></sortKey>
+            </entity>
+        </xsl:for-each>
+    </xsl:template>-->
+    <xsl:template match="tei:TEI" mode="extract-persons">
+        <xsl:param name="language" tunnel="yes" />
+        <xsl:for-each select=".//tei:persName[@type='attested']">
+            <xsl:variable name="person-id" select="substring-after(@ref, '#')" />
+            <xsl:variable name="person" select="$persons//tei:person[@xml:id = $person-id]" />
+            <xsl:variable name="displayName" select="normalize-space(
+                ($person/tei:persName[@xml:lang=$language],
+                $person/tei:persName[@xml:lang='en'],
+                $person/tei:persName)[1]
+                )"/>
+            <xsl:if test="string-length($displayName) > 0">
+                <entity indexType="persons" xml:id="{$person-id}">
+                    <name><xsl:value-of select="$displayName"/></name>
+                    <sortKey><xsl:value-of select="lower-case($displayName)"></xsl:value-of></sortKey>
+                </entity>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template match="tei:TEI" mode="extract-professions">
+        <xsl:param name="language" tunnel="yes" />
+        <xsl:for-each select=".//tei:term[@type='profession']">
+            <xsl:variable name="profession-id" select="@ref"/>
+            <xsl:variable name="profession" select="$professions//tei:item[@xml:id = $profession-id]" />
+            <xsl:variable name="displayName" select="normalize-space(
+                ($profession/tei:term[@xml:lang='en'])
+                )" />
+            <entity indexType="professions" xml:id="{$profession-id}">
+                <profession-name><xsl:value-of select="$displayName"/></profession-name>
+                <sortKey><xsl:value-of select="lower-case($displayName)"/></sortKey>
+            </entity>
+            <!-- to enable multi language support <xsl:if test="string-length($displayName) > 0">
+                
+            </xsl:if> -->
+        </xsl:for-each>
+    </xsl:template>
+    
     <!--
     Example: Bibliography index
     Uncomment and add bibliography-file parameter to pipeline and stylesheet.
@@ -171,7 +239,8 @@
 
     <xsl:template match="tei:TEI" mode="extract-all-entities">
         <!-- Uncomment to enable index extraction -->
-        <!-- <xsl:apply-templates select="." mode="extract-persons"/> -->
+        <xsl:apply-templates select="." mode="extract-persons" />
+        <xsl:apply-templates select="." mode="extract-professions" />
         <!-- <xsl:apply-templates select="." mode="extract-bibliography"/> -->
     </xsl:template>
 
@@ -190,9 +259,9 @@
         <sortKey><xsl:value-of select="$sortKey"/></sortKey>
         <material><xsl:value-of select="normalize-space(//tei:material)"/></material>
 
-        <!-- Uncomment to add more search/filter fields:
+        <!-- Uncomment to add more search/filter fields: -->
         <origDate><xsl:value-of select="string-join(//tei:origDate, ', ')"/></origDate>
-        -->
+        <execution><xsl:value-of select="normalize-space(//tei:rs[@type='execution'])"/></execution>
 
         <fullText><xsl:value-of select="normalize-space(string-join(
             //tei:div[@type='edition']//text(), ' '))"/></fullText>

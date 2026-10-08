@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary inscription on the founders' tomb</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Vat25</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Perhaps on the back wall of the (now blocked)<objectType>arcosolium niche</objectType>in the south wall of the narthex. According to Andreas Rhoby it may have originally been rendered in <material>marble or other stone</material> (perhaps a part of the <objectType>sarcophagus</objectType> not visible to modern viewers?)</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> The 19th-century painted inscription that reproduces the text is in cursive minuscule script with accents and breathings. There is no evidence regarding the script of the original Byzantine inscription. <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Vatopedi, Chapel of Saint Nicholas (south of the main church) </origPlace>
+                            <origDate>11th century?</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                          <provenance type="not-observed">Lost, attested</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lg met="iambic">
+                   <l n="1" met="dodecasyllable">Τύμβος μὲν ἔνθα σώματα δομητόρων</l>
+                   <l n="2" met="dodecasyllable">μονῆς καλύπτει τῆσδε, ὦ φίλε ξένε.</l>
+                   <l n="3" met="dodecasyllable">πόλος φέρει δὲ ψυχὰς ἡγιασμένας</l>
+                   <l n="4" met="dodecasyllable">ὡς ἀγαπούσας εὐπρέπειαν <persName type="divine" key="Christ">Κυρίου</persName>.</l>
+                       </lg>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> The text is reproduced in the painted inscription on the wall blocking the arcosolium niche. This inscription was probably painted in the early 19th century. The 19th-century inscription is edited by Theocharis Pazaras, whereas the philological edition provided here follows the edition by Andreas Rhoby. We prefer the latter, since the original Byzantine version is assumed to be lost and we treat the text as a reconstruction. A. Rhoby has corrected line 4 of the 19th-century copy from ἀγαποίσας to ἀγαπούσας.</p>
+            </div>
+            <div type="translation">
+                <p>Rhoby (English and German)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Rhoby, Epigramme auf Stein; Rhoby, Inscriptional poetry; Mamaloukos; Pazaras, Vatopedi; Pazaras, Sarkofagoi</p>
+            </div>
+        </body>
+    </text>
+</TEI>

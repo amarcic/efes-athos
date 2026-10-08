@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Name accompanying the donor portrait of king Alexander II of Kakheti</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Phi04</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> to the right of the donor portrait of king Alexander of Kakheti on the east <objectType>wall</objectType> of the refectory (lower register).<material></material></p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>White majuscules on a blue background with accents and breathings, ligatures, nested letters, and several borrowings from minuscule. Final sigmas are systematically placed below the endings of words.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Philotheou, Refectory</origPlace>
+                            <origDate>1561-1574?</origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Phi04.jpg">
+            <desc>General view of the donor portrait with the accompanying inscription</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="#pers55">Ἀλέξανδρος</persName> ὁ υἱὸς αὐτοῦ <term type="office" ref="of0310">βασιλεὺς 
+                    <lb n="2"/><placeName type="historical">Καχετίου</placeName> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> πάσης <placeName type="historical">Ἰβηρίας</placeName></term> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> κτήτωρ 
+                    <lb n="3"/>τῆς σεβασμίας <expan><abbr>κ</abbr><ex>αὶ</ex></expan> βασιλι
+                    <lb n="4" break="no"/>κῆς μονῆς τοῦ Φιλο
+                    <lb n="5" break="no"/>θέου
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> </p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>Dionysopoulos.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of the priest Matthew for the iconostasis in the main church of Pantokrator monastery</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Pkr03</idno>
+                 <idno type="InscrAthos">169</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Carved</rs> on the <material>wooden</material> <objectType>iconostasis</objectType>  of the main church.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Majuscules with accents and breathings <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Pantokrator, Main church</origPlace>
+                            <origDate>10 August 1640</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed"><p></p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                 <lb n="1"/><g ref="#crux">†</g> Τὸ παρὸν θεῖον <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <expan><abbr>κ</abbr><ex>αι</ex>νὸν</expan> τέμπλον τοῦτο ἀνεκαινήσθει
+                 <lb n="2"/>ἐν τῷ πανσέπτῳ ναῷ <expan><abbr>Θ</abbr><ex>εο</ex>ῦ</expan> ὑψύστου
+                 <lb n="3"/>τοῦ <expan><abbr>Παντοκράτωρ</abbr><ex>ος</ex></expan> μονῇ ἱερωτάτῃ
+                 <lb n="4"/>δαπάνῃ, σπουδῇ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> πόθῳ διαπύρῳ
+                 <lb n="5"/>ἀνδρὸς εὐλαβοῦς κυροῦ <persName type="attested" ref="#pers35">Ματθαίου</persName> θύτου
+                 <lb n="6"/><surplus>τ</surplus>ᾧ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> παράσχοις ἀγγέλων ξυναυλίαν
+                 <lb n="7"/>Λόγε παλαιέ, <persName type="divine" key="Jesus Christ">Παντάναξ</persName>, <persName type="divine" key="Jesus Christ">Παντοκράτωρ</persName>.
+                 <lb n="8"/>Ἔλλαβε τέρμα <date when-custom="1640-08-10">χιλιοστο ἑπτάδι
+                 <lb n="9"/>σὶν ἑκατοστῇ τεσαρακοστογδόη.
+                 <lb n="10"/><supplied reason="undefined" evidence="parallel">αὐγούστῳ μηνὶ ἡμέρᾳ δεκάτῃ</supplied></date>
+                 <lb n="11"/><persName type="attested" ref="#pers36">Χρύσανθος Κλήεντης</persName> <term type="office" ref="of0216"><expan><abbr>μονα</abbr><ex>χὸς</ex></expan></term> <supplied reason="undefined" evidence="parallel">ὁ προφήτης
+                 <lb n="12"/>δικαίου τυγχάνοντος κυροῦ
+                 <lb n="13"/>Τέλος δὲ τούτου καὶ τῷ Θεῷ δόξα</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> l. 10, end of l. 11 (ὁ προφήτης), and l. 12-13 are reconstructed from the text in a paterikon manuscript in the monastery of Saint Panteleemon once belonging to the priest Matthew, who commissioned the templon; l. 11: κλῆσιν τῆς μονῆς (Millet - Pargoire - Petit)</p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p></p>
+            </div>
+        </body>
+    </text>
+</TEI>

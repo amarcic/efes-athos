@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of the despotic throne</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>JGU</authority>
+                <idno type="filename">Vat15</idno>
+                <idno type="InscrAthos">56</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><material></material><objectType></objectType>North side of the main church, <rs type="execution">incised</rs> on the back of the <objectType>despotic throne</objectType></p><dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> uneven, unaligned majuscule letters with occasional minuscule (ιερ in the abbreviation for ἱερομόναχος) <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>1618/19</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, Main church
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb n="1"/><g ref="#crux">†</g> <date from="1618-09-01" to="1619-08-31">Ετ<hi rend="ligature">ου</hi>ς <num value="7127">ˏ<hi rend="supraline">ζρ</hi><hi rend="supraline">κζ</hi></num></date> ηγ<hi rend="ligature">ου</hi>με
+                   <lb n="2" break="no"/>νεύοντος <persName type="attested" ref="#pers19">Γρ<hi rend="ligature">ηγ</hi>οριου</persName> <expan><abbr>ιερ</abbr><ex>ο</ex><abbr></abbr><ex>μον</ex><abbr>άχ</abbr><ex>ου</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p> Mamaloukos</p>
+            </div>
+        </body>
+    </text>
+</TEI>

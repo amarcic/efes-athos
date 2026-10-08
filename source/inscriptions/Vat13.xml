@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of hieromonachos Arsenios</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>JGU</authority>
+                <idno type="filename">Vat13</idno>
+                <idno type="InscrAthos">48</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><material></material><objectType></objectType>In the outer narthex, above the door leading to the south chapel</p><dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace></origPlace>
+                            <origDate>1311/12</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, main church</provenance>
+                        <provenance type="observed"></provenance>
+                        <provenance type="not-observed">Lost, attested</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb n="1"/>Ἀνιστορήθη ὁ παρὼν θεῖος ναός οὗτος ἐπὶ βασιλείας <persName type="ruler" key="Andronikos II Palaiologos">Ἀνδρονίκου τοῦ ὀρθοδοξωτάτου βασιλέως 
+                   <lb n="2"/>Κομνηνοῦ τοῦ Παλαιολόγου</persName>. διὰ συνδρομῆς τοῦ ἱερομονάχου κυροῦ <persName type="attested" ref="#pers15">Ἀρσενίου </persName> <date from="1311-09-01" to="1312-08-31">ἐν ἔτει <num value="6820">ˏςωκ΄</num> ἰνδικτιῶνος <num value="10">ι</num>ης</date>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>The original inscription is no longer extant. The text has been reproduced as the first part of the dedicatory inscription referring to maintenance works and repairs to the structure of the outer narthex in 1819. The reconstruction of the text is reliable, since it is also copied in manuscript Vatopedi, cod. 1037 (fol. 260r), which dates from the 18th century (i.e., before the renovation and repainting of the outer narthex) and therefore appears to transmit the text of the original inscription, although there are differences between the two versions. The transcription in the manuscript reads: Ἀνιστορήθη ὁ παρὼν ἱερὸς καὶ θεῖος ναὸς οὗτος, παρὰ τῆς βασιλείας Ἀνδρονίκου τοῦ ὀρθοδοξωτάτου Δεσπότου Κομνηνοῦ, τοῦ Παλαιολόγου, διά συνδρομῆς κυρίου Αρσενίου, ἐν ἔτει 6820, ἀπὸ δὲ τῆς ἐνσάρκου οἰκονομίας 1312, ἰνδικτιῶνος δεκάτης.</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Mamaloukos; Tsigaridas; Index, 128; IMMB</p>
+            </div>
+        </body>
+    </text>
+</TEI>

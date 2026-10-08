@@ -15,8 +15,19 @@
     They transform EpiDoc XML into HTML, extract metadata for indices and search,
     and generate Eleventy data files.
   -->
-
+  
   <!--
+  <xsltTransform name="prune-epidoc-english">
+    <sourceFiles><files>source/seals/*.xml</files></sourceFiles>
+    <stylesheet>
+      <files>source/stylesheets/lib/prune-to-language.xsl</files>
+    </stylesheet>
+    <stylesheetParams>
+      <param name="language">en</param>
+    </stylesheetParams>
+  </xsltTransform>
+  -->
+  
   <xsltTransform name="transform-epidoc">
     <sourceFiles><files>source/inscriptions/*.xml</files></sourceFiles>
     <stylesheet><files>source/stylesheets/lib/epidoc-to-html.xsl</files></stylesheet>
@@ -34,19 +45,21 @@
             stripPrefix="source/inscriptions"
             extension=".html"/>
   </xsltTransform>
- -->
 
-  <!--
   <xsltTransform name="extract-epidoc-metadata">
     <sourceFiles><files>source/inscriptions/*.xml</files></sourceFiles>
     <stylesheet><files>source/metadata-config.xsl</files></stylesheet>
     <stylesheetParams>
       <param name="languages">en</param>
+      <param name="persons-file">
+        <files>source/authority/attestedpersons.xml</files>
+      </param>
+      <param name="professions-file">
+        <files>source/authority/professions.xml</files>
+      </param>
     </stylesheetParams>
   </xsltTransform>
-  -->
 
-  <!--
   <xsltTransform name="generate-eleventy-data">
     <sourceFiles><from node="extract-epidoc-metadata" output="transformed"/></sourceFiles>
     <stylesheet><files>source/stylesheets/lib/create-11ty-data.xsl</files></stylesheet>
@@ -59,9 +72,7 @@
             stripPrefix="source/inscriptions"
             extension=".11tydata.json"/>
   </xsltTransform>
-  -->
 
-  <!--
   <xsltTransform name="aggregate-indices">
     <stylesheet><files>source/stylesheets/lib/aggregate-indices.xsl</files></stylesheet>
     <initialTemplate>aggregate</initialTemplate>
@@ -71,9 +82,7 @@
     </stylesheetParams>
     <output to="_assembly/_data/indices" filename="_summary.json"/>
   </xsltTransform>
-  -->
 
-  <!--
   <xsltTransform name="aggregate-search-data">
     <stylesheet><files>source/stylesheets/lib/aggregate-search-data.xsl</files></stylesheet>
     <initialTemplate>aggregate</initialTemplate>
@@ -83,7 +92,6 @@
     </stylesheetParams>
     <output to="_assembly/search-data" filename="documents_en.json"/>
   </xsltTransform>
-  -->
 
   <eleventyBuild name="eleventy-build">
     <sourceDir><collect>_assembly</collect></sourceDir>

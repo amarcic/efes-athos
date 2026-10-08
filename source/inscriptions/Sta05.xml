@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Signatures of painters Theophanes the Cretan and Symeon</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Sta05</idno>
+                <idno type="InscrAthos">203</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> on the inner side of a <material>marble</material><objectType>mullion capital</objectType>.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Black majuscules with accents and breathings, ligatures, and borrowings from minuscule; perhaps inscribed by one of the two painters<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Stavroniketa, Main church, south side, central bifora</origPlace>
+                            <origDate>ca. 1546</origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed">Now reused as a window sill in the south wall, at the window closest to the narthex
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Sta05.jpg">
+            <desc>View of the inner side of the mullion capital with the inscription</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb/><gap reason="lost" extent="unknown" unit="line"/>
+                   <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>η</unclear> <placeName type="ethnic">Κριτὸς</placeName>
+                   <lb n="2"/>τ<hi rend="ligature">ου</hi> <persName type="attested" ref="#pers52">Θεοφ<hi rend="ligature">άν</hi><hi rend="ligature">ου</hi>ς</persName>
+                   <lb n="3"/><expan><abbr>κ</abbr><ex>αὶ</ex></expan> <persName type="attested" ref="#pers53">Σιμεον</persName>
+                   <lb n="4"/><term type="office" ref="of0216"><expan><abbr>μ</abbr><ex>ονα</ex><abbr>χ</abbr><ex>ῶν</ex></expan></term>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>The first lines of the inscription are not preserved, but the text is attested by Uspenskij in 1846, who must have seen it before the remodelling of the south side of the main church. The missing part of the original text appears to have mentioned that the church was constructed thanks to the patronage of patriarch Jeremias I and painted by Theophanes the Cretan and Simeon, with the contribution of <persName type="attested" ref="#pers54">Makarios</persName>, bishop of Hierissos and Mount Athos, and <persName type="attested" ref="#pers55">Gregory</persName>, dikaios of the monastery, on 3 July. Since there is not enough space for all this information on the mullion capital, the first lines of the text must have been inscribed elsewhere, perhaps onto the masonry above the capital, between the two openings of the original bifora window.</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>Theophanes, Υπογραφή.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

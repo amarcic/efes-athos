@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of icon frame for the icon of the Virgin Esphagmene</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Vat27</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>On the <objectType>icon frame</objectType> (koubouklion) for the icon of the Virgin Esphagmene <material></material> </p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>  <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Vatopedi, Chapel of Saint Demetrios </origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed"></provenance>
+                            <provenance type="not-observed">attested, lost</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb n="1"/>7189 = ἀπό δὲ <expan><abbr>Χ</abbr><ex>ριστ</ex>οῦ</expan> ἔτος <date from="1681-01-01" to="1681-08-31">1681</date>. Ἡγουμενεύοντος τοῦ πανοσιωτάτου κυρίου <persName type="attested" ref="#pers26">Σεραφείμ</persName> ἔγινε τὸ παρὸν διὰ συνδρομῆς καὶ ἐξόδου, τοῦ ὁσιωτάτου ἐν Μοναχοῖς, γέρο κυρ <persName type="attested" ref="#pers27">Ἀνθίμου τὸ ἐπίκλην Ὀζαδίνου</persName>, και γέροντος τῆς Μονῆς τοῦ βατοπαιδίου, χεὶρ δὲ <persName type="attested" ref="#pers28">Μακαρίου ἱερομονάχου, <rs type="occupation">ζωγράφου</rs> Καλλέργη</persName>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> The text is transmitted by Proskynetarion 293. The transcription offered here follows that of Ioakeim Papangelos. It appears that the phrase ἀπό δὲ Χ(ριστ)οῦ ἔτος 1681 is an addition by the scribe of the manuscript and that the inscription only included the date from Creation, 7189. In this case, the reckoning 1681 would have to be corrected to 1680/1681, since there is no indication of month or that the scribe was aware of the complete conversion formula X-5509/5508.</p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Mamaloukos, Papangelos</p>
+            </div>
+        </body>
+    </text>
+</TEI>

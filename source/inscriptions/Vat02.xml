@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription for the mosaic decoration</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>JGU</authority>
+                <idno type="filename">Vat02</idno>
+                <idno type="InscrAthos">47</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><rs type="execution">Mosaic</rs> inscription on the <objectType>lunette</objectType> above the entrance from the outer narthex to the inner narthex <material/>and information, <dimensions/>, etc.)</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>plain, square majuscule letters with accents and breathings, black letters against gold background. No ligatures <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Vatopedi, Main church
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Vat02.jpg">
+            <desc>General view of the mosaic and the inscription</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lg>
+                        <l n="1"><lb n="1"/>Τὰ πρὶν ἀκαλλῆ καὶ ῥυέντα τῷ χρώνῳ,</l><l n="2"> ψηφῖσι χρυσαῖς καὶ λαμπρῶς βεβαμμέναις,</l> <l n="3">φαιδρῶς ἀγλαῶς κατεκοσμήθη λίαν,</l>
+                   <l n="4"> <lb n="2"/>σπουδῇ πόνῳ τε καὶ πόθῳ διαπύρῳ,</l><l n="5"> τοῦ ποιμενάρχου τῆσδε τῆς μονῆς λόγε,</l> <l n="6"><persName type="attested" ref="#pers3">Ἰωαννικίου</persName> τε τοῦ τρισολβίου,</l>
+                   <l n="7"> <lb n="3"/>ᾧ καὶ παρέξοις σὴν βασιλείαν χάριν, </l><l n="8">ταῖς ἱκεσίαις <persName type="divine" key="Virgin Mary">Πανάγνου</persName> καὶ <persName type="divine" key="Saint John the Baptist">Προδρόμου</persName>,</l><l n="9"> ταῦτα μοναχὸς <persName type="attested" ref="#pers4">Σωφρόνιος</persName> νῦν λέγει.</l>
+                        </lg>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Rhoby; Index; IMMB;</p>
+            </div>
+        </body>
+    </text>
+</TEI>

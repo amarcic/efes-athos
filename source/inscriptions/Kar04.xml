@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building inscription of Petru IV Rareș of Moldavia</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Kar04</idno>
+                <idno type="InscrAthos">332</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> <objectType>slab</objectType>on the west facade of the tower of the boat dock, above the entrance to the tower.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Majuscules with borrowings from miniscule (for example, μ in the word μπαρμπακᾶς), ligatures, accents and breathings<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Karakallou, Boat dock</origPlace>
+                            <origDate>1533/34, indiction 7</origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed">
+						</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="/">
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+			<div type="textpart" subtype="section" n="1">
+                <ab>
+					<lb n="1"/><persName type="attested" ref="#pers61">Γερμα
+					<lb n="	2" break="no"/>νὸς</persName> <term type="office" ref="of0210">κα
+					<lb n="3" break="no"/>θιγού
+					<lb n="4" break="no"/>μενος </term></ab></div>
+			<div type="textpart" subtype="section" n="2">
+				<ab>
+					<lb n="1"/><persName type="attested" ref="#pers58">Ἰωάννης Πέτρος Βοεβόδας</persName>
+					<lb n="2"/><persName type="attested" ref="#pers62">Ἰωάσαφ</persName> <term type="office" ref="of0216">μοναχὸς</term> κτήτορος
+					<lb n="3"/><persName type="attested" ref="#pers63">Συρόπουλος Διονύσιος</persName> <expan><abbr>χ</abbr><ex>ατζῆ</ex></expan> <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
+					<lb n="4"/><term type="profession" ref="prf0003">πρωτομαστόρης</term> <date from="1533-09-01" to="1534-08-31">ἔτ<hi rend="ligature">ου</hi>ς <num value="7042">ζμβ</num></date> ἐτε
+					<lb n="5" break="no"/>λιόθη ὁ πύργος καὶ ὁ μπαρμπακᾶς
+					<lb n="6"/><expan><ex>ινδικτιῶνος</ex></expan> <num value="7">Ζ</num> </ab></div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>Cheilas; Papangelos-Tavlakis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

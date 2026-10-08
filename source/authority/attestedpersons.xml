@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Attested Persons in Athonite Epigraphy</title>
+            <editor xml:id="NM">Nicholas Melvani</editor>
+            <editor xml:id="NW">Nathan Websdale</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Patronage and Power in the Pre-Modern Mediterranean: Monumental Donor Epigraphy on Mt Athos, AHRC-DFG Research Project 2026-2029</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <ab/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1">
+                  <persName xml:lang="grc">Θεοφάνης</persName>
+                  <persName xml:lang="en">Theophanes</persName>
+                  <idno>PLP7585</idno>
+                  <idno>TheophBat 112</idno>
+                  <floruit notBefore="1425" notAfter="1432">
+                     <seg xml:lang="en">1425/26–1432 C.E.</seg>
+                  </floruit>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat01</bibl>
+                     <bibl>Vat06</bibl>
+                     <bibl>Vat07</bibl>
+                  </listBibl>
+
+               </person>
+               <person xml:id="pers2">
+                  <persName xml:lang="grc">Μεθόδιος</persName>
+                  <persName xml:lang="en">Methodios</persName>
+                  <idno>PLP17595</idno>
+                  <floruit notBefore="1425" notAfter="1426">
+                     <seg xml:lang="en">1425-1426 C.E.</seg>
+                  </floruit>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat01</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers3">
+                  <persName xml:lang="grc">Ἰωαννίκιος</persName>
+                  <persName xml:lang="en">Ioannikios</persName>
+                  <idno>PLP8794</idno>
+                  <idno>TheophBat 111</idno>
+                  <floruit notBefore="1094" notAfter="1340">
+                     <seg xml:lang="en">1094-1340 C.E.</seg>
+                  </floruit>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat02</bibl>
+                  </listBibl>
+
+               </person>
+               <person xml:id="pers4">
+                  <persName xml:lang="grc">Σωφρόνιος</persName>
+                  <persName xml:lang="en">Sophronios</persName>
+                  <idno>PLP27378</idno>
+                  <floruit notBefore="1094" notAfter="1340">
+                     <seg xml:lang="en">1094-1340 C.E.</seg>
+                  </floruit>
+                  <occupation/>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat02</bibl>
+                  </listBibl>
+
+               </person>
+               <person xml:id="pers5">
+                  <persName xml:lang="grc">Θεοδόσιος ὁ Πελοποννήσιος</persName>
+                  <persName xml:lang="en">Theodosios the Peloponnesian</persName>
+                  <idno>TheophBat113</idno>
+                  <floruit notBefore="1652" notAfter="1653">
+                     <seg xml:lang="en">1652-1653 C.E.</seg>
+                  </floruit>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <birth>Peleponnese<rs type="placename" ref="geography.xml#geo0337"></rs></birth>
+                  <listBibl>
+                     <bibl>Vat03</bibl>
+                  </listBibl>
+
+
+               </person>
+               <person xml:id="pers6">
+                  <persName xml:lang="grc">Γρηγόριος</persName>
+                  <persName xml:lang="en">Gregory</persName>
+                  <floruit notBefore="1677" notAfter="1678">
+                     <seg xml:lang="en">1677-1678 C.E.</seg>
+                  </floruit>
+                  <occupation>μητροπολίτης τῆς Λαοδικείας<rs type="offices" ref="offices.xml#of0214"/></occupation>
+                  <residence>Iaşi<rs type="placeName" ref ="geography.xml#geo0333"></rs>></residence>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat04</bibl>
+                  </listBibl>
+
+
+               </person>
+               <person xml:id="pers7">
+                  <persName xml:lang="grc">Θεοφάνης</persName>
+                  <persName xml:lang="en">Theophanes</persName>
+                  <floruit notBefore="1636" notAfter="1637">
+                     <seg xml:lang="en">1636-1637 C.E.</seg>
+                  </floruit>
+                  <occupation>ἡγούμενος<rs type="offices" ref="offices.xml#of0208"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat07</bibl>
+                  </listBibl>
+
+
+               </person>
+               <person xml:id="pers8">
+                  <persName xml:lang="grc">Ἰωάσαφ</persName>
+                  <persName xml:lang="en">Joseph</persName>
+                  <floruit notBefore="1636" notAfter="1637">
+                     <seg xml:lang="en">1636-1637 C.E.</seg>
+                  </floruit>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat07</bibl>
+                  </listBibl>
+
+
+               </person>
+               <person xml:id="pers22">
+                  <persName xml:lang="grc">Ἀλέξιος ὁ Μοσχοβίας</persName>
+                  <persName xml:lang="en">Alexei Mikhailovich</persName>
+                  <persName xml:lang="ru">Алексей Михайлович</persName>
+                  <floruit notBefore="1645" notAfter="1676">
+                     <seg xml:lang="en">1654-1676 C.E.</seg>
+                  </floruit>
+                  <occupation>tsar<rs type="offices" ref="offices.xml#of0306"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <residence>Moscow<rs type="placeName" ref ="geography.xml#geo0338"></rs></residence>
+                  <listBibl>
+                     <bibl>Vat08</bibl>
+                  </listBibl>
+
+
+               </person>
+               <person xml:id="pers9">
+                  <persName xml:lang="grc">Μάξιμος</persName>
+                  <persName xml:lang="en">Maximos</persName>
+                  <floruit notBefore="1653" notAfter="1654">
+                     <seg xml:lang="en">1653-1654 C.E.</seg>
+                  </floruit>
+                  <occupation>ἡγούμενος<rs type="offices" ref="offices.xml#of0208"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat08</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers10">
+                  <persName xml:lang="grc">Ρωμανός</persName>
+                  <persName xml:lang="en">Romanos</persName>
+                  <floruit notBefore="1644" notAfter="1654">
+                     <seg xml:lang="en">1644-1654 C.E.</seg>
+                  </floruit>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <birth>Galatista<rs type="placeName" ref ="geography.xml#geo0338"></rs></birth>
+                  <listBibl>
+                     <bibl>Vat08</bibl>
+                     <bibl>Vat09</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers11">
+                  <persName xml:lang="grc">Γρηγόριος</persName>
+                  <persName xml:lang="en">Gregory</persName>
+                  <floruit notBefore="1644" notAfter="1645">
+                     <seg xml:lang="en">1644-1645 C.E.</seg>
+                  </floruit>
+                  <occupation>καθηγούμενος<rs type="offices" ref="offices.xml#of0210"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <birth>Ioannina<rs type="placeName" ref ="geography.xml#geo0335"></rs></birth>
+                  <listBibl>
+                     <bibl>Vat09</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers12">
+                  <persName xml:lang="grc">Νικηφόρος</persName>
+                  <persName xml:lang="en">Nikephoros</persName>
+                  <floruit notBefore="1644" notAfter="1645">
+                     <seg xml:lang="en">1644-1645 C.E.</seg>
+                  </floruit>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat09</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers23">
+                  <persName xml:lang="grc">Στέφανος</persName>
+                  <persName xml:lang="en">Stephen</persName>
+                  <floruit notBefore="1457" notAfter="1504">
+                     <seg xml:lang="en">1457-1504 C.E.</seg>
+                  </floruit>
+                  <occupation>βοεβόδας Μολδοβλαχίας<rs type="offices" ref="offices.xml#of0302"/></occupation> 
+                  <residence>Suceava<rs type="placename" ref="offices.xml#geo0334"/>></residence>
+                  <affiliation>Vatopedi</affiliation>
+                  <birth>Ioannina<rs type="placename" ref="geography.xml#geo0335"></rs></birth>
+                  <listBibl>
+                     <bibl>Vat11</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers13">
+                  <persName xml:lang="grc">Κύριλλος</persName>
+                  <persName xml:lang="en">Cyril</persName>
+                  <floruit notBefore="1495" notAfter="1496">
+                     <seg xml:lang="en">1495-1496 C.E.</seg>
+                  </floruit>
+                  <occupation>ἡγούμενος<rs type="offices" ref="offices.xml#of0208"/></occupation>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <birth>Ioannina<rs type="placename" ref="geography.xml#geo0335"></rs></birth>
+                  <listBibl>
+                     <bibl>Vat11</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers14">
+                  <persName xml:lang="grc">Διονύσιος Ξενιότης</persName>
+                  <persName xml:lang="en">Dionysios Xeniotes</persName>
+                  <floruit notBefore="1671" notAfter="1672">
+                     <seg xml:lang="en">1671-1672 C.E.</seg>
+                  </floruit>
+                  <occupation>προηγούμενος<rs type="offices" ref="offices.xml#of0299"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat12</bibl>
+                  </listBibl>
+               </person>
+
+
+               <person xml:id="ruler1">
+                  <persName xml:lang="grc">Ἀνδρόνικος Παλαιολόγος</persName>
+                  <persName xml:lang="en">Andronikos II Palaiologos </persName>
+                  <idno>PLP21436</idno>
+                  <floruit notBefore="1282" notAfter="1328">
+                     <seg xml:lang="en">1283-1328 C.E.</seg>
+                  </floruit>
+                  <occupation>βασιλεύς</occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat13</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers15">
+                  <persName xml:lang="grc">Ἀρσένιος</persName>
+                  <persName xml:lang="en">Arsenios</persName>
+                  <idno>PLP1393</idno>
+                  <floruit notBefore="1311" notAfter="1312">
+                     <seg xml:lang="en">1311-1312 C.E.</seg>
+                  </floruit>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat13</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers16">
+                  <persName xml:lang="grc">Μάξιμος</persName>
+                  <persName xml:lang="en">Maximos</persName>
+                  <idno>TheophBat 115</idno>
+                  <floruit notBefore="1563" notAfter="1568">
+                     <seg xml:lang="en">1563-1568 C.E.</seg>
+                  </floruit>
+                  <occupation>ἡγούμενος<rs type="offices" ref="offices.xml#of0208"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat14</bibl>
+                     <bibl>Vat24</bibl>
+                     <bibl>Archeio Pantokrator 44</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers17">
+                  <persName xml:lang="grc">Λαυρέντιος</persName>
+                  <persName xml:lang="en">Laurentios</persName>
+                  <floruit notBefore="1566" notAfter="1567">
+                     <seg xml:lang="en">1566-1577 C.E.</seg>
+                  </floruit>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat14</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers18">
+                  <persName xml:lang="grc">Ἰωάσαφ</persName>
+                  <persName xml:lang="en">Joseph</persName>
+                  <floruit notBefore="1566" notAfter="1567">
+                     <seg xml:lang="en">1566-1567 C.E.</seg>
+                  </floruit>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat14</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers19">
+                  <persName xml:lang="grc">Γρηγόριος</persName>
+                  <persName xml:lang="en">Gregory</persName>
+                  <floruit notBefore="1618" notAfter="1619">
+                     <seg xml:lang="en">1618-1619 C.E.</seg>
+                  </floruit>
+                  <occupation>ἡγούμενος<rs type="offices" ref="offices.xml#of0208"/></occupation>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat15</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers24">
+                  <persName xml:lang="grc">Ἰωάννης Οὔγγλεσης</persName>
+                  <persName xml:lang="en">John Uglješa</persName>
+                  <persName xml:lang="ru">Јован Угљеша</persName>
+                  <idno>PLP21150</idno>
+                  <floruit notBefore="1346" notAfter="1371">
+                     <seg xml:lang="en">1346-1371 C.E.</seg>
+                  </floruit>
+                  <occupation>δεσπότης<rs type="offices" ref="offices.xml#of0301"/></occupation>
+                  <residence>Serres<rs type="placeName" ref="geography.xml#geo0202"></rs></residence>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat16</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers31">
+                  <persName xml:lang="grc">Ματθαίος Ἰωάννης Καντακουζηνός</persName>
+                  <persName xml:lang="en">Matthew John Kantakouzenos</persName>
+                  <idno>PLP10983</idno>
+                  <floruit notBefore="1342" notAfter="1381">
+                     <seg xml:lang="en">1342-1381 C.E.</seg>
+                  </floruit>
+                  <occupation>συμβασιλεύς<rs type="offices" ref="offices.xml#of309"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat17</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers46">
+                  <persName xml:lang="grc">Ἰωάννης Καντακουζηνός</persName>
+                  <persName xml:lang="en">John (VI) Kantakouzenos</persName>
+                  <idno>PLP10973</idno>
+                  <floruit notBefore="1328" notAfter="1347">
+                     <seg xml:lang="en">1328-1337 C.E.</seg>
+                  </floruit>
+                  <affiliation>Vatopedi</affiliation>
+                  <occupation>μέγας δομέστικος<rs type="offices" ref="offices.xml#of0244"/></occupation>
+                  <listBibl>
+                     <bibl>Vat17</bibl>
+                  </listBibl>
+               </person>
+               
+
+               <person xml:id="pers20">
+                  <persName xml:lang="grc">Μακάριος</persName>
+                  <persName xml:lang="en">Makarios</persName>
+                  <persName xml:lang="grc">Μιχαὴλ</persName>
+                  <persName xml:lang="en">Michael</persName>
+                  <floruit notBefore="1546" notAfter="1546">
+                     <seg xml:lang="en">1546 C.E.</seg>
+                  </floruit>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat18</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers25">
+                  <persName xml:lang="grc">Γρηγόριος</persName>
+                  <persName xml:lang="en">Gregory</persName>
+                  <idno>TheophBat 115</idno>
+                  <floruit notBefore="1600" notAfter="1699">
+                     <seg xml:lang="en">1600-1699 C.E.</seg>
+                  </floruit>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <birth>Ioannina<rs type="placename" ref="geography.xml#geo0335"></rs></birth>
+                  <listBibl>
+                     <bibl>Vat26</bibl>
+                     <bibl>Vat09</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers26">
+                  <persName xml:lang="grc">Σεραφείμ</persName>
+                  <persName xml:lang="en">Seraphim</persName>
+                  <idno>TheophBat 116</idno>
+                  <floruit notBefore="1680" notAfter="1681">
+                     <seg xml:lang="en">1680-1681 C.E.</seg>
+                  </floruit>
+                  <occupation>ἡγούμενος<rs type="offices" ref="offices.xml#of0208"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat27</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers27">
+                  <persName xml:lang="grc">Ἄνθιμος</persName>
+                  <persName xml:lang="en">Anthimos</persName>
+                  <floruit notBefore="1680" notAfter="1681">
+                     <seg xml:lang="en">1680-1681 C.E.</seg>
+                  </floruit>
+                  <occupation>ἡγούμενος<rs type="offices" ref="offices.xml#of0208"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat27</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers28">
+                  <persName xml:lang="grc">Μακάριος</persName>
+                  <persName xml:lang="en">Makarios</persName>
+                  <idno>TheophBat 118</idno>
+                  <floruit notBefore="1680" notAfter="1681">
+                     <seg xml:lang="en">1680-1681 C.E.</seg>
+                  </floruit>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <occupation>ζωγράφος<rs type="professions" ref="professions.xml#prf002"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat27</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers29">
+                  <persName xml:lang="grc">Νήφων</persName>
+                  <persName xml:lang="en">Niphon</persName>
+                  <idno>PLP20621</idno>
+                  <idno>TheophBat 112</idno>
+                  <floruit notBefore="1319" notAfter="1320">
+                     <seg xml:lang="en">1319-1320 C.E.</seg>
+                  </floruit>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat28</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers30">
+                  <persName xml:lang="grc">Ἀθανάσιος</persName>
+                  <persName xml:lang="en">Athanasios</persName>
+                  <idno>http://pbw2016.kdl.kcl.ac.uk/person/Athanasios/102/</idno>
+                  <idno>TheophBat 111</idno>
+                  <floruit notBefore="1020" notAfter="1048">
+                     <seg xml:lang="en">1020-1048 C.E.</seg>
+                  </floruit>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <occupation>ἡγούμενος<rs type="offices" ref="offices.xml#of0208"/></occupation>
+                  <affiliation>Vatopedi</affiliation>
+                  <listBibl>
+                     <bibl>Vat29</bibl>
+                     <bibl>Vat30</bibl>
+                  </listBibl>
+               </person>
+            
+               <person xml:id="pers34">
+                  <persName xml:lang="grc">Ἀλέξιος</persName>
+                  <persName xml:lang="en">Alexios</persName>
+                  <idno>PLP91128</idno>
+                  <floruit notBefore="1362" notAfter="1363">
+                     <seg xml:lang="en">1362-1363 C.E.</seg>
+                  </floruit>
+                  <occupation>μέγας στρατοπεδάρχης<rs type="offices" ref="offices.xml#of0304"/></occupation>
+                  <affiliation>Pantokrator</affiliation>
+                  <birth>Belikome<rs type="placename" ref="geography.xml#geo0336"></rs></birth>
+                  <residence>Chrysoupolis<placeName ref="geography.xml#geo0127"></placeName></residence>
+                  <listBibl>
+                     <bibl>Pkr01</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers32">
+                  <persName xml:lang="grc">Ἰωάννης</persName>
+                  <persName xml:lang="en">John</persName>
+                  <persName xml:lang="grc">Ἰωαννίκιος</persName>
+                  <persName xml:lang="en">Ioannikios</persName>
+                  <idno>PLP92154</idno>
+                  <floruit notBefore="1362" notAfter="1363">
+                     <seg xml:lang="en">1362-1363 C.E.</seg>
+                  </floruit>
+                  <occupation>μέγας πριμικήριος<rs type="offices" ref="offices.xml#of0305"/></occupation>
+                  <affiliation>Pantokrator</affiliation>
+                  <birth>Belikome<rs type="placename" ref="geography.xml#geo0336"></rs></birth>
+                  <residence>Chrysoupolis<placeName ref="geography.xml#geo0127"></placeName></residence>
+                  <listBibl>
+                     <bibl>Pkr01</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers33">
+                  <persName xml:lang="grc">Ἠσαΐας</persName>
+                  <persName xml:lang="en">Isaiah</persName>
+                  <persName xml:lang="grc">Ἠσαϊάδα</persName>
+                  <floruit notBefore="1622" notAfter="1622">
+                     <seg xml:lang="en">1622 C.E.</seg>
+                  </floruit>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <affiliation>Pantokrator</affiliation>
+                  <listBibl>
+                     <bibl>Pkr02</bibl>
+                  </listBibl>
+               </person>
+              
+               <person xml:id="pers35">
+                  <persName xml:lang="grc">Ματθαίος</persName>
+                  <persName xml:lang="en">Matthew</persName>
+                  <floruit notBefore="1640" notAfter="1640">
+                     <seg xml:lang="en">10-08-1640 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <listBibl>
+                     <bibl>Pkr03</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers36">
+                  <persName xml:lang="grc">Χρύσανθος Κλήεντης</persName>
+                  <persName xml:lang="en">Chrysanthos Kleyentis</persName>
+                  <floruit notBefore="1640" notAfter="1640">
+                     <seg xml:lang="en">10-08-1640 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <occupation>δικαίος<rs type="offices" ref="offices.xml#of0307"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr03</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers37">
+                  <persName xml:lang="grc">Αντώνιος</persName>
+                  <persName xml:lang="en">Antony</persName>
+                  <floruit notBefore="1654" notAfter="1655">
+                     <seg xml:lang="en">1654-1655 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <affiliation>Chilandar</affiliation>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr04</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers38">
+                  <persName xml:lang="grc">Γαβριὴλ Tρουσιάνος</persName>
+                  <persName xml:lang="en">Gabriel Trousianos</persName>
+                  <persName xml:lang="ru">Стани</persName>
+                  <persName xml:lang="ru">Станлȗ</persName>
+                  <persName xml:lang="en">Stanǐ</persName>
+                  <persName xml:lang="en">Stanlȗ</persName>
+                  <persName xml:lang="en">Barboul</persName>
+                  <floruit notBefore="1536" notAfter="1537">
+                     <seg xml:lang="en">1536-1537 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>μέγας λογοθέτης (Romanian)<rs type="offices" ref="offices.xml#of308"/></occupation> 
+                  <residence>Suceava<rs type="placename" ref="geography.xml#geo0334"></rs>></residence>
+                  <listBibl>
+                     <bibl>Pkr06</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers39">
+                  <persName xml:lang="grc">Ιερεμίας</persName>
+                  <persName xml:lang="en">Jeremiah</persName>
+                  <floruit notBefore="1655" notAfter="1656">
+                     <seg xml:lang="en">1655-1656 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>καθηγούμενος<rs type="offices" ref="offices.xml#of0210"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr08</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers40">
+                  <persName xml:lang="grc">Θεοδόσιος</persName>
+                  <persName xml:lang="en">Theodosios</persName>
+                  <floruit notBefore="1636" notAfter="1637">
+                     <seg xml:lang="en">1636-1637 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr09</bibl>
+                  </listBibl>
+               </person>  
+               
+               <person xml:id="pers41">
+                  <persName xml:lang="grc">Κωνσταντίνος</persName>
+                  <persName xml:lang="en">Constantine</persName>
+                  <floruit notBefore="1636" notAfter="1637">
+                     <seg xml:lang="en">1636-1637 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr09</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers42">
+                  <persName xml:lang="grc">Βασίλειος</persName>
+                  <persName xml:lang="en">Basil</persName>
+                  <floruit notBefore="1636" notAfter="1637">
+                     <seg xml:lang="en">1636-1637 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr09</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers43">
+                  <persName xml:lang="grc">Κύριλλος</persName>
+                  <persName xml:lang="en">Cyril</persName>
+                  <floruit notBefore="1625" notAfter="1675">
+                     <seg xml:lang="en">1625-1675 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr10</bibl>
+                     <bibl>Pkr11</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers44">
+                  <persName xml:lang="grc">Ἰωάννης</persName>
+                  <persName xml:lang="en">John</persName>
+                  <floruit notBefore="1375" notAfter="1425">
+                     <seg xml:lang="en">1375-1425 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr13</bibl>
+                  </listBibl>
+               </person>
+
+               <person xml:id="pers45">
+                  <persName xml:lang="grc">Ἄνθιμος</persName>
+                  <persName xml:lang="en">Anthimos</persName>
+                  <floruit notBefore="1637" notAfter="1638">
+                     <seg xml:lang="en">1637-1638 C.E.</seg>
+                  </floruit>
+                  <affiliation>Pantokrator</affiliation>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <occupation>προηγούμενος<rs type="offices" ref="offices.xml#of0299"/></occupation>
+                  <listBibl>
+                     <bibl>Pkr14</bibl>
+                  </listBibl>
+               </person>
+               
+               
+               <person xml:id="pers47">
+                  <persName xml:lang="grc">Μαρδάριος</persName>
+                  <persName xml:lang="en">Mardarios</persName>
+                  <persName xml:lang="grc">Μακάριος</persName>
+                  <persName xml:lang="en">Makarios</persName>
+                  <floruit notBefore="1614-05-04" notAfter="1614-05-04">
+                     <seg xml:lang="en">1614-05-04 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <residence>Iaşi<rs type="placename" ref ="geography.xml#geo0333"></rs></residence>
+                  <occupation>μητροπολίτης τῆς Μολδοβλαχίας<rs type="offices" ref="offices.xml#of0214"/></occupation>
+                  <listBibl>
+                     <bibl>Sta02</bibl>
+                  </listBibl>
+               </person>
+              
+               <person xml:id="pers48">
+                  <persName xml:lang="grc">Ἰερεμίας Α΄</persName>
+                  <persName xml:lang="en">Jeremiah I</persName>
+                  <floruit notBefore="1551" notAfter="1552">
+                     <seg xml:lang="en">1551-1552 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <birth><placeName ref="https://www.geonames.org/251197/zitsa.html">Zitsa</placeName></birth>
+                  <residence>Constantinople<rs type="placename" ref="geography.xml#geo0110"></rs></residence>
+                  <occupation>πατριάρχης, οἰκουμενικός<rs type="offices" ref="offices.xml#of0218"/></occupation>
+                  <listBibl>
+                     <bibl>Sta03</bibl>
+                     <bibl>Sta04</bibl>
+                     <bibl>Sta06</bibl>
+                     <bibl>Sta07</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers49">
+                  <persName xml:lang="grc">Μάξιμος</persName>
+                  <persName xml:lang="en">Maximos</persName>
+                  <floruit notBefore="1591" notAfter="1691">
+                     <seg xml:lang="en">1591-1691 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <occupation>προηγούμενος<rs type="offices" ref="offices.xml#of0299"/></occupation>
+                  <listBibl>
+                     <bibl>Sta04</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers50">
+                  <persName xml:lang="grc">Ἀνδρίνικος Σουρχτζής</persName>
+                  <persName xml:lang="en">Andronikos Sourchtzis</persName>
+                  <floruit notBefore="1591" notAfter="1691">
+                     <seg xml:lang="en">1591-1691 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <occupation>ἄρχον<rs type="offices" ref="offices.xml#of0031"/></occupation> 
+                  <listBibl>
+                     <bibl>Sta04</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers51">
+                  <persName xml:lang="grc">Θεόδουλος</persName>
+                  <persName xml:lang="en">Theodoulos</persName>
+                  <floruit notBefore="1591" notAfter="1691">
+                     <seg xml:lang="en">1591-1691 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <listBibl>
+                     <bibl>Sta04</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers52">
+                  <persName xml:lang="grc">Θεοφάνης Στρελίτζας</persName>
+                  <persName xml:lang="en">Theophanes Strelitzas</persName>
+                  <persName xml:lang="grc">Θεοφάνης Μπαθᾶς</persName>
+                  <persName xml:lang="en">Theophanes Bathas</persName>
+                  <floruit notBefore="1546" notAfter="1546">
+                     <seg xml:lang="en">1546 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <affiliation>Great Lavra</affiliation>
+                  <birth>Heraklion<placeName ref="https://www.geonames.org/261745/irakleion.html"></placeName></birth>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <occupation>ζωγράφος<rs type="professions" ref="professions.xml#prf002"/></occupation>
+                  <listBibl>
+                     <bibl>Sta05</bibl>
+                  </listBibl>
+               </person>
+               
+               
+               <person xml:id="pers53">
+                  <persName xml:lang="grc">Συμεὼν</persName>
+                  <persName xml:lang="en">Symeon</persName>
+                  <floruit notBefore="1546" notAfter="1546">
+                     <seg xml:lang="en">1546 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <occupation>ζωγράφος<rs type="professions" ref="professions.xml#prf002"/></occupation>
+                  <listBibl>
+                     <bibl>Sta05</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers54">
+                  <persName xml:lang="grc">Μακάριος</persName>
+                  <persName xml:lang="en">Makarios</persName>
+                  <floruit notBefore="1546" notAfter="1546">
+                     <seg xml:lang="en">1546 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <occupation>μητροπολίτης Ιερισσού<rs type="offices" ref="offices.xml#of0214"/></occupation>
+                  <residence>Ierrisos<rs type="placename" ref="geography.xml#geo0340"></rs></residence>
+                  <listBibl>
+                     <bibl>Sta05</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers55">
+                  <persName xml:lang="grc">Γρηγόριος (Γερομεριάτης?)</persName>
+                  <persName xml:lang="en">Gregory (Geromeriates?)</persName>
+                  <floruit notBefore="1546" notAfter="1546">
+                     <seg xml:lang="en">1546 C.E.</seg>
+                  </floruit>
+                  <affiliation>Stavroniketa</affiliation>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <occupation>δικαίος<rs type="offices" ref="offices.xml#of0307"/></occupation>
+                  <listBibl>
+                     <bibl>Sta05</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers56">
+                  <persName xml:lang="grc">Λέων Καχετίου</persName>
+                  <persName xml:lang="en">Levon I Bagratoni of Kakheti</persName>
+                  <persName xml:lang="Georg">ლევან</persName>
+                  <floruit notBefore="1539" notAfter="1540">
+                     <seg xml:lang="en">1539-1540 C.E.</seg>
+                  </floruit>
+                  <affiliation>Philotheou</affiliation>
+                  <residence>Gremi<rs type="placename" ref="geography.xml#geo0332"></rs></residence>
+                  <occupation>Mepe<rs type="offices" ref="offices.xml#of0310"/></occupation>
+                  <listBibl>
+                     <bibl>Phi01</bibl>
+                     <bibl>Phi02</bibl>
+                     <bibl>Phi03</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers57">
+                  <persName xml:lang="grc">Ἀλεξάνδριος Καχετίου</persName>
+                  <persName xml:lang="en">Alexander II of Kakheti</persName>
+                  <persName xml:lang="Georg">ალექსანდრე</persName>
+                  <floruit notBefore="1453" notAfter="1454">
+                     <seg xml:lang="en">1453-1454 C.E.</seg>
+                  </floruit>
+                  <floruit notBefore="1539" notAfter="1540">
+                     <seg xml:lang="en">1539-1540 C.E.</seg>
+                  </floruit>
+                  <affiliation>Philotheou</affiliation>
+                  <residence>Gremi<rs type="placename" ref="geography.xml#geo0332"></rs></residence>
+                  <occupation>Mepe<rs type="offices" ref="offices.xml#of0310"/></occupation>
+                  <listBibl>
+                     <bibl>Phi01</bibl>
+                     <bibl>Phi04</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers58">
+                  <persName xml:lang="grc">Ἰωάννης Πέτρος</persName>
+                  <persName xml:lang="en">Petru IV Rareș</persName>
+                  <floruit notBefore="1541" notAfter="1546">
+                     <seg xml:lang="en">1541-1546 C.E.</seg>
+                  </floruit>
+                  <affiliation>Karakallou</affiliation>
+                  <occupation>βοεβόδας Μολδοβλαχίας<rs type="offices" ref="offices.xml#of0302"/></occupation> 
+                  <residence>Suceava<rs type="placename" ref="offices.xml#geo0334"/>></residence>
+                  <listBibl>
+                     <bibl>Kar01</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers59">
+                  <persName xml:lang="grc">Παχώμιος</persName>
+                  <persName xml:lang="en">Pachomios</persName>
+                  <floruit notBefore="1541" notAfter="1546">
+                     <seg xml:lang="en">1541-1546 C.E.</seg>
+                  </floruit>
+                  <affiliation>Karakallou</affiliation>
+                  <listBibl>
+                     <bibl>Kar01</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers60">
+                  <persName xml:lang="grc">Θεοφάνης</persName>
+                  <persName xml:lang="en">Theophanes</persName>
+                  <floruit notBefore="1592" notAfter="1592">
+                     <seg xml:lang="en">1592 C.E.</seg>
+                  </floruit>
+                  <affiliation>Karakallou</affiliation>
+                  <listBibl>
+                     <bibl>Kar02</bibl>
+                     <bibl>Kar04</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers61">
+                  <persName xml:lang="grc">Γερμανὸς</persName>
+                  <persName xml:lang="en">Germanos</persName>
+                  <floruit notBefore="1533" notAfter="1534">
+                     <seg xml:lang="en">1533-1534 C.E.</seg>
+                  </floruit>
+                  <affiliation>Karakallou</affiliation>
+                  <occupation>καθηγούμενος<rs type="offices" ref="offices.xml#of0210"/></occupation>
+                  <listBibl>
+                     <bibl>Kar04</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers62">
+                  <persName xml:lang="grc">Ἰωάσαφ</persName>
+                  <persName xml:lang="en">Joseph</persName>
+                  <floruit notBefore="1533" notAfter="1534">
+                     <seg xml:lang="en">1533-1534 C.E.</seg>
+                  </floruit>
+                  <affiliation>Karakallou</affiliation>
+                  <occupation>μοναχός<rs type="offices" ref="offices.xml#of0216"/></occupation>
+                  <listBibl>
+                     <bibl>Kar04</bibl>
+                  </listBibl>
+               </person>
+               
+               <person xml:id="pers63">
+                  <persName xml:lang="grc">Διονύσιος Συρόπουλος</persName>
+                  <persName xml:lang="en">Dionysios Syropoulos</persName>
+                  <floruit notBefore="1533" notAfter="1534">
+                     <seg xml:lang="en">1533-1534 C.E.</seg>
+                  </floruit>
+                  <affiliation>Karakallou</affiliation>
+                  <occupation>πρωτομαστόρης<rs type="offices" ref="profession.xml#prf0003"/></occupation>
+                  <listBibl>
+                     <bibl>Kar04</bibl>
+                  </listBibl>
+               </person>
+               
+               
+               <person xml:id="pers64">
+                  <persName xml:lang="grc">Πλαψεολδερ</persName>
+                  <persName xml:lang="en">Placeholder</persName>
+                  <floruit notBefore="1453" notAfter="1454">
+                     <seg xml:lang="en">1453-1454 C.E.</seg>
+                  </floruit>
+                  <affiliation>Vatopedi</affiliation>
+                  <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
+                  <listBibl>
+                     <bibl>Vat14</bibl>
+                  </listBibl>
+               </person>
+               
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

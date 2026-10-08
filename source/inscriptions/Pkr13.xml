@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Signature of John the builder or marble carver</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Pkr13</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Incised</rs>on the <material>marble</material> <objectType>door lintel</objectType> above the entrance to the chapel of the Dormition of the Virgin.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>  </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Pantokrator, Chapel of the Dormition of the Virgin</origPlace>
+                            <origDate>end of 13th - beginning of 14th century</origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed"><p> </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+               <ab>
+                  <lb n="1"/><g ref="#crux">†</g><expan><abbr>Δ</abbr><ex>οῦλος</ex></expan> <expan><abbr>Χ</abbr><ex>ριστοῦ</ex></expan> <persName type="attested" ref="#pers44"></persName><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> <term type="profession" ref="prf0001"><expan><abbr>μα</abbr><ex>ΐστω</ex>ρ</expan></term>
+               </ab>
+            </div>
+            <div type="apparatus">
+                <p> Liakos also proposes the reading μαρ(μαράριος) for the final abbreviated word</p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Liakos, Unpublished, 289.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

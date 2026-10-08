@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Date formula</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Pkr06</idno>
+                 <idno type="InscrAthos">188</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution"></rs> on a <material>marble</material> <objectType>slab</objectType></p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Pantokrator, Aqueduct?</origPlace>
+                            <origDate>1536/37</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed"><p>Now embedded in the façade of the arcade of the west wing, facing the main church, above a fountain.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                <lb n="1"/><g ref="#crux">†</g> Ἔξοδος καὶ συνδρομὴ
+                <lb n="2"/>τοῦ ὕδατος τούτου καὶ ἀνἀκ
+                <lb n="3" break="no"/>τησιν τοῦ ἐντιμοτάτου ἄρ
+                <lb n="4" break="no"/>χοντος κυροῦ <persName type="attested" ref="#pers38">Γαβριὴλ τῶν Τρουσιά
+                <lb n="5" break="no"/>νω</persName> καὶ <term type="office" ref="of0308">μεγάλου λογοθέτου</term> τῆς <placeName type="historical">Μολ
+                <lb n="6" break="no"/><expan><abbr>δοβλαχί</abbr><ex>ας</ex></expan></placeName> <date from="1536-09-01" to="1537-08-31">ἔτους <num value="7045">ζ<hi rend="supraline">με</hi></num><hi rend="superscript">ου</hi></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> </p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p></p>
+            </div>
+        </body>
+    </text>
+</TEI>

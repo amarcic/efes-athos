@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of patriarch Jeremias I</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Sta03</idno>
+                <idno type="InscrAthos">214</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Carved in relief</rs> on a <material></material><objectType>slab</objectType> embedded into the arch of the central machicolation of the south tower, above the main entrance to the monastic complex.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Decorative majuscules with accents and breathings and numerous ligatures and superimposed letters; strokes of uneven thickness; several elements of minuscule and cursive, especially in l. 3 with the date formula<height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>1551/52</origDate>
+                        </origin>
+                        <provenance type="found"> Stavroniketa, Gate tower
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><g ref="#crux">†</g><persName type="attested" ref="#pers48">Ἱερεμΐου</persName> τοῦ <expan><abbr>ἁγιωτ</abbr><ex>ά</ex>του</expan> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <term type="office" ref="of0218"><expan><abbr>οἰκουμεν</abbr><ex>ι</ex>κου</expan> <expan><abbr>π</abbr><ex>ατ</ex>ριαρχου·</expan></term> <expan><ex>καὶ</ex></expan>
+                   <lb n="2"/>κτΐτωρος τῆς ϊερᾶς μονῆς ἡμῶν του <persName type="divine" key="Saint Nicholas">ἐν <expan><abbr>ἁγΐ</abbr><ex>οις</ex></expan> <expan><abbr>π</abbr><ex>ατ</ex><abbr>ρ</abbr><ex>ὸ</ex></expan>ς <expan><abbr>Νϊκ</abbr><ex>ο</ex>λάου</expan></persName>
+                    <lb n="3"/><date from="1545-09-01" to="1546-08-31">ετος <num value="7054">ˏζνδ΄</num> <g ref="#crux">†</g> <expan><ex>ἰνδικτιῶν</ex></expan>ος <num value="4">δ</num></date>. <expan><ex>καὶ</ex></expan> τοῦ <expan><abbr>Σταυρ</abbr><ex>ο</ex>νϊκήτα</expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Uspenskij; Smyrnakis, 615; Liakos, Unpublished, 294.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

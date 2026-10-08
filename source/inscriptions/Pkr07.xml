@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building inscription for the gate of Pantokrator monastery</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Pkr07</idno>
+                 <idno type="InscrAthos">192</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution"></rs>on a <material>stone</material> <objectType>slab</objectType> above the main gate of the monastery.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Pantokrator, Main gate</origPlace>
+                            <origDate>1640/41</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed"><p> </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+               <lb n="1"/>Ἀνασκευάσθη ἡ πα
+               <lb n="2" break="no"/>ροῦσα πλευρἀ<gap reason="lost" extent="unknown" unit="character"/> <date from="1640-09-01" to="1641-08-31"><num value="7149">ΖΡΜ<supplied reason="lost" cert="low">Θ</supplied></num></date>
+               <lb n="3"/><gap reason="lost" quantity="1" unit="line"/>
+               <lb n="4"/><gap reason="lost" quantity="1" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> l. 2: ΖΡΜΕ (alternative reading proposed by Millet - Pargoire - Petit) = 7145 (1636/37) </p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p></p>
+            </div>
+        </body>
+    </text>
+</TEI>

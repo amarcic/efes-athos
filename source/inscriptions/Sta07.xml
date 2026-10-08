@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Name accompanying the donor portrait of patriarch Jeremias</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Sta07</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> on both sides of the head of the figure of patriarch Jeremias I on the west wall of the narthex, to the left of the door; Jeremias is depicted standing to the left of St Nicholas (St Eustratios is shown on the right) <material></material><objectType></objectType>.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>White majuscules on a black background with accents and breathings, ligatures, and borrowings from minuscule<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Stavroniketa, Main church</origPlace>
+                            <origDate>ca. 1546</origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="/">
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <div type="textpart" subtype="column" n="1">
+                <ab><lb n="1"/> <persName type="attested" ref="#pers48"><expan><abbr>Ἱερεμία</abbr><ex>ς</ex></expan></persName> 
+                        <lb n="2"/> <term type="office" ref="of0218"><expan><abbr><hi rend="ligature">ἀρ</hi>χιἐπίσ</abbr><ex>κοπος</ex></expan></term></ab></div>
+                 <div type="textpart" subtype="column" n="2">
+                    <ab><lb n="1"/> Κωνστ<hi rend="ligature">αν</hi>τίν<hi rend="ligature">ου</hi>
+                     <lb n="2" break="no"/> πόλεως</ab></div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>Chatzidakis, Cretan Painter.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

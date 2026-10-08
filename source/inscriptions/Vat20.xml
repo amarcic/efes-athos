@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of sacristan (skeuophylax) Christopher</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>JGU</authority>
+                <idno type="filename">Vat20</idno>
+                <idno type="InscrAthos">135</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><material></material><objectType></objectType></p><dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>1683</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, funerary chapel
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                        <provenance type="not-observed">Lost, attested</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <gap reason="lost" extent="unknown" unit="character"/><date from="1683-01-01" to="1683-12-31"><supplied reason="lost" cert="low"><num value="1683">αχπγ</num></supplied></date> <gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+                </div>
+            <div type="apparatus">
+                <p>The inscription is not preserved, but its text is incorporated in the 1841 inscription (according to Uspenskij and Smyrnakis). The original text appears to have mentioned that the chapel had been restored and decorated by <persName type="attested" ref="#pers21">Christopher (Χριστοφόρος)</persName> during the patriarchate of <persName type="ruler" key="Dionysios IV, patriarch of Constantinople"></persName></p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Smyrnakis; Index, 159</p>
+            </div>
+    </body>
+    </text>
+</TEI>

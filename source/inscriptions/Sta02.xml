@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of Makarios of Moldavia-Wallachia for the construction of a seat in the inner narthex</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Sta02</idno>
+                <idno type="InscrAthos">207</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution"></rs> on the back of a <material></material><objectType>bench</objectType>against the right pillar in the inner narthex</p>
+                                  <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>5 April 1614</origDate>
+                        </origin>
+                        <provenance type="found"> Stavroniketa, Main church
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>
+                    <milestone unit="column" n="i" />Ὁ <term type="office" ref="of0214">μητροπολίτης</term> <persName type="attested" ref="#pers47">Μα<milestone unit="column" n="ii" />κάριος <placeName type="historical" key="Moldavia-Wallachia">Μολδο
+                    <lb n="2" break="no"/>
+                    <milestone unit="column" n="i" />βλαχίας</placeName></persName> <milestone unit="column" n="ii" /><date when="1614-04-05">ἔτους <num value="7122">ζ<hi rend="supraline">ρκ</hi>β</num>
+                    <lb n="3"/>
+                    <milestone unit="column" n="i" />ἐν <expan><abbr>μη</abbr><ex>ν</ex>ὶ</expan> <expan><abbr>ἀ<milestone unit="column" n="ii" />πρι</abbr><ex>λίου</ex></expan> <num value="5"><hi rend="supraline">ε</hi></num></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p></p>
+            </div>
+        </body>
+    </text>
+</TEI>

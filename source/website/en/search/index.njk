@@ -15,7 +15,8 @@ title: Search
         <!-- FACET FILTERS -->
         <!-- Add/uncomment efes-facet elements to add filter facets (field must exist in extract-search) -->
 
-        <!-- <efes-facet field="material" label="Material" expanded></efes-facet> -->
+        <efes-facet field="material" label="Material" expanded></efes-facet>
+        <efes-facet field="execution" label="Execution" expanded></efes-facet>
 
         <div class="efes-filter-actions">
             <button data-action="clear-all">Clear All Filters</button>
@@ -46,12 +47,11 @@ title: Search
                         <span data-field="title"></span>
                     </div>
                     <!-- Uncomment to show additional fields below each result
-                         (fields must be enabled in extract-search):
+                         (fields must be enabled in extract-search): -->
                     <div class="efes-result-details">
                         <span data-field="origDate"></span>
                         <span data-field="material"></span>
                     </div>
-                    -->
                 </a>
             </template>
         </efes-results>

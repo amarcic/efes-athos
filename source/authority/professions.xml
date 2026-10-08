@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LAST MODIFIED: 2026-04-15 -->
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of Professions in Athonite Epigraphy</title>
+                <editor xml:id="NM">Nicholas Melvani</editor>
+                <editor xml:id="NW">Nathan Websdale</editor>
+               
+            </titleStmt>
+            <publicationStmt>
+                <authority>Patronage and Power in the Pre-Modern Mediterranean: Monumental Donor Epigraphy on Mt Athos, AHRC-DFG Research Project 2026-2029</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <ab>This list contains sublists of Professions; see
+                    <!--<list type="civil">-->; <!--<list type="military">-->;
+                    <!--<list type="ecclesiastical">--></ab>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- @xml:id are organised as follows:
+    @xml:id="prf0001" where 'prf' stands for "profession"
+    -->
+    <text>
+        <body>
+            <list>
+                
+                
+                <item xml:id="prf0001">
+                    <term xml:lang="gr">μαΐστωρ</term>
+                    <term xml:lang="en">mason</term>
+                    <term xml:lang="fr">maçon</term>
+                    <term xml:lang="de">Steinmetz</term>
+                    <!--<term xml:lang='en'>carpenter</term>-->
+                    <term xml:lang="fr">menuisier</term>
+                    <term xml:lang="de">tischler</term>
+                </item>
+               
+                <item xml:id="prf0002">
+                    <term xml:lang="gr">ζωγράφος</term>
+                    <term xml:lang="en">painter</term>
+                    <term xml:lang="fr">peintre</term>
+                    <term xml:lang="de">Maler</term>
+                </item>
+                
+                <item xml:id="prf0003">
+                    <term xml:lang="gr">πρωτομαστόρης</term>
+                    <term xml:lang="en">first mason</term>
+                    <term xml:lang="fr">premier maçon</term>
+                    <term xml:lang="de">Erstesteinmetz</term>
+                </item>
+                
+            </list>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of the iconostasis in the main church of Pantokrator monastery</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority>JGU</authority>
+                <idno type="filename">Pkr02</idno>
+                 <idno type="InscrAthos">168</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><rs type="execution">Painted</rs> on the <objectType>lintel</objectType> of the central door of the <material>wooden</material> <objectType>iconostasis</objectType>.</p>
+                                  <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>  <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace> Pantokrator, Main church</origPlace>
+                            <origDate>January 1622</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed"><p></p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                 <lb n="1"/><date from="1622-01-01" to="1622-01-31">Ἔτους <num value="7130">ζρλ</num> ἐν <expan><abbr>μην</abbr><ex>ὶ</ex></expan> ἰανουαρίου</date> ἐτεληόθη ἡ παροῦ 
+                 <lb n="2" break="no"/>σα ὀρέα πύλη προτεύωντος διὰ χερὸς <persName type="attested" ref="#pers33">Ἠσαϊάδα</persName> <term type="office" ref="of0303">ἱερομονάχου</term>.
+                 <lb n="3"/>δέησις τοῦ δούλου τοῦ θεοῦ <persName type="attested" ref="#pers33">Ἠ
+                 <lb n="4" break="no"/>σαΐου</persName> <term type="office" ref="of0303"><expan><abbr>ἱερομ</abbr><ex>ο</ex><abbr>ν</abbr><ex>ά</ex></expan>χου</term> <orig>νφοτ</orig>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p> l. 1: ζρλε (=1627) Uspenskij</p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Katsarou</p>
+            </div>
+        </body>
+    </text>
+</TEI>

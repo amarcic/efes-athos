@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatory inscription of the door of the main church</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>JGU</authority>
+                <idno type="filename">Vat14</idno>
+                <idno type="InscrAthos">56</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><material></material><objectType></objectType>On the wooden doors of the entrance to the main church</p><dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>1566/67</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, Main church
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <lb n="1"/>Ε
+                   <lb n="2" break="no"/>τελειώθη ἡ πα
+                   <lb n="3" break="no"/>ροῦσα πυ<hi rend="ligature">λη</hi> <date from="1566-09-01" to="1567-08-31">ἐ
+                   <lb n="4" break="no"/>ν ετει <num value="7075"><hi rend="supraline">ˏζοε</hi></num></date>
+                   <lb n="5"/><hi rend="ligature">ἡγ</hi>ουμενευον
+                   <lb n="6" break="no"/>τος οἰκ<hi rend="ligature">τρ</hi><hi rend="ligature">οῦ</hi> <persName type="attested" ref="#pers16">Μα
+                   <lb n="7" break="no"/>ξίμου</persName> ·:· <num value="70">Ο</num><num value="9"><hi rend="supraline">Θ</hi></num><num value="600"><hi rend="supraline">Χ</hi></num>
+                   <lb n="8" break="no"/><num value="900"><hi rend="supraline">ϡ</hi></num><num value="5">Ε</num><num value="50"><hi rend="supraline">Ν</hi></num><num value="700"><hi rend="supraline">Ψ</hi></num><num value="90">Ϟ</num><num value="30">Λ</num><num value="600"><hi rend="supraline">Χ</hi></num>
+                   <lb n="9" break="no"/><num value="700"><hi rend="supraline">Ψ</hi></num><num value="30">Λ</num><choice><corr>Εϡ</corr><sic><num value="900"><hi rend="supraline">ϡ</hi></num><num value="5">Ε</num></sic></choice><num value="7">Ζ</num>ΟΝ
+                   <lb n="10" break="no"/><num value="80"><hi rend="supraline">Π</hi></num><num value="9"><hi rend="supraline">Θ</hi></num><num value="90"><hi rend="supraline">Ϟ</hi></num><num value="90">Ϟ</num><num value="200"><hi rend="supraline">C</hi></num><num value="9">Θ</num>ΩΘ
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>The second part of the inscription is encrypted and each letter is treated as a numeral. The substitution code is based on subtractions from 10 (for values 1-9, i.e., Α-Θ), 100 (for values 10-90, i.e., Ι-Ϟ), or 1000 (for values 100-900, i.e., Ρ-ϡ). Thus, the final part reads <persName type="attested" ref="#pers17">Λαυρεντίου</persName> τὸ ἔργον καὶ <persName type="attested" ref="#pers18">Ἰωάσαφ</persName></p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p> Liakos; Mamaloukos</p>
+            </div>
+        </body>
+    </text>
+</TEI>

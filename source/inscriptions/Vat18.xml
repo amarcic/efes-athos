@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary inscription of Makarios, former metropolitan of Thessalonike</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>JGU</authority>
+                <idno type="filename">Vat18</idno>
+                <idno type="InscrAthos">114</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><material></material>On the<objectType>tomb</objectType> of Makarios, located behind the apse of the main church</p><dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Monday, 12 April 1546 (Holy Monday), indiction 4</origDate>
+                        </origin>
+                        <provenance type="found">Vatopedi, courtyard
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                        <provenance type="not-observed">Lost, attested</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Ἐκοιμήθη ὁ παναγιώτατος μητροπολίτης πρώην <placeName ref="https://pleiades.stoa.org/places/491741">Θεσσαλονίκης</placeName> κὺρ <persName type="attested" ref="#pers20">Μακάριος</persName>, ὁ διὰ τοῦ μεγάλου καὶ ἀγγελικοῦ σχήματος μετονομασθὴς <persName type="attested" ref="#pers20">Μιχαὴλ</persName> μοναχὸς, <date when-custom="1546-04-12">ἐν μηνὶ ἀπριλλίου <num value="12"><hi rend="supraline">ιβ</hi></num> ἡμέρᾳ δευτέρᾳ τῇ ἑβδομάδι τῶν βαΐων. ἐν ἔτει <num value="7054">ˏζνδ΄</num> ἰνδικτιῶνος <num value="4">δ΄</num></date>
+                </ab>
+                </div>
+            <div type="apparatus">
+                <p>The inscription is lost; the transcription is found in the 18th-century manuscript Vatopedi 1037, fol. 28v</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography</p>
+            </div>
+    </body>
+    </text>
+</TEI>
