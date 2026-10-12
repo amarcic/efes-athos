@@ -1,0 +1,60 @@
+{
+"id":"professions",
+"title":{
+   "en":"Professions"
+},
+"description":{
+   "en":"Professions attested in the collection"
+},
+"columns":[
+   {
+      "key":"profession-name",
+      "header":{
+         "en":"Profession"
+      }
+   },
+   {
+      "key":"references",
+      "header":{
+         "en":"References"
+      },
+      "type":"references"
+   }],
+"entries":[
+   {
+      "profession-name":{
+         "en":"first mason"
+      },
+      "sortKey":{
+         "en":"first mason"
+      },
+      "references":[
+         {
+            "documentId":"Kar04",
+            "profession-name":{
+               "en":"first mason"
+            },
+            "sortKey":{
+               "en":"first mason"
+            }
+         }]
+   },
+   {
+      "profession-name":{
+         "en":"mason"
+      },
+      "sortKey":{
+         "en":"mason"
+      },
+      "references":[
+         {
+            "documentId":"Pkr13",
+            "profession-name":{
+               "en":"mason"
+            },
+            "sortKey":{
+               "en":"mason"
+            }
+         }]
+   }]
+}

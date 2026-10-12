@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: Indices
+---
+
+<p class="index-intro">Browse the entity indices for the collection.</p>
+
+<div class="indices-grid">
+{% if indices._summary and indices._summary.indices %}
+    {% for idx in indices._summary.indices %}
+    <a href="/{{ page.lang }}/indices/{{ idx.id }}/" class="index-card">
+        <h3>{{ idx.title[page.lang] | default(idx.title.en) }}</h3>
+        {% if idx.description %}
+        <p>{{ idx.description[page.lang] | default(idx.description.en) }}</p>
+        {% endif %}
+        <span class="entry-count">{{ idx.entryCount }} entries</span>
+    </a>
+    {% endfor %}
+{% else %}
+    <p>No indices available yet. Add XML documents to source/inscriptions/ and run the pipeline.</p>
+{% endif %}
+</div>
