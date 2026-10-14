@@ -154,7 +154,7 @@
             <xsl:variable name="person-id" select="substring-after(@ref, '#')" />
             <xsl:variable name="person" select="$persons//tei:person[@xml:id = $person-id]" />
             <xsl:variable name="displayName" select="normalize-space(
-                ($person/tei:persName[@xml:lang=$language],
+                (string-join($person/tei:persName[@xml:lang=$language], ', '),
                 $person/tei:persName[@xml:lang='en'],
                 $person/tei:persName)[1]
                 )"/>
