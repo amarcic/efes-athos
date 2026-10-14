@@ -158,9 +158,13 @@
                 $person/tei:persName[@xml:lang='en'],
                 $person/tei:persName)[1]
                 )"/>
+            <xsl:variable name="displayNameGreek" select="normalize-space(string-join(
+                    $person/tei:persName[@xml:lang='grc'], ', '
+                ))" />
             <xsl:if test="string-length($displayName) > 0">
                 <entity indexType="persons" xml:id="{$person-id}">
                     <name><xsl:value-of select="$displayName"/></name>
+                    <name-greek><xsl:value-of select="$displayNameGreek"/></name-greek>
                     <sortKey><xsl:value-of select="lower-case($displayName)"></xsl:value-of></sortKey>
                 </entity>
             </xsl:if>
@@ -172,8 +176,8 @@
         <xsl:for-each select=".//tei:term[@type='profession']">
             <xsl:variable name="profession-id" select="@ref"/>
             <xsl:variable name="profession" select="$professions//tei:item[@xml:id = $profession-id]" />
-            <xsl:variable name="displayName" select="normalize-space(
-                ($profession/tei:term[@xml:lang='en'])
+            <xsl:variable name="displayName" select="normalize-space(string-join
+                ($profession/tei:term[@xml:lang='en'], ', ')
                 )" />
             <entity indexType="professions" xml:id="{$profession-id}">
                 <profession-name><xsl:value-of select="$displayName"/></profession-name>
