@@ -92,6 +92,7 @@
             <idx:column key="office"><idx:label>Office</idx:label></idx:column>
             <idx:column key="profession"><idx:label>Profession</idx:label></idx:column>
             <idx:column key="chron-window"><idx:label>Chron. Window</idx:label></idx:column>
+            <idx:column key="ref-external"><idx:label>External References</idx:label></idx:column>
             <idx:column key="references" type="references"><idx:label>References</idx:label></idx:column>
         </idx:columns>
     </idx:index>
@@ -161,10 +162,14 @@
             <xsl:variable name="displayNameGreek" select="normalize-space(string-join(
                     $person/tei:persName[@xml:lang='grc'], ', '
                 ))" />
+            <xsl:variable name="external-refs" select="normalize-space(string-join(
+                $person/tei:idno, ', '
+                ))" />
             <xsl:if test="string-length($displayName) > 0">
                 <entity indexType="persons" xml:id="{$person-id}">
                     <name><xsl:value-of select="$displayName"/></name>
                     <name-greek><xsl:value-of select="$displayNameGreek"/></name-greek>
+                    <ref-external><xsl:value-of select="$external-refs"/></ref-external>
                     <sortKey><xsl:value-of select="lower-case($displayName)"></xsl:value-of></sortKey>
                 </entity>
             </xsl:if>
