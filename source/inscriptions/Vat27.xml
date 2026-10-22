@@ -53,7 +53,7 @@
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                   <lb n="1"/>7189 = ἀπό δὲ <expan><abbr>Χ</abbr><ex>ριστ</ex>οῦ</expan> ἔτος <date from="1681-01-01" to="1681-08-31">1681</date>. Ἡγουμενεύοντος τοῦ πανοσιωτάτου κυρίου <persName type="attested" ref="#pers26">Σεραφείμ</persName> ἔγινε τὸ παρὸν διὰ συνδρομῆς καὶ ἐξόδου, τοῦ ὁσιωτάτου ἐν Μοναχοῖς, γέρο κυρ <persName type="attested" ref="#pers27">Ἀνθίμου τὸ ἐπίκλην Ὀζαδίνου</persName>, και γέροντος τῆς Μονῆς τοῦ βατοπαιδίου, χεὶρ δὲ <persName type="attested" ref="#pers28">Μακαρίου ἱερομονάχου, <rs type="occupation">ζωγράφου</rs> Καλλέργη</persName>.
+                   <lb n="1"/>7189 = ἀπό δὲ <expan><abbr>Χ</abbr><ex>ριστ</ex>οῦ</expan> ἔτος <date from="1681-01-01" to="1681-08-31">1681</date>. Ἡγουμενεύοντος τοῦ πανοσιωτάτου κυρίου <persName type="attested" ref="#pers26">Σεραφείμ</persName> ἔγινε τὸ παρὸν διὰ συνδρομῆς καὶ ἐξόδου, τοῦ ὁσιωτάτου ἐν Μοναχοῖς, γέρο κυρ <persName type="attested" ref="#pers27">Ἀνθίμου τὸ ἐπίκλην Ὀζαδίνου</persName>, και γέροντος τῆς Μονῆς τοῦ βατοπαιδίου, χεὶρ δὲ <persName type="attested" ref="#pers28">Μακαρίου ἱερομονάχου, <term type="profession" ref="prf0002">ζωγράφου</term> Καλλέργη</persName>.
                 </ab>
             </div>
             <div type="apparatus">

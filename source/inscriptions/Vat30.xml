@@ -47,7 +47,11 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="\"/>
+        <graphic url="Vat30a.jpg"><desc>Detail 1</desc></graphic>         
+        <graphic url="Vat30b.jpg"><desc>Detail 2</desc></graphic>
+		<graphic url="Vat30c.jpg"><desc>Detail 3</desc></graphic>
+		<graphic url="Vat30d.jpg"><desc>Detail 4</desc></graphic>
+		<graphic url="Vat30e.jpg"><desc>Detail 5</desc></graphic>
     </facsimile>
     <text>
         <body>

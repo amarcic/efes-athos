@@ -36,6 +36,7 @@
       <param name="edition-type">interpretive</param>
       <param name="leiden-style">panciera</param>
       <param name="line-inc">5</param>
+      <param name="image-loc">../../../images/</param>
       <param name="bibloc"><files>source/authority/bibliography.xml</files></param>
       <param name="bib-link-template">../../concordances/bibliography/$1/</param>
       <param name="language">en</param>
@@ -56,6 +57,9 @@
       </param>
       <param name="professions-file">
         <files>source/authority/professions.xml</files>
+      </param>
+      <param name="offices-file">
+        <files>source/authority/offices.xml</files>
       </param>
     </stylesheetParams>
   </xsltTransform>

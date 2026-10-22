@@ -21,7 +21,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution"></rs> on the back of a <material></material><objectType>bench</objectType>against the right pillar in the inner narthex</p>
+                                <support><p><rs type="execution"></rs> on the back of a <material></material><objectType>bench</objectType> against the right pillar in the inner narthex</p>
                                   <dimensions/>, etc.)</support>
                             </supportDesc>
                             <layoutDesc>
@@ -29,7 +29,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height>letter-heights</height>
+                            <handNote><height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>

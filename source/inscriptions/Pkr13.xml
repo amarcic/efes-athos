@@ -20,7 +20,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Incised</rs>on the <material>marble</material> <objectType>door lintel</objectType> above the entrance to the chapel of the Dormition of the Virgin.</p>
+                                <support><p><rs type="execution">Incised</rs> on the <material>marble</material> <objectType>door lintel</objectType> above the entrance to the chapel of the Dormition of the Virgin.</p>
                                   <dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
@@ -28,7 +28,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <height>letter-heights</height>
+                            <handNote> <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>

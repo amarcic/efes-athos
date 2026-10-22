@@ -21,7 +21,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> <objectType>slab</objectType>on the west facade of the tower of the boat dock, above the entrance to the tower.</p>
+                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> <objectType>slab</objectType> on the west façade of the tower of the boat dock, above the entrance to the tower.</p>
                                   <dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
@@ -67,7 +67,7 @@
 					<lb n="3"/><persName type="attested" ref="#pers63">Συρόπουλος Διονύσιος</persName> <expan><abbr>χ</abbr><ex>ατζῆ</ex></expan> <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
 					<lb n="4"/><term type="profession" ref="prf0003">πρωτομαστόρης</term> <date from="1533-09-01" to="1534-08-31">ἔτ<hi rend="ligature">ου</hi>ς <num value="7042">ζμβ</num></date> ἐτε
 					<lb n="5" break="no"/>λιόθη ὁ πύργος καὶ ὁ μπαρμπακᾶς
-					<lb n="6"/><expan><ex>ινδικτιῶνος</ex></expan> <num value="7">Ζ</num> </ab></div>
+					<lb n="6"/><expan><ex>ἰνδικτιῶνος</ex></expan> <num value="7">Ζ</num> </ab></div>
             </div>
             <div type="apparatus">
                 <p></p>

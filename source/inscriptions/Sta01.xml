@@ -21,7 +21,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution"></rs> on a<material></material><objectType>slab</objectType>on the west facade of the main church, to the left</p>
+                                <support><p><rs type="execution"></rs> on a <material></material><objectType>slab</objectType> on the west facade of the main church, to the left</p>
                                   <dimensions/>, etc.)</support>
                             </supportDesc>
                             <layoutDesc>
@@ -29,7 +29,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height>letter-heights</height>
+                            <handNote><height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>

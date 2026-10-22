@@ -218,7 +218,7 @@
                   <occupation>βοεβόδας Μολδοβλαχίας<rs type="offices" ref="offices.xml#of0302"/></occupation> 
                   <residence>Suceava<rs type="placename" ref="geography.xml#geo0334"/></residence>
                   <affiliation>Vatopedi<rs type="placename" ref="geography.xml#geo0342"/></affiliation>
-                  <birth>Ioannina<rs type="placename" ref="geography.xml#geo0335"></rs></birth>
+                  <birth>Borzești<rs type="placename" ref="geography.xml#geo0349"></rs></birth>
                   <listBibl>
                      <bibl>Vat11</bibl>
                   </listBibl>
@@ -839,11 +839,8 @@
                   <persName xml:lang="grc">Ἀλεξάνδριος Καχετίου</persName>
                   <persName xml:lang="en">Alexander II of Kakheti</persName>
                   <persName xml:lang="Georg">ალექსანდრე</persName>
-                  <floruit notBefore="1453" notAfter="1454">
-                     <seg xml:lang="en">1453-1454 C.E.</seg>
-                  </floruit>
-                  <floruit notBefore="1539" notAfter="1540">
-                     <seg xml:lang="en">1539-1540 C.E.</seg>
+                  <floruit notBefore="1561" notAfter="1574">
+                     <seg xml:lang="en">1561-1574 C.E.</seg>
                   </floruit>
                   <affiliation>Philotheou<rs type="placename" ref="geography.xml#geo0344"/></affiliation>
                   <residence>Gremi<rs type="placename" ref="geography.xml#geo0332"></rs></residence>

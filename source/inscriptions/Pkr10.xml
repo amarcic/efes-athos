@@ -21,7 +21,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Painted</rs>on the <material></material> <objectType>icon</objectType> of Christ Pantokrator at the iconostasis of the chapel of the Dormition.</p>
+                                <support><p><rs type="execution">Painted</rs> on the <material></material> <objectType>icon</objectType> of Christ Pantokrator at the iconostasis of the chapel of the Dormition.</p>
                                   <dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
@@ -29,7 +29,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <height>letter-heights</height>
+                            <handNote> <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
