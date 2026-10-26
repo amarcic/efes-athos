@@ -18,7 +18,7 @@ suppressTitle: true
     {% else %}
       <span class="doc-nav-disabled">&#8592; Previous</span>
     {% endif %}
-
+    <a class="doc-nav-link"> {{documentId}} </a>
     {% if nextPost %}
       <a href="{{ nextPost.url }}" class="doc-nav-link">{{ nextPost.data.documentId }} &#8594;</a>
     {% else %}
@@ -39,7 +39,7 @@ suppressTitle: true
     {% else %}
       <span class="doc-nav-disabled">&#8592; Previous</span>
     {% endif %}
-
+      <a class="doc-nav-link"> {{documentId}} </a>
     {% if nextPost %}
       <a href="{{ nextPost.url }}" class="doc-nav-link">{{ nextPost.data.documentId }} &#8594;</a>
     {% else %}
