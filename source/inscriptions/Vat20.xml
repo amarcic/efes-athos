@@ -28,7 +28,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <height>letter-heights</height>
+                            <handNote> <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -58,7 +58,7 @@
                 </ab>
                 </div>
             <div type="apparatus">
-                <p>The inscription is not preserved, but its text is incorporated in the 1841 inscription (according to Uspenskij and Smyrnakis). The original text appears to have mentioned that the chapel had been restored and decorated by <persName type="attested" ref="#pers21">Christopher (Χριστοφόρος)</persName> during the patriarchate of <persName type="ruler" key="Dionysios IV, patriarch of Constantinople"></persName></p>
+                <p>The inscription is not preserved, but its text is incorporated in the 1841 inscription (according to Uspenskij and Smyrnakis). The original text appears to have mentioned that the chapel had been restored and decorated by <persName type="attested" ref="#pers21">Christopher (Χριστοφόρος)</persName> during the patriarchate of <persName type="ruler" key="Dionysios IV, patriarch of Constantinople">Dionysios IV</persName> (1671–1673, 1676–1679, 1682–1684, 1686–1687, 1693–1694).</p>
             </div>
             <div type="translation">
                 <p>translation(s)</p>

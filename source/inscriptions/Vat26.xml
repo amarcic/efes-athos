@@ -28,7 +28,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> Majuscules with occasional accents and breathings; ligatures <height>letter-heights</height>
+                            <handNote> Majuscules with occasional accents and breathings; ligatures <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +68,7 @@
                    <lb n="7" break="no"/>
                      <milestone unit="column" n="i" />γορι<hi rend="ligature">ου</hi></persName> τ<milestone unit="column" n="ii" /><supplied reason="lost">ο επικλ</supplied>ι<hi rend="ligature">ν <orig>μπ</orig></hi>α<orig>α</orig>
                    <lb n="8"/>
-                     <milestone unit="column" n="i" /><orig>ηπαατουρχς</orig><milestone unit="column" n="ii" />εξ <placeName ref="https://pleiades.stoa.org/places/530900">Ιωαννίνων</placeName>
+                     <milestone unit="column" n="i" /><orig>ηπαατουρχς</orig><milestone unit="column" n="ii" /> εξ <placeName ref="https://pleiades.stoa.org/places/530900">Ιωαννίνων</placeName>
                 </ab>
             </div>
             <div type="apparatus">

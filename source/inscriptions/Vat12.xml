@@ -21,14 +21,14 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><material></material><objectType></objectType>At the center of the north facade of the western section</p><dimensions/></support>
+                                <support><p><material></material><objectType></objectType>At the center of the north façade of the western section</p><dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>description of text field/campus</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <height>letter-heights</height>
+                            <handNote> <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>

@@ -22,7 +22,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><rs type="execution">Incised</rs> on the<material>marble</material><objectType>lintel</objectType>above the central entrance to the outer narthex
+                                    <p><rs type="execution">Incised</rs> on the <material>marble</material> <objectType>lintel</objectType> above the central entrance to the outer narthex
                                    <dimensions/></p>
                                 </support>
                             </supportDesc>
@@ -31,7 +31,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>majuscule letters <height>letter-heights</height>
+                            <handNote>majuscule letters <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>

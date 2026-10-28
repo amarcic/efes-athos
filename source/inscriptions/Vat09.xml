@@ -21,15 +21,15 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>On the facade<material/>
-                                    and <objectType/></p><dimensions/>, etc.)</support>
+                                <support><p>On the façade<material/>
+                                    <objectType/></p><dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>description of text field/campus</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            <handNote>description of letters, possibly including <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -55,10 +55,10 @@
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lb n="1"/><lb n="1"/>Ἀνηγέρθη τὸ παρὸν εὐκτήριον
-                    <lb n="2"/>παρὰ τοῦ ἐν ἱερομονάχοις <persName type="attested" ref="#pers10">Ῥωμανοῦ</persName><expan><abbr>κ</abbr><ex>αὶ</ex></expan> κα
-                    <lb n="3" break="no"/>θηγουμένου τοῦ <placeName type="ethnic">Γαλατζιάνου</placeName> <expan><abbr>κ</abbr><ex>αὶ</ex></expan><persName type="attested" ref="#pers11">Γρηγο
-                    <lb n="4" break="no"/>ρίου</persName>μοναχοῦ τοῦ ἐξ <placeName ref="https://pleiades.stoa.org/places/530900">Ἰωαννίνων</placeName>
-                    <lb n="5"/><expan><abbr>κ</abbr><ex>αὶ</ex></expan><rs type="occupation">μαϊστωροῦ</rs><persName type="attested" ref="#pers12">Νικηφόρου</persName>μοναχοῦ
+                    <lb n="2"/>παρὰ τοῦ ἐν ἱερομονάχοις <persName type="attested" ref="#pers10">Ῥωμανοῦ</persName> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> κα
+                    <lb n="3" break="no"/>θηγουμένου τοῦ <placeName type="ethnic">Γαλατζιάνου</placeName> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <persName type="attested" ref="#pers11">Γρηγο
+                    <lb n="4" break="no"/>ρίου</persName> μοναχοῦ τοῦ ἐξ <placeName ref="https://pleiades.stoa.org/places/530900">Ἰωαννίνων</placeName>
+                    <lb n="5"/><expan><abbr>κ</abbr><ex>αὶ</ex></expan> <rs type="occupation">μαϊστωροῦ</rs> <persName type="attested" ref="#pers12">Νικηφόρου</persName> μοναχοῦ
                     <lb n="6"/><date from="1644-03-01" to="1644-03-31">ἐν ἔτη <num value="7152">ˏζρνβ</num> ~ μηνὶ μαρτίῳ</date>:.
                 </ab>
             </div>

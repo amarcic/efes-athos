@@ -22,14 +22,14 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Northwest corner, close to the guesthouse (archontariki)<material/>
-                                    <objectType/> information, </p><dimensions/>, etc.)</support>
+                                    <objectType/> </p><dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>description of text field/campus</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            <handNote>description of letters, possibly including <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -56,10 +56,10 @@
                 <ab>
                     <lb n="1"/>Ἀνηγέρθη τὸ παρὸν νοσοκομίον διὰ
                     <lb n="2"/>ἐξόδου τοῦ εὐσεβοῦς βασιλέως
-                    <lb n="3"/>ἡμῶν κυροῦ <persName type="attested" ref="#pers22">Ἀλεξίου</persName><placeName>Μοσκοβίας</placeName>
+                    <lb n="3"/>ἡμῶν κυροῦ <persName type="attested" ref="#pers22">Ἀλεξίου</persName> <placeName>Μοσκοβίας</placeName>
                     <lb n="4"/>ἡγουμενεύοντος <persName type="attested" ref="#pers9">Μαξίμου</persName> ἱερομονάχου <supplied reason="lost">διὰ</supplied>
                     <lb n="5"/>συνδρομῆς <persName type="attested" ref="#pers10">Ῥωμανοῦ</persName> ἱερομονάχου
-                    <lb n="6"/><date from="1653-09-01" to="1654-08-31">ἐν ἔτει <num value="7162">ˏζρξβ΄</num><expan><ex>ἰνδικτιῶνος</ex></expan><num value="7">ζ΄</num></date>
+                    <lb n="6"/><date from="1653-09-01" to="1654-08-31">ἐν ἔτει <num value="7162">ˏζρξβ΄</num> <expan><ex>ἰνδικτιῶνος</ex></expan> <num value="7">ζ΄</num></date>
                 </ab>
             </div>
             <div type="apparatus">

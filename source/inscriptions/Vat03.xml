@@ -21,14 +21,14 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Painted</rs> on the south <objectType>wall</objectType>of the sanctuary<material/><dimensions/></p></support>
+                                <support><p><rs type="execution">Painted</rs> on the south <objectType>wall</objectType> of the sanctuary<material/><dimensions/></p></support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>description of text field/campus</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height>letter-heights</height>
+                            <handNote><height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -55,11 +55,11 @@
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lg>
-                      <l n="1"><lb n="1"/><g ref="#crux">†</g><persName type="divine" key="Virgin Mary">Ανασα</persName>πάντων ὕψι βρωτῶν ὑπάρχης</l>
+                      <l n="1"><lb n="1"/><g ref="#crux">†</g><persName type="divine" key="Virgin Mary">Ανασα</persName> πάντων ὕψι βρωτῶν ὑπάρχης</l>
                       <l n="2">προστάτης ἄμαχως τον καταπονουμένων</l>
                       <l n="3">καταφηγί τε τῶν ης <supplied reason="omitted">σ</supplied>ὲ προστρεχόντων</l>
                       <l n="4">ἐλπῖς βεβέα ἔμι γε τοῦ παντλίμου</l>
-                      <l n="5"><persName type="attested" ref="#pers5">Θεὁδοσίου</persName><lb n="2"/>του<placeName type="ethnic">Πελοπονησίου</placeName></l>
+                      <l n="5"><persName type="attested" ref="#pers5">Θεὁδοσίου</persName><lb n="2"/>του <placeName type="ethnic">Πελοπονησίου</placeName></l>
                       <l n="6">ἡκέτου ἡκτροῦ τῆς σῆς<lb n="3"/>ἀγαθοσύνης</l>
                       <l n="7">δι’ον σι τῶνδε καλο<choice><corr>ν</corr><sic>π</sic></choice> εμοῦ<lb n="4"/>προσάξας</l>
                       <l n="8">τα σά ἐκ των σῶν θησαυροῦ ἀκενότου</l>

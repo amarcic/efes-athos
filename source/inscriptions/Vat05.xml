@@ -21,7 +21,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Incised</rs> on a<material>marble</material><objectType>slab</objectType>on the north facade</p>
+                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> <objectType>slab</objectType> on the north façade</p>
                                   <dimensions/>, etc.)</support>
                             </supportDesc>
                             <layoutDesc>
@@ -29,7 +29,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>majuscules<height>letter-heights</height>
+                            <handNote>majuscules<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -55,7 +55,7 @@
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lb n="1"/><g ref="#crux">†</g><date from="1426-09-01" to="1427-08-31">ἔτους 
-                    <lb n="2"/><num value="6935">ˏςϡλε</num><expan><abbr><am><g ref="#indiction"/></am></abbr><ex>ἰνδικτιῶνος</ex></expan><num value="5">ε</num></date>
+                    <lb n="2"/><num value="6935">ˏςϡλε</num> <expan><abbr><am><g ref="#indiction"/></am></abbr><ex>ἰνδικτιῶνος</ex></expan> <num value="5">ε</num></date>
                 </ab>
             </div>
             <div type="apparatus">

@@ -104,6 +104,7 @@
         <idx:description>Professions attested in the collection</idx:description>
         <idx:columns>
             <idx:column key="profession-name"><idx:label>Profession</idx:label></idx:column>
+            <idx:column key="prof-greek-name"><idx:label>Greek Name</idx:label></idx:column>
             <idx:column key="references" type="references">
                 <idx:label>References</idx:label>
             </idx:column>

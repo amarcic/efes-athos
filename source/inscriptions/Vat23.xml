@@ -20,7 +20,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Incised</rs> on a<material>marble</material><objectType>slab</objectType></p>
+                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> <objectType>slab</objectType></p>
                                   <dimensions/>, etc.)</support>
                             </supportDesc>
                             <layoutDesc>
@@ -28,7 +28,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>imprecisely incised majuscules, occasional borrowings from minuscule<height>letter-heights</height>
+                            <handNote>imprecisely incised majuscules, occasional borrowings from minuscule<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>

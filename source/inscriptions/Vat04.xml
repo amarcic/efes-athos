@@ -29,7 +29,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>majuscules with decorative serifs and flourishes, occasional minuscules (sigma and final sigma); accents and breathings; several ligatures, nested and superimposed letters <height>letter-heights</height>
+                            <handNote>majuscules with decorative serifs and flourishes, occasional minuscules (sigma and final sigma); accents and breathings; several ligatures, nested and superimposed letters <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -56,7 +56,7 @@
                 <ab>
                     <lb n="1"/><g ref="#crux">†</g><hi rend="ligature">Ἀν</hi>εγέρθ<hi rend="ligature">η κ</hi>αὶ ἐζωγραφήσθη ὁ ἱερὸς <expan><abbr>κ</abbr><ex>αὶ</ex></expan> θ<hi rend="ligature">εῖ</hi>ος
                     <lb n="2"/>ναὸς <hi rend="ligature">οὗ</hi>τος τῆς <persName type="divine" key="Virgin Mary">Π<hi rend="ligature">αν</hi><hi rend="ligature">αγή</hi>ας</persName> διὰ σ<hi rend="ligature">ην</hi>δρο<hi rend="ligature">μῆ</hi>ς τ<hi rend="ligature">οῦ</hi> π<hi rend="ligature">αν</hi>ιερο<supplied reason="omitted">τά</supplied>
-                    <lb n="3" break="no"/>τ<hi rend="ligature">ου</hi> <term type="office" ref="of0214">μι<hi rend="ligature">τρ</hi>οπολήτ<hi rend="ligature">ου</hi></term> <placeName ref="https://pleiades.stoa.org/places/638955">Λαοδικ<hi rend="ligature">εί</hi>ας</placeName> <expan><abbr>κ</abbr><ex>υρο</ex>ῦ</expan> <persName type="attested" ref="#pers6">Γ<hi rend="ligature">ρη</hi>γορίου</persName><date from="1677-09-01" to="1678-08-31">ἔτ<hi rend="ligature">ου</hi>ς <num value="7186">ˏ<hi rend="supraline">ζρπς</hi></num>ου</date>.
+                    <lb n="3" break="no"/>τ<hi rend="ligature">ου</hi> <term type="office" ref="of0214">μι<hi rend="ligature">τρ</hi>οπολήτ<hi rend="ligature">ου</hi></term> <placeName ref="https://pleiades.stoa.org/places/638955">Λαοδικ<hi rend="ligature">εί</hi>ας</placeName> <expan><abbr>κ</abbr><ex>υρο</ex>ῦ</expan> <persName type="attested" ref="#pers6">Γ<hi rend="ligature">ρη</hi>γορίου</persName> <date from="1677-09-01" to="1678-08-31">ἔτ<hi rend="ligature">ου</hi>ς <num value="7186">ˏ<hi rend="supraline">ζρπς</hi></num>ου</date>.
                 </ab>
             </div>
             <div type="apparatus">

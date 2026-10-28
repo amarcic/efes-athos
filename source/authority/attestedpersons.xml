@@ -87,7 +87,7 @@
                   </floruit>
                   <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
                   <affiliation>Vatopedi<rs type="placename" ref="geography.xml#geo0342"/></affiliation>
-                  <birth>Peleponnese<rs type="placename" ref="geography.xml#geo0337"></rs></birth>
+                  <birth>Peloponnese<rs type="placename" ref="geography.xml#geo0337"></rs></birth>
                   <listBibl>
                      <bibl>Vat03</bibl>
                   </listBibl>
@@ -144,7 +144,7 @@
                   <floruit notBefore="1645" notAfter="1676">
                      <seg xml:lang="en">1654-1676 C.E.</seg>
                   </floruit>
-                  <occupation>tsar<rs type="offices" ref="offices.xml#of0306"/></occupation>
+                  <occupation>Tsar of Russia<rs type="offices" ref="offices.xml#of0306"/></occupation>
                   <affiliation>Vatopedi<rs type="placename" ref="geography.xml#geo0342"/></affiliation>
                   <residence>Moscow<rs type="placeName" ref ="geography.xml#geo0338"></rs></residence>
                   <listBibl>
@@ -388,6 +388,7 @@
                      <seg xml:lang="en">1546 C.E.</seg>
                   </floruit>
                   <affiliation>Vatopedi<rs type="placename" ref="geography.xml#geo0342"/></affiliation>
+                  <occupation>μητροπολίτης τῆς Θεσσαλονικῆς<rs type="offices" ref="offices.xml#of0214"/></occupation>
                   <listBibl>
                      <bibl>Vat18</bibl>
                   </listBibl>
@@ -732,7 +733,7 @@
                </person>
                
                <person xml:id="pers50">
-                  <persName xml:lang="grc">Ἀνδρίνικος Σουρχτζής</persName>
+                  <persName xml:lang="grc">Ἀνδρόνικος Σουρχτζής</persName>
                   <persName xml:lang="en">Andronikos Sourchtzis</persName>
                   <floruit notBefore="1591" notAfter="1691">
                      <seg xml:lang="en">1591-1691 C.E.</seg>

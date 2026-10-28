@@ -22,7 +22,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><rs type="execution">Mosaic</rs> inscription on the <objectType>lunette</objectType> above the entrance from the outer narthex to the inner narthex <material/>and information, <dimensions/>, etc.)</p>
+                                    <p><rs type="execution">Mosaic</rs> inscription on the <objectType>lunette</objectType> above the entrance from the outer narthex to the inner narthex <material/><dimensions/></p>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
@@ -30,7 +30,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>plain, square majuscule letters with accents and breathings, black letters against gold background. No ligatures <height>letter-heights</height>
+                            <handNote>plain, square majuscule letters with accents and breathings, black letters against gold background. No ligatures <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>

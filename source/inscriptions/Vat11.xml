@@ -21,14 +21,14 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Incised</rs> on a<material>marble</material><objectType>slab</objectType>embedded into the north facade of the western section</p><dimensions/></support>
+                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> <objectType>slab</objectType> embedded into the north façade of the western section</p><dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>description of text field/campus</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Majuscules <height>letter-heights</height>
+                            <handNote>Majuscules <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -55,7 +55,7 @@
                 <ab>
                    <lb n="1"/><g ref="#crux">†</g> Ὁ εὐσεβέστατος <supplied reason="lost">αὐθέντης</supplied> <persName type="attested" ref="#pers23"><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> <hi rend="ligature">Στ</hi><supplied reason="omitted">έ</supplied>φανος</persName>
                    <lb n="2"/><supplied reason="lost">βοε</supplied>βόδας
-                   <lb n="3"/><date from="1495-09-01" to="1496-08-31">ἔτους<num value="7004">ζδ΄</num></date>οἱγουμέν<hi rend="ligature">ου</hi> <persName type="attested" ref="'#pers13">Κυρίλ<hi rend="ligature">ου</hi></persName> <expan><abbr>οἱερομ</abbr><ex>ο</ex><abbr>ν</abbr><ex>ά</ex><abbr>χ</abbr><ex>ου</ex></expan>
+                   <lb n="3"/><date from="1495-09-01" to="1496-08-31">ἔτους <num value="7004">ζδ΄</num></date> οἱγουμέν<hi rend="ligature">ου</hi> <persName type="attested" ref="'#pers13">Κυρίλ<hi rend="ligature">ου</hi></persName> <expan><abbr>οἱερομ</abbr><ex>ο</ex><abbr>ν</abbr><ex>ά</ex><abbr>χ</abbr><ex>ου</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
