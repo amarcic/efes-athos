@@ -231,6 +231,26 @@
                <idno type="geonames">684129</idno>
                <link target="https://www.geonames.org/684129/borzesti.html"/>
             </place>
+            <place xml:id="geo0350">
+               <placeName xml:lang="grc">Κάφας</placeName>
+               <placeName xml:lang="en">Caffa</placeName>
+               <placeName xml:lang="fr">Caffa</placeName>
+               <placeName xml:lang="de">Caffa</placeName>
+               <placeName xml:lang="it">Caffa</placeName>
+               <placeName xml:lang="el">xxx</placeName>
+               <idno type="geonames">709161</idno>
+               <link target="https://www.geonames.org/709161/feodosiya.html"/>
+            </place>
+            <place xml:id="geo0351">
+               <placeName xml:lang="grc">Μονή Χιλιανδαρίου</placeName>
+               <placeName xml:lang="en">Chilandar Monastery</placeName>
+               <placeName xml:lang="fr">Monastére de Chilandar</placeName>
+               <placeName xml:lang="de">Moni Chilandar</placeName>
+               <placeName xml:lang="it">Monastero di Chilandar</placeName>
+               <placeName xml:lang="el">xxx</placeName>
+               <idno type="geonames">735786</idno>
+               <link target="https://www.geonames.org/735786/moni-chiliandariou.html"/>
+            </place>
          </listPlace>
       </body>
    </text>

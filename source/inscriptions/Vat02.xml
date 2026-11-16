@@ -26,11 +26,11 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>description of text field/campus</layout>
+                                <layout>Inscribed on the archivolt framing the lunette; gold background, blue-gray border. The text is arranged in three lines, each line including three lines of verse; the poetic layout is clearly indicated by the spaces between each verse line, which highlight the tripartite division of the available space, and by the vertical alignment of the verses. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>plain, square majuscule letters with accents and breathings, black letters against gold background. No ligatures <height></height>
+                            <handNote>Squarish thin-line majuscules with occasional accents and breathings, black letters against gold background. Oval-shaped epsilon and sigma, tau with drooping serifs, upsilon and chi with pronounced finials, low delta with horizontal bar extending beyond the triangle, delta, alpha, and lamda with decorative finial left of the apex. No ligatures. Variations of this script are found in the Deesis mosaic below: in the open book held by Christ (plainer, more squat letters) and the monograms accompanying the figures of Christ, the Virgin, and St John the Baptist (more decorative, with ligatures). <height> ca. 5,2 cm</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -39,7 +39,7 @@
                             <origPlace>Place of origin</origPlace>
                             <origDate>Date of origin</origDate>
                         </origin>
-                        <provenance type="found"> Vatopedi, Main church
+                        <provenance type="found"> Vatopedi, Main church, outer narthex (lite)
                         </provenance>
                         <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
@@ -49,9 +49,12 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="Vat02.jpg">
-            <desc>General view of the mosaic and the inscription</desc>
-        </graphic>
+        <graphic url="Vat02a.jpg"><desc>General view of the lunette with the mosaic and the inscription</desc></graphic>
+        <graphic url="Vat02b.jpg"><desc>Detail 1 (far left)</desc></graphic>
+        <graphic url="Vat02c.jpg"><desc>Detail 2 </desc></graphic>
+        <graphic url="Vat02d.jpg"><desc>Detail 3 (crown of arch)</desc></graphic>
+        <graphic url="Vat02e.jpg"><desc>Detail 4</desc></graphic>
+        <graphic url="Vat02f.jpg"><desc>Detail 5 (far right)</desc></graphic>
     </facsimile>
     <text>
         <body>
@@ -59,8 +62,8 @@
                 <ab>
                     <lg>
                         <l n="1"><lb n="1"/>Τὰ πρὶν ἀκαλλῆ καὶ ῥυέντα τῷ χρώνῳ,</l><l n="2"> ψηφῖσι χρυσαῖς καὶ λαμπρῶς βεβαμμέναις,</l> <l n="3">φαιδρῶς ἀγλαῶς κατεκοσμήθη λίαν,</l>
-                   <l n="4"> <lb n="2"/>σπουδῇ πόνῳ τε καὶ πόθῳ διαπύρῳ,</l><l n="5"> τοῦ ποιμενάρχου τῆσδε τῆς μονῆς λόγε,</l> <l n="6"><persName type="attested" ref="#pers3">Ἰωαννικίου</persName> τε τοῦ τρισολβίου,</l>
-                   <l n="7"> <lb n="3"/>ᾧ καὶ παρέξοις σὴν βασιλείαν χάριν, </l><l n="8">ταῖς ἱκεσίαις <persName type="divine" key="Virgin Mary">Πανάγνου</persName> καὶ <persName type="divine" key="Saint John the Baptist">Προδρόμου</persName>,</l><l n="9"> ταῦτα μοναχὸς <persName type="attested" ref="#pers4">Σωφρόνιος</persName> νῦν λέγει.</l>
+                   <l n="4"> <lb n="2"/>σπουδῇ πόνῳ τε καὶ πόθῳ διαπύρῳ,</l><l n="5"> τοῦ <term type="office" ref="of0210">ποιμενάρχου</term> τῆσδε τῆς μονῆς λόγε,</l> <l n="6"><persName type="attested" ref="#pers3">Ἰωαννικίου</persName> τε τοῦ τρισολβίου,</l>
+                   <l n="7"> <lb n="3"/>ᾧ καὶ παρέξοις σὴν βασιλείαν χάριν, </l><l n="8">ταῖς ἱκεσίαις <persName type="divine" key="Virgin Mary">Πανάγνου</persName> καὶ <persName type="divine" key="St John the Baptist">Προδρόμου</persName>,</l><l n="9"> ταῦτα <term type="office" ref="of0216">μοναχὸς</term> <persName type="attested" ref="#pers4">Σωφρόνιος</persName> νῦν λέγει.</l>
                         </lg>
                 </ab>
             </div>
@@ -74,7 +77,7 @@
                 <p>commentary</p>
             </div>
             <div type="bibliography">
-                <p>Rhoby; Index; IMMB;</p>
+                <p>Tsigaridas, Entoichia, 320-322; Mamaloukos, Katholiko, 256-257; Rhoby, Byzantinische Epigramme 1, 381-385</p>
             </div>
         </body>
     </text>

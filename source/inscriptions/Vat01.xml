@@ -27,11 +27,11 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>description of text field/campus</layout>
+                                <layout>Inscribed on a narrow band above the astragalus molding.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>majuscule letters <height></height>
+                            <handNote>Plain, irregular majuscules, with occasional borrowings from minuscule script (upsilon, nu) and some ligatures <height> ca. 4 cm</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -40,7 +40,7 @@
                             <origPlace>Place of origin</origPlace>
                             <origDate>1425/26</origDate>
                         </origin>
-                        <provenance type="found">Vatopedi, Main church
+                        <provenance type="found">Vatopedi, Main church, west portico (exonarthex)
                         </provenance>
                         <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
@@ -50,13 +50,15 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="\ "/>
+         <graphic url="Vat01a.jpg"><desc>General view of the door lintel and the inscription</desc></graphic>
+         <graphic url="Vat01b.jpg"><desc>Left part</desc></graphic>
+		 <graphic url="Vat01c.jpg"><desc>Right part</desc></graphic>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/><g ref="#crux">†</g><date from="1425-09-01" to="1426-08-31">Ἔτους <num value="6934">ςϡλδ</num></date> <g ref="#crux">†</g><persName type="attested" ref="#pers1">Θεοφάνους</persName> ἡερομονάχου ἡγουμένου <g ref="#crux">†</g> τοῦ πτοχοῦ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ἁμαρτολοῦ <persName type="attested" ref="#pers2">Μεθοδίου</persName> μοναχοῦ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <rs type="occupation">μαστόρο<supplied reason="lost">υ</supplied></rs>
+                    <lb n="1"/><g ref="#crux">†</g><date from="1425-09-01" to="1426-08-31">Ἔτους <num value="6934">ϛϡλδ</num></date> <g ref="#crux">†</g><persName type="attested" ref="#pers1">Θεοφάνους</persName> <term type="office" ref="of0303">ἡερομονάχου</term> <term type="office" ref="of0210">ἡγουμένου</term> <g ref="#crux">†</g> τοῦ πτοχοῦ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ἁμαρτο<choice><corr>λ</corr><sic>χ</sic></choice>οῦ <persName type="attested" ref="#pers2">Μεθοδίου</persName> <term type="office" ref="of0216">μοναχοῦ</term> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <rs type="occupation">μαστόρο<supplied reason="lost">υ</supplied></rs>
                 </ab>
             </div>
             <div type="apparatus">
@@ -69,7 +71,7 @@
                 <p>commentary</p>
             </div>
             <div type="bibliography">
-                <p>Mamaloukos; Pazaras; Melvani</p>
+                <p>Mamaloukos, Katholiko, 258; Pazaras, Glypta, 55-57, 111</p>
             </div>
         </body>
     </text>

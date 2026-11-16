@@ -565,7 +565,7 @@
                      <seg xml:lang="en">1654-1655 C.E.</seg>
                   </floruit>
                   <affiliation>Pantokrator<rs type="placename" ref="geography.xml#geo0343"/></affiliation>
-                  <affiliation>Chilandar</affiliation>
+                  <residence>Chilandar Monastery<rs type="placename" ref="geography.xml#geo0351"/>rs</residence>
                   <occupation>ἱερομόναχος<rs type="offices" ref="offices.xml#of0303"/></occupation>
                   <listBibl>
                      <bibl>Pkr04</bibl>
@@ -610,8 +610,8 @@
                   <floruit notBefore="1636" notAfter="1637">
                      <seg xml:lang="en">1636-1637 C.E.</seg>
                   </floruit>
-                  <affiliation>Pantokrator<rs type="placename" ref="geography.xml#geo0343"/></affiliation>
                   <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <residence>Κάφας<rs type="placename" ref="geography.xml#geo0350"/></residence>
                   <listBibl>
                      <bibl>Pkr09</bibl>
                   </listBibl>
@@ -623,8 +623,8 @@
                   <floruit notBefore="1636" notAfter="1637">
                      <seg xml:lang="en">1636-1637 C.E.</seg>
                   </floruit>
-                  <affiliation>Pantokrator<rs type="placename" ref="geography.xml#geo0343"/></affiliation>
                   <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <residence>Κάφας<rs type="placename" ref="geography.xml#geo0350"/></residence>
                   <listBibl>
                      <bibl>Pkr09</bibl>
                   </listBibl>
@@ -636,8 +636,8 @@
                   <floruit notBefore="1636" notAfter="1637">
                      <seg xml:lang="en">1636-1637 C.E.</seg>
                   </floruit>
-                  <affiliation>Pantokrator<rs type="placename" ref="geography.xml#geo0343"/></affiliation>
                   <occupation>μαΐστωρ<rs type="professions" ref="professions.xml#prf001"/></occupation>
+                  <residence>Κάφας<rs type="placename" ref="geography.xml#geo0350"/></residence>
                   <listBibl>
                      <bibl>Pkr09</bibl>
                   </listBibl>
