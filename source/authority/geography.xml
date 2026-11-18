@@ -251,6 +251,16 @@
                <idno type="geonames">735786</idno>
                <link target="https://www.geonames.org/735786/moni-chiliandariou.html"/>
             </place>
+            <place xml:id="geo0355">
+               <placeName xml:lang="grc">Μονή Μεγίστης Λαύρας</placeName>
+               <placeName xml:lang="en">Great Lavra Monastery</placeName>
+               <placeName xml:lang="fr">Monastère de la Grande-Laure</placeName>
+               <placeName xml:lang="de">Kloster Megisti Lavra</placeName>
+               <placeName xml:lang="it">Monastero della Grande Lavra</placeName>
+               <placeName xml:lang="el">xxx</placeName>
+               <idno type="geonames">735148</idno>
+               <link target="https://www.geonames.org/735148/monastery-of-great-lavra.html"/>
+            </place>
          </listPlace>
       </body>
    </text>

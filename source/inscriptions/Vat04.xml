@@ -21,15 +21,15 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Painted</rs> on the west wall, above the entrance</p> <material/>
+                                <support><p><rs type="execution">Painted</rs> on the west <objectType>wall</objectType>, above the entrance.</p> <material/>
                                      <objectType/>  <dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>description of text field/campus</layout>
+                                <layout>Inscribed within a rectangular ruled panel; black background, white outline.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>majuscules with decorative serifs and flourishes, occasional minuscules (sigma and final sigma); accents and breathings; several ligatures, nested and superimposed letters <height></height>
+                            <handNote>Majuscules with decorative serifs and flourishes, occasional minuscules (sigma and final sigma); accents and breathings; several ligatures, nested and superimposed letters; white letters against black background. Delta with tall base, final sigma often placed below the previous letter (e.g. in θεῖος); nu with double-curved diagonal stroke, theta with horizontal bar extending beyond the oval. The same script is used for the captions of saints in the fresco decoration of the chapel. <height> ca. 3 cm</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -38,7 +38,7 @@
                             <origPlace>Place of origin</origPlace>
                             <origDate>1677/78</origDate>
                         </origin>
-                        <provenance type="found">Vatopedi, Chapel of the Virgin Paramythia (north of chapel of Saint Demetrios)
+                        <provenance type="found">Vatopedi, Chapel (parekklesion) of the Virgin Paramythia (above the chapel of Saint Demetrios)
                         </provenance>
                         <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
@@ -48,15 +48,15 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="\"/>
+         <graphic url="Vat04a.jpg"><desc>General view</desc></graphic>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/><g ref="#crux">†</g><hi rend="ligature">Ἀν</hi>εγέρθ<hi rend="ligature">η κ</hi>αὶ ἐζωγραφήσθη ὁ ἱερὸς <expan><abbr>κ</abbr><ex>αὶ</ex></expan> θ<hi rend="ligature">εῖ</hi>ος
-                    <lb n="2"/>ναὸς <hi rend="ligature">οὗ</hi>τος τῆς <persName type="divine" key="Virgin Mary">Π<hi rend="ligature">αν</hi><hi rend="ligature">αγή</hi>ας</persName> διὰ σ<hi rend="ligature">ην</hi>δρο<hi rend="ligature">μῆ</hi>ς τ<hi rend="ligature">οῦ</hi> π<hi rend="ligature">αν</hi>ιερο<supplied reason="omitted">τά</supplied>
-                    <lb n="3" break="no"/>τ<hi rend="ligature">ου</hi> <term type="office" ref="of0214">μι<hi rend="ligature">τρ</hi>οπολήτ<hi rend="ligature">ου</hi></term> <placeName ref="https://pleiades.stoa.org/places/638955">Λαοδικ<hi rend="ligature">εί</hi>ας</placeName> <expan><abbr>κ</abbr><ex>υρο</ex>ῦ</expan> <persName type="attested" ref="#pers6">Γ<hi rend="ligature">ρη</hi>γορίου</persName> <date from="1677-09-01" to="1678-08-31">ἔτ<hi rend="ligature">ου</hi>ς <num value="7186">ˏ<hi rend="supraline">ζρπς</hi></num>ου</date>.
+                    <lb n="1"/><g ref="#crux">†</g><hi rend="ligature">Ἀν</hi>εγέρθ<hi rend="ligature">η κ</hi>αὶ εζωγραφήσθη ὁ ἰἐρὸς <expan><abbr>κ</abbr><ex>αὶ</ex></expan> θ<hi rend="ligature">εί</hi>ος
+                    <lb n="2"/>ναὸς <hi rend="ligature">οὗ</hi>τος τῆς <persName type="divine" key="Virgin Mary">Π<hi rend="ligature">αν</hi><hi rend="ligature">αγή</hi>ας</persName> δια σ<hi rend="ligature">ην</hi>δρο<hi rend="ligature">μὴ</hi>ς τ<hi rend="ligature">οῦ</hi> π<hi rend="ligature">αν</hi>ιερο<supplied reason="omitted">τά</supplied>
+                    <lb n="3" break="no"/>τ<hi rend="ligature">ου</hi> <term type="office" ref="of0214">μι<hi rend="ligature">τρ</hi>οπολήτ<hi rend="ligature">ου</hi></term> <placeName ref="https://pleiades.stoa.org/places/638955">Λαοδικ<hi rend="ligature">εί</hi>ας</placeName> <expan><abbr>κ</abbr><ex>υρο</ex>ῦ</expan> <persName type="attested" ref="#pers6">Γ<hi rend="ligature">ρη</hi>γοριου</persName> <date from="1677-09-01" to="1678-08-31">έτ<hi rend="ligature">ου</hi>ς <num value="7186"><hi rend="supraline">ζρπϛ</hi></num>ου</date>.
                 </ab>
             </div>
             <div type="apparatus">
@@ -69,7 +69,7 @@
                 <p>commentary: a later hand has added (scratched) = (next to) and 1678 (below) the date</p>
             </div>
             <div type="bibliography">
-                <p>Index, 144; Mamaloukos, IMMB</p>
+                <p>Mamaloukos, Katholiko, 263-264; Toutos and Fousteris, Eureterion, 144</p>
             </div>
         </body>
     </text>

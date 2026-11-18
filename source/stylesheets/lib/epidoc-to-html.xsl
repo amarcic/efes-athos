@@ -55,7 +55,7 @@
 
     <xsl:template match="/">
         <xsl:variable name="body-output">
-            <xsl:call-template name="inslib-body-structure">
+            <xsl:call-template name="iospe-body-structure">
                 <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
                 <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
                 <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>

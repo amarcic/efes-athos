@@ -40,7 +40,7 @@
                             <origPlace>Place of origin</origPlace>
                             <origDate>1425/26</origDate>
                         </origin>
-                        <provenance type="found">Vatopedi, Main church, west portico (exonarthex)
+                        <provenance type="found">Vatopedi, Main church (katholikon), west portico (exonarthex)
                         </provenance>
                         <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
@@ -52,7 +52,7 @@
     <facsimile>
          <graphic url="Vat01a.jpg"><desc>General view of the door lintel and the inscription</desc></graphic>
          <graphic url="Vat01b.jpg"><desc>Left part</desc></graphic>
-		 <graphic url="Vat01c.jpg"><desc>Right part</desc></graphic>
+         <graphic url="Vat01c.jpg"><desc>Right part</desc></graphic>
     </facsimile>
     <text>
         <body>

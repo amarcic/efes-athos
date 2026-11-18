@@ -39,7 +39,7 @@
                             <origPlace>Place of origin</origPlace>
                             <origDate>Date of origin</origDate>
                         </origin>
-                        <provenance type="found"> Vatopedi, Main church, outer narthex (lite)
+                        <provenance type="found"> Vatopedi<rs type="placename" ref="geography.xml#geo0342"/>, Main church (katholikon), outer narthex (lite)
                         </provenance>
                         <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>

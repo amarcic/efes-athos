@@ -10,7 +10,7 @@
             <publicationStmt>
                  <authority>JGU</authority>
                 <idno type="filename">Vat05</idno>
-                <idno type="InscrAthos">115</idno>
+                <idno type="InscrAthos">115b</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -21,15 +21,15 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><rs type="execution">Incised</rs> on a <material>marble</material> <objectType>slab</objectType> on the north façade</p>
-                                  <dimensions/>, etc.)</support>
+                                <support><p><rs type="execution">Chiseled</rs> on a <material>marble</material> <objectType>slab</objectType> on the north façade, at the northwest corner.</p>
+                                  <dimensions/></support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>description of text field/campus</layout>
+                                <layout>The text occupies the entire surface of the rectangular slab.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>majuscules<height></height>
+                            <handNote>Large, elaborate majuscules with serifs and finials; accent and breathing on ἔτους. V-shaped upsilon, cursive abbreviation sign for indiction. <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -48,18 +48,18 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="\"/>
+         <graphic url="Vat05a.jpg"><desc>View of the northwest corner of the bell tower with the inscription to the right.</desc></graphic>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lb n="1"/><g ref="#crux">†</g><date from="1426-09-01" to="1427-08-31">ἔτους 
-                    <lb n="2"/><num value="6935">ˏςϡλε</num> <expan><abbr><am><g ref="#indiction"/></am></abbr><ex>ἰνδικτιῶνος</ex></expan> <num value="5">ε</num></date>
+                    <lb n="2"/><num value="6935">ˏ<hi rend="supraline">ϛ</hi>ου<hi rend="supraline">ϡ</hi>ου<hi rend="supraline">λε</hi>ου</num> <expan><abbr><am><g ref="#indiction"/></am></abbr><ex>ἰνδικτιῶνος</ex></expan> <num value="5"><hi rend="supraline">ε</hi></num></date>
                 </ab>
             </div>
             <div type="apparatus">
-                <p>external apparatus criticus (if applicable)</p>
+                <p>l. 2: Millet-Pargoire-Petit omit the genitive case endings.</p>
             </div>
             <div type="translation">
                 <p>translation(s)</p>
@@ -68,7 +68,7 @@
                 <p>commentary</p>
             </div>
             <div type="bibliography">
-                <p>Liakos; Mamaloukos</p>
+                <p>Liakos, Bell tower.</p>
             </div>
         </body>
     </text>
