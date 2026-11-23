@@ -61,6 +61,9 @@
       <param name="offices-file">
         <files>source/authority/offices.xml</files>
       </param>
+      <param name="geography-file">
+        <files>source/authority/geography.xml</files>
+      </param>
     </stylesheetParams>
   </xsltTransform>
 

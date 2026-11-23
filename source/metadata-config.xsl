@@ -25,6 +25,8 @@
     <xsl:param name="professions-file" as="xs:string" />
     <xsl:variable name="professions" select="document('file://' || $professions-file)" />
 
+    <xsl:param name="geography-file" as="xs:string" />
+    <xsl:variable name="locations" select="document('file://' || $geography-file)" />
     <!--
         Sort key: variant of the document ID that sorts naturally with mixed
         alphanumeric IDs (e.g. "Doc_2" before "Doc_10"). Zero-pads the trailing
@@ -110,6 +112,15 @@
             </idx:column>
         </idx:columns>
     </idx:index>
+    
+    <idx:index id="locations" nav="indices" order="10">
+        <idx:title>Monasteries</idx:title>
+        <idx:description>Monasteries attested in the collection</idx:description>
+        <idx:columns>
+            <idx:column key="location-name"><idx:label>Monastery</idx:label></idx:column>
+            <idx:column key="references" type="references"><idx:label>Inscriptions</idx:label></idx:column>
+        </idx:columns>
+    </idx:index>
 
     <!-- ═══════════════════════════════════════════════
          EXTRACTION TEMPLATES
@@ -172,6 +183,25 @@
                     <name-greek><xsl:value-of select="$displayNameGreek"/></name-greek>
                     <ref-external><xsl:value-of select="$external-refs"/></ref-external>
                     <sortKey><xsl:value-of select="lower-case($displayName)"></xsl:value-of></sortKey>
+                </entity>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template match="tei:TEI" mode="extract-locations">
+        <xsl:param name="language" tunnel="yes" />
+        <xsl:for-each select=".//tei:rs[@type='placename']">
+            <xsl:variable name="geo-id" select="substring-after(@ref, '#')" />
+            <xsl:variable name="location" select="$locations//tei:place[@xml:id = $geo-id]" />
+            <xsl:variable name="displayName" select="normalize-space(
+                (string-join($location/tei:placeName[@xml:lang=$language], ', '),
+                $location/tei:placeName[@xml:lang='en'],
+                $location/tei:placeName)[1]
+                )"/>
+            <xsl:if test="string-length($displayName) > 0">
+                <entity indexType="locations" xml:id="{$geo-id}">
+                    <location-name><xsl:value-of select="$displayName" /></location-name>
+                    <sortKey><xsl:value-of select="lower-case($displayName)"/></sortKey>
                 </entity>
             </xsl:if>
         </xsl:for-each>
@@ -251,6 +281,7 @@
         <!-- Uncomment to enable index extraction -->
         <xsl:apply-templates select="." mode="extract-persons" />
         <xsl:apply-templates select="." mode="extract-professions" />
+        <xsl:apply-templates select="." mode="extract-locations" />
         <!-- <xsl:apply-templates select="." mode="extract-bibliography"/> -->
     </xsl:template>
 

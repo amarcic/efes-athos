@@ -53,6 +53,10 @@
 
     <xsl:key name="message-by-key" match="message" use="@key"/>
 
+    <xsl:variable name="body-struct"
+                  select="concat($edn-structure, '-body-structure')"
+    />
+
     <xsl:template match="/">
         <xsl:variable name="body-output">
             <xsl:call-template name="iospe-body-structure">
